@@ -40,8 +40,8 @@ class Element(object):
 
     def __init__(self,filename):
         self.filename = filename
-        self.nformat = 'nodes: [ \n'
-        self.eformat = '\n ],\n edges: [\n'
+        self.njson = []
+        self.ejson = []
 
         fh = open(filename)
         xgmml = fh.read()
@@ -50,18 +50,20 @@ class Element(object):
         for nline in soup.find_all("node"):
             node = NodeLine(nline)
             ## need to use double brackets with bracket
-            njson = "{{ data: {{id: '{0}', name: '{1}'}}, position: {{x: {2}, y:{3}}}}},\n".format(node.cid, node.name, node.x, node.y)
-            self.nformat = self.nformat + njson
+            nodes = {"data" : {"id": node.cid, "name": node.name}, "position": {"x": node.x, "y": node.y}}
+            self.njson.append(nodes)
 
 
         for eline in soup.find_all("edge"):
             edge = EdgeLine(eline)
-            ejson = "{{ data: {{id: '{0}', source: '{1}', target: '{2}'}}}},\n".format(edge.name,edge.source,edge.target)
-            self.eformat = self.eformat + ejson
+            edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target}}
+            self.ejson.append(edges)
 
-def main(xgmml_file):
+def main(xgmml_file, outfh):
+    outfile = open(outfh,"wb")
     cyto = Element(xgmml_file)
-    jsonformat = cyto.nformat[:-2] + cyto.eformat[:-2] + "\n ] \n },\n"
-    print jsonformat
+    jsonformat = {"nodes":cyto.njson, "edges":cyto.ejson}
+    jsonformated =  json.dumps(jsonformat,indent=4)
+    outfile.write(jsonformated)
 
-main("fe_minus_subset_stric_arrow.xgmml")
+main("fe_minus_subset_stric_arrow.xgmml", "element.json")
