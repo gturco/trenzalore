@@ -81,6 +81,3 @@ $('#cy').cytoscape({
 
 
 
-### may want to use cy.remove to remove the
-### cy.style to color selcted nodes...
-### I think remove and reappear will be better.
