@@ -7,9 +7,10 @@ $.get("elements.json",
 function loadCytoGraph(elements){
 $('#cy').cytoscape({
   layout: {
-    name: 'arbor',
-    fit: true
-  },
+    name: 'preset',
+    fit: true,
+    padding: [ 50, 50, 50, 50 ]
+ },
   
   style: cytoscape.stylesheet()
     .selector('node')
@@ -54,7 +55,32 @@ $('#cy').cytoscape({
     window.cy = this;
     
     // giddy up
+
+    cy.elements().unselectify();
+    
+    cy.on('tap', 'node', function(e){
+      var node = e.cyTarget; 
+      var neighborhood = node.neighborhood().add(node);
+      
+      cy.elements().addClass('faded');
+      neighborhood.removeClass('faded');
+    });
+    
+    cy.on('tap', function(e){
+      if( e.cyTarget === cy ){
+        cy.elements().removeClass('faded');
+          }
+    });   
+  }
+});
+
+
   }
 });
 }
 
+
+
+### may want to use cy.remove to remove the
+### cy.style to color selcted nodes...
+### I think remove and reappear will be better.
