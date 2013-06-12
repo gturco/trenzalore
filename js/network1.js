@@ -69,15 +69,11 @@ $('#cy').cytoscape({
     cy.on('tap', function(e){
       if( e.cyTarget === cy ){
         cy.elements().removeClass('faded');
+
           }
     });   
   }
 });
-
-
-  }
-});
 }
-
 
 
