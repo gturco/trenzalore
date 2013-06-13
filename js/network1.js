@@ -32,23 +32,28 @@ $('#cy').cytoscape({
     .selector('edge')
       .css({
         'width': 'mapData(strength, 70, 100, 2, 6)',
-        'target-arrow-shape': 'triangle',
+        'target-arrow-shape': 'circle',
         'source-arrow-shape': 'circle',
         'line-color': 'data(faveColor)',
         'source-arrow-color': 'data(faveColor)',
         'target-arrow-color': 'data(faveColor)'
       })
-    .selector('edge.questionable')
+    .selector('edge.neg')
       .css({
-        'line-style': 'dotted',
-        'target-arrow-shape': 'diamond'
+        'line-color': '#6FB1FC',
+        'target-arrow-shape': 'tee'
+      })
+    .selector('edge.pos')
+      .css({
+        'line-color': '#86B342',
+        'target-arrow-shape': 'triangle'
       })
     .selector('.faded')
       .css({
         'opacity': 0.25,
         'text-opacity': 0
       }),
-  
+
   elements: elements,
   
   ready: function(){
