@@ -20,7 +20,8 @@ def get_nstyle(xline):
 def get_estyle(xline):
     style = xline.find_all("graphics")
     faveColor = style[0].get("fill")
-    targetarrow = style[0].get("cy:targetArrow")
+    targetarrow = style[0].get("cy:targetarrow")
+    
     return faveColor, targetarrow
 
 
@@ -44,7 +45,6 @@ class EdgeLine(object):
         self.target = xline.get("target")
    	self.faveColor, self.classes = get_estyle(xline)
 
-
 class Element(object):
 
     def __init__(self,filename):
@@ -65,7 +65,13 @@ class Element(object):
 
         for eline in soup.find_all("edge"):
             edge = EdgeLine(eline)
-            edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor}}
+	    if edge.classes in ["6","15"]:
+		if edge.classes == "6":
+			edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor, "classes": "pos"}}
+                elif edge.classes == "15":
+			edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor, "classes": "neg"}}
+            else: 
+            	edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target}}
             self.ejson.append(edges)
 
 def main(xgmml_file, outfh):
