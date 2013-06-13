@@ -7,35 +7,42 @@ from collections import OrderedDict
 
 
 
-def get_position(xline):
-    position = xline.find_all("graphics")
-    x = position[0].get("x")
-    y = position[0].get("y") 
+def get_nstyle(xline):
+    style = xline.find_all("graphics")
+    faveColor = style[0].get("fill")
+    x = style[0].get("x")
+    y = style[0].get("y") 
     try:
-	return float(x),float(y)
+	return float(x),float(y), faveColor
     except TypeError:
-	return x,y
+	return x,y,faveColor
+
+def get_estyle(xline):
+    style = xline.find_all("graphics")
+    faveColor = style[0].get("fill")
+    targetarrow = style[0].get("cy:targetArrow")
+    return faveColor, targetarrow
 
 
 class NodeLine(object):
-    _slots_ = ("id","name","x","y","group")
+    _slots_ = ("id","name","x","y","group","faveColor")
 
     def __init__(self, xline):
         self.group = "nodes"
         self.cid = xline.get("id")
         self.name = xline.get("label")
-        self.x, self.y = get_position(xline)
+        self.x, self.y, self.faveColor = get_nstyle(xline)
 
 
 class EdgeLine(object):
-    _slots_ = ("name","target","source","x","y","group")
+    _slots_ = ("name","target","source","group","faveColor","classes")
 
     def __init__(self, xline):
         self.group = "edge"
         self.name = xline.get("label")
         self.source = xline.get("source")
         self.target = xline.get("target")
-
+   	self.faveColor, self.classes = get_estyle(xline)
 
 
 class Element(object):
@@ -52,7 +59,7 @@ class Element(object):
         for nline in soup.find_all("node"):
             node = NodeLine(nline)
             ## need to use double brackets with bracket
-            nodes = {"data" : {"id": node.cid, "name": node.name}, "position": {"x": node.x, "y": node.y}}
+            nodes = {"data" : {"id": node.cid, "name": node.name, "faveColor": node.faveColor}, "position": {"x": node.x, "y": node.y}}
             self.njson.append(nodes)
 
 
