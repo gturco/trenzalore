@@ -11,7 +11,10 @@ def get_position(xline):
     position = xline.find_all("graphics")
     x = position[0].get("x")
     y = position[0].get("y") 
-    return x,y
+    try:
+	return float(x),float(y)
+    except TypeError:
+	return x,y
 
 
 class NodeLine(object):
@@ -32,7 +35,6 @@ class EdgeLine(object):
         self.name = xline.get("label")
         self.source = xline.get("source")
         self.target = xline.get("target")
-        self.x, self.y = get_position(xline)
 
 
 
@@ -59,14 +61,14 @@ class Element(object):
             edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target}}
             self.ejson.append(edges)
 
-def main(xgmml_file, nodefh, edgefh):
-    nodefile = open(nodefh,"wb")
-    edgefile = open(edgefh,"wb")
+def main(xgmml_file, outfh):
+    outfile = open(outfh,"wb")
     cyto = Element(xgmml_file)
-    nodefile.write(json.dumps(cyto.njson,indent=4))
-    edgefile.write(json.dumps(cyto.ejson,indent=4))
+    jsonformat = {"nodes":cyto.njson, "edges":cyto.ejson}
+    jsonformated =  json.dumps(jsonformat,indent=4)
+    outfile.write(jsonformated)
 
-main("fe_minus_subset_stric_arrow.xgmml", "node.json", "edge.json")
+main("fe_minus_subset_stric_arrow.xgmml", "../elements.json")
 
 ### edges
 ###target-arrow-shape
