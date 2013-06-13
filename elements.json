@@ -1028,6 +1028,7 @@
         {
             "data": {
                 "source": "-245", 
+                "faveColor": "#999999", 
                 "id": "AT5G61590 (pd) AT1G71930", 
                 "target": "-165"
             }
@@ -1035,6 +1036,7 @@
         {
             "data": {
                 "source": "-245", 
+                "faveColor": "#999999", 
                 "id": "AT5G61590 (pd) AT5G15630", 
                 "target": "-25"
             }
@@ -1042,6 +1044,7 @@
         {
             "data": {
                 "source": "-239", 
+                "faveColor": "#999999", 
                 "id": "AT5G13910 (pd) AT5G15630", 
                 "target": "-25"
             }
@@ -1049,6 +1052,7 @@
         {
             "data": {
                 "source": "-233", 
+                "faveColor": "#999999", 
                 "id": "AT3G06590 (pd) AT1G15950", 
                 "target": "-234"
             }
@@ -1056,6 +1060,7 @@
         {
             "data": {
                 "source": "-231", 
+                "faveColor": "#999999", 
                 "id": "AT5G47220 (pd) AT1G15950", 
                 "target": "-234"
             }
@@ -1063,6 +1068,7 @@
         {
             "data": {
                 "source": "-231", 
+                "faveColor": "#999999", 
                 "id": "AT5G47220 (pd) AT3G10340", 
                 "target": "-78"
             }
@@ -1070,6 +1076,7 @@
         {
             "data": {
                 "source": "-231", 
+                "faveColor": "#999999", 
                 "id": "AT5G47220 (pd) AT5G15630", 
                 "target": "-25"
             }
@@ -1077,6 +1084,7 @@
         {
             "data": {
                 "source": "-217", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G21910 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1084,6 +1092,7 @@
         {
             "data": {
                 "source": "-217", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G21910 (pd) AT2G30490", 
                 "target": "-132"
             }
@@ -1091,6 +1100,7 @@
         {
             "data": {
                 "source": "-217", 
+                "faveColor": "#771100", 
                 "id": "AT1G21910 (pd) AT3G18660", 
                 "target": "-73"
             }
@@ -1098,6 +1108,7 @@
         {
             "data": {
                 "source": "-217", 
+                "faveColor": "#999999", 
                 "id": "AT1G21910 (pd) AT5G15630", 
                 "target": "-25"
             }
@@ -1105,6 +1116,7 @@
         {
             "data": {
                 "source": "-217", 
+                "faveColor": "#999999", 
                 "id": "AT1G21910 (pd) AT5G17420", 
                 "target": "-17"
             }
@@ -1112,6 +1124,7 @@
         {
             "data": {
                 "source": "-217", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G21910 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1119,6 +1132,7 @@
         {
             "data": {
                 "source": "-214", 
+                "faveColor": "#99CC00", 
                 "id": "AT2G22840 (pd) AT1G61820", 
                 "target": "-178"
             }
@@ -1126,6 +1140,7 @@
         {
             "data": {
                 "source": "-214", 
+                "faveColor": "#99CC00", 
                 "id": "AT2G22840 (pd) AT2G37090", 
                 "target": "-96"
             }
@@ -1133,6 +1148,7 @@
         {
             "data": {
                 "source": "-214", 
+                "faveColor": "#771100", 
                 "id": "AT2G22840 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1140,6 +1156,7 @@
         {
             "data": {
                 "source": "-214", 
+                "faveColor": "#999999", 
                 "id": "AT2G22840 (pd) AT5G12870", 
                 "target": "-64"
             }
@@ -1147,6 +1164,7 @@
         {
             "data": {
                 "source": "-214", 
+                "faveColor": "#999999", 
                 "id": "AT2G22840 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1154,6 +1172,7 @@
         {
             "data": {
                 "source": "-206", 
+                "faveColor": "#771100", 
                 "id": "AT5G05410 (pd) AT1G71930", 
                 "target": "-165"
             }
@@ -1161,6 +1180,7 @@
         {
             "data": {
                 "source": "-206", 
+                "faveColor": "#771100", 
                 "id": "AT5G05410 (pd) AT5G12870", 
                 "target": "-64"
             }
@@ -1168,6 +1188,7 @@
         {
             "data": {
                 "source": "-206", 
+                "faveColor": "#99CC00", 
                 "id": "AT5G05410 (pd) AT5G13180", 
                 "target": "-26"
             }
@@ -1175,6 +1196,7 @@
         {
             "data": {
                 "source": "-206", 
+                "faveColor": "#999999", 
                 "id": "AT5G05410 (pd) AT5G17420", 
                 "target": "-17"
             }
@@ -1182,6 +1204,7 @@
         {
             "data": {
                 "source": "-201", 
+                "faveColor": "#99CC00", 
                 "id": "AT5G60200 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1189,6 +1212,7 @@
         {
             "data": {
                 "source": "-201", 
+                "faveColor": "#99CC00", 
                 "id": "AT5G60200 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1196,6 +1220,7 @@
         {
             "data": {
                 "source": "-201", 
+                "faveColor": "#99CC00", 
                 "id": "AT5G60200 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1203,6 +1228,7 @@
         {
             "data": {
                 "source": "-200", 
+                "faveColor": "#999999", 
                 "id": "AT3G61850 (pd) AT4G27435", 
                 "target": "-61"
             }
@@ -1210,6 +1236,7 @@
         {
             "data": {
                 "source": "-200", 
+                "faveColor": "#99CC00", 
                 "id": "AT3G61850 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1217,6 +1244,7 @@
         {
             "data": {
                 "source": "-194", 
+                "faveColor": "#771100", 
                 "id": "AT3G08500 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1224,6 +1252,7 @@
         {
             "data": {
                 "source": "-194", 
+                "faveColor": "#771100", 
                 "id": "AT3G08500 (pd) AT2G30490", 
                 "target": "-132"
             }
@@ -1231,6 +1260,7 @@
         {
             "data": {
                 "source": "-194", 
+                "faveColor": "#771100", 
                 "id": "AT3G08500 (pd) AT4G18780", 
                 "target": "-65"
             }
@@ -1238,6 +1268,7 @@
         {
             "data": {
                 "source": "-194", 
+                "faveColor": "#771100", 
                 "id": "AT3G08500 (pd) AT5G48930", 
                 "target": "-15"
             }
@@ -1245,6 +1276,7 @@
         {
             "data": {
                 "source": "-188", 
+                "faveColor": "#999999", 
                 "id": "AT5G26660 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1252,6 +1284,7 @@
         {
             "data": {
                 "source": "-188", 
+                "faveColor": "#999999", 
                 "id": "AT5G26660 (pd) AT2G30490", 
                 "target": "-132"
             }
@@ -1259,6 +1292,7 @@
         {
             "data": {
                 "source": "-188", 
+                "faveColor": "#999999", 
                 "id": "AT5G26660 (pd) AT4G34050", 
                 "target": "-43"
             }
@@ -1266,6 +1300,7 @@
         {
             "data": {
                 "source": "-188", 
+                "faveColor": "#999999", 
                 "id": "AT5G26660 (pd) AT5G48930", 
                 "target": "-15"
             }
@@ -1273,6 +1308,7 @@
         {
             "data": {
                 "source": "-187", 
+                "faveColor": "#999999", 
                 "id": "AT3G57230 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1280,6 +1316,7 @@
         {
             "data": {
                 "source": "-186", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G77450 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1287,6 +1324,7 @@
         {
             "data": {
                 "source": "-186", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G77450 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1294,6 +1332,7 @@
         {
             "data": {
                 "source": "-186", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G77450 (pd) AT5G48930", 
                 "target": "-15"
             }
@@ -1301,6 +1340,7 @@
         {
             "data": {
                 "source": "-186", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G77450 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1308,6 +1348,7 @@
         {
             "data": {
                 "source": "-185", 
+                "faveColor": "#771100", 
                 "id": "AT1G22640 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1315,6 +1356,7 @@
         {
             "data": {
                 "source": "-185", 
+                "faveColor": "#771100", 
                 "id": "AT1G22640 (pd) AT2G30490", 
                 "target": "-132"
             }
@@ -1322,6 +1364,7 @@
         {
             "data": {
                 "source": "-185", 
+                "faveColor": "#771100", 
                 "id": "AT1G22640 (pd) AT5G48930", 
                 "target": "-15"
             }
@@ -1329,6 +1372,7 @@
         {
             "data": {
                 "source": "-181", 
+                "faveColor": "#771100", 
                 "id": "AT1G66230 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1336,6 +1380,7 @@
         {
             "data": {
                 "source": "-181", 
+                "faveColor": "#771100", 
                 "id": "AT1G66230 (pd) AT2G30490", 
                 "target": "-132"
             }
@@ -1343,6 +1388,7 @@
         {
             "data": {
                 "source": "-181", 
+                "faveColor": "#771100", 
                 "id": "AT1G66230 (pd) AT5G48930", 
                 "target": "-15"
             }
@@ -1350,6 +1396,7 @@
         {
             "data": {
                 "source": "-180", 
+                "faveColor": "#999999", 
                 "id": "AT1G79180 (pd) AT1G51680", 
                 "target": "-197"
             }
@@ -1357,6 +1404,7 @@
         {
             "data": {
                 "source": "-180", 
+                "faveColor": "#999999", 
                 "id": "AT1G79180 (pd) AT2G30490", 
                 "target": "-132"
             }
@@ -1364,6 +1412,7 @@
         {
             "data": {
                 "source": "-180", 
+                "faveColor": "#999999", 
                 "id": "AT1G79180 (pd) AT4G18780", 
                 "target": "-65"
             }
@@ -1371,6 +1420,7 @@
         {
             "data": {
                 "source": "-180", 
+                "faveColor": "#999999", 
                 "id": "AT1G79180 (pd) AT4G34050", 
                 "target": "-43"
             }
@@ -1378,6 +1428,7 @@
         {
             "data": {
                 "source": "-180", 
+                "faveColor": "#999999", 
                 "id": "AT1G79180 (pd) AT5G48930", 
                 "target": "-15"
             }
@@ -1385,6 +1436,7 @@
         {
             "data": {
                 "source": "-173", 
+                "faveColor": "#999999", 
                 "id": "AT2G36400 (pd) AT1G62990", 
                 "target": "-174"
             }
@@ -1392,6 +1444,7 @@
         {
             "data": {
                 "source": "-173", 
+                "faveColor": "#999999", 
                 "id": "AT2G36400 (pd) AT1G71930", 
                 "target": "-165"
             }
@@ -1399,6 +1452,7 @@
         {
             "data": {
                 "source": "-173", 
+                "faveColor": "#999999", 
                 "id": "AT2G36400 (pd) AT2G37090", 
                 "target": "-96"
             }
@@ -1406,6 +1460,7 @@
         {
             "data": {
                 "source": "-169", 
+                "faveColor": "#99CC00", 
                 "id": "AT3G23690 (pd) AT1G62990", 
                 "target": "-174"
             }
@@ -1413,6 +1468,7 @@
         {
             "data": {
                 "source": "-165", 
+                "faveColor": "#771100", 
                 "id": "AT1G71930 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1420,6 +1476,7 @@
         {
             "data": {
                 "source": "-163", 
+                "faveColor": "#771100", 
                 "id": "AT5G61600 (pd) AT1G71930", 
                 "target": "-165"
             }
@@ -1427,6 +1484,7 @@
         {
             "data": {
                 "source": "-163", 
+                "faveColor": "#999999", 
                 "id": "AT5G61600 (pd) AT5G15630", 
                 "target": "-25"
             }
@@ -1434,6 +1492,7 @@
         {
             "data": {
                 "source": "-159", 
+                "faveColor": "#771100", 
                 "id": "AT4G17490 (pd) AT1G71930", 
                 "target": "-165"
             }
@@ -1441,6 +1500,7 @@
         {
             "data": {
                 "source": "-159", 
+                "faveColor": "#99CC00", 
                 "id": "AT4G17490 (pd) AT3G10340", 
                 "target": "-78"
             }
@@ -1448,6 +1508,7 @@
         {
             "data": {
                 "source": "-156", 
+                "faveColor": "#999999", 
                 "id": "AT5G62020 (pd) AT1G71930", 
                 "target": "-165"
             }
@@ -1455,6 +1516,7 @@
         {
             "data": {
                 "source": "-156", 
+                "faveColor": "#999999", 
                 "id": "AT5G62020 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1462,6 +1524,7 @@
         {
             "data": {
                 "source": "-154", 
+                "faveColor": "#771100", 
                 "id": "AT4G35040 (pd) AT1G71930", 
                 "target": "-165"
             }
@@ -1469,6 +1532,7 @@
         {
             "data": {
                 "source": "-154", 
+                "faveColor": "#99CC00", 
                 "id": "AT4G35040 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1476,6 +1540,7 @@
         {
             "data": {
                 "source": "-154", 
+                "faveColor": "#99CC00", 
                 "id": "AT4G35040 (pd) AT3G10340", 
                 "target": "-78"
             }
@@ -1483,6 +1548,7 @@
         {
             "data": {
                 "source": "-144", 
+                "faveColor": "#771100", 
                 "id": "AT4G28140 (pd) AT4G34050", 
                 "target": "-43"
             }
@@ -1490,6 +1556,7 @@
         {
             "data": {
                 "source": "-144", 
+                "faveColor": "#771100", 
                 "id": "AT4G28140 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1497,6 +1564,7 @@
         {
             "data": {
                 "source": "-141", 
+                "faveColor": "#771100", 
                 "id": "AT1G24625 (pd) AT2G37090", 
                 "target": "-96"
             }
@@ -1504,6 +1572,7 @@
         {
             "data": {
                 "source": "-141", 
+                "faveColor": "#771100", 
                 "id": "AT1G24625 (pd) AT3G18660", 
                 "target": "-73"
             }
@@ -1511,6 +1580,7 @@
         {
             "data": {
                 "source": "-141", 
+                "faveColor": "#999999", 
                 "id": "AT1G24625 (pd) AT3G62020", 
                 "target": "-66"
             }
@@ -1518,6 +1588,7 @@
         {
             "data": {
                 "source": "-141", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G24625 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1525,6 +1596,7 @@
         {
             "data": {
                 "source": "-126", 
+                "faveColor": "#99CC00", 
                 "id": "AT2G27050 (pd) AT2G30490", 
                 "target": "-132"
             }
@@ -1532,6 +1604,7 @@
         {
             "data": {
                 "source": "-118", 
+                "faveColor": "#771100", 
                 "id": "AT3G21890 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1539,6 +1612,7 @@
         {
             "data": {
                 "source": "-116", 
+                "faveColor": "#999999", 
                 "id": "AT1G10480 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1546,6 +1620,7 @@
         {
             "data": {
                 "source": "-100", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G78600 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1553,6 +1628,7 @@
         {
             "data": {
                 "source": "-99", 
+                "faveColor": "#999999", 
                 "id": "AT3G11280 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1560,6 +1636,7 @@
         {
             "data": {
                 "source": "-93", 
+                "faveColor": "#771100", 
                 "id": "AT4G17460 (pd) AT2G37090", 
                 "target": "-96"
             }
@@ -1567,6 +1644,7 @@
         {
             "data": {
                 "source": "-91", 
+                "faveColor": "#771100", 
                 "id": "AT1G22985 (pd) AT2G37090", 
                 "target": "-96"
             }
@@ -1574,6 +1652,7 @@
         {
             "data": {
                 "source": "-86", 
+                "faveColor": "#771100", 
                 "id": "AT4G25470 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1581,6 +1660,7 @@
         {
             "data": {
                 "source": "-84", 
+                "faveColor": "#999999", 
                 "id": "AT3G07340 (pd) AT2G40890", 
                 "target": "-89"
             }
@@ -1588,6 +1668,7 @@
         {
             "data": {
                 "source": "-81", 
+                "faveColor": "#771100", 
                 "id": "AT5G37020 (pd) AT3G08500", 
                 "target": "-194"
             }
@@ -1595,6 +1676,7 @@
         {
             "data": {
                 "source": "-79", 
+                "faveColor": "#999999", 
                 "id": "AT4G36620 (pd) AT3G10340", 
                 "target": "-78"
             }
@@ -1602,6 +1684,7 @@
         {
             "data": {
                 "source": "-76", 
+                "faveColor": "#99CC00", 
                 "id": "AT5G60690 (pd) AT3G10340", 
                 "target": "-78"
             }
@@ -1609,6 +1692,7 @@
         {
             "data": {
                 "source": "-75", 
+                "faveColor": "#999999", 
                 "id": "AT5G02840 (pd) AT3G10340", 
                 "target": "-78"
             }
@@ -1616,6 +1700,7 @@
         {
             "data": {
                 "source": "-67", 
+                "faveColor": "#99CC00", 
                 "id": "AT4G37790 (pd) AT3G23090", 
                 "target": "-68"
             }
@@ -1623,6 +1708,7 @@
         {
             "data": {
                 "source": "-64", 
+                "faveColor": "#999999", 
                 "id": "AT5G12870 (pd) AT4G18780", 
                 "target": "-65"
             }
@@ -1630,6 +1716,7 @@
         {
             "data": {
                 "source": "-42", 
+                "faveColor": "#771100", 
                 "id": "AT4G34410 (pd) AT4G34050", 
                 "target": "-43"
             }
@@ -1637,6 +1724,7 @@
         {
             "data": {
                 "source": "-41", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G22190 (pd) AT4G34050", 
                 "target": "-43"
             }
@@ -1644,6 +1732,7 @@
         {
             "data": {
                 "source": "-40", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G78080 (pd) AT4G34050", 
                 "target": "-43"
             }
@@ -1651,6 +1740,7 @@
         {
             "data": {
                 "source": "-39", 
+                "faveColor": "#999999", 
                 "id": "AT3G47620 (pd) AT4G34050", 
                 "target": "-43"
             }
@@ -1658,6 +1748,7 @@
         {
             "data": {
                 "source": "-35", 
+                "faveColor": "#771100", 
                 "id": "AT1G52150 (pd) AT5G12870", 
                 "target": "-64"
             }
@@ -1665,6 +1756,7 @@
         {
             "data": {
                 "source": "-33", 
+                "faveColor": "#99CC00", 
                 "id": "AT1G04550 (pd) AT5G12870", 
                 "target": "-64"
             }
@@ -1672,6 +1764,7 @@
         {
             "data": {
                 "source": "-31", 
+                "faveColor": "#771100", 
                 "id": "AT4G31420 (pd) AT5G12870", 
                 "target": "-64"
             }
@@ -1679,6 +1772,7 @@
         {
             "data": {
                 "source": "-30", 
+                "faveColor": "#999999", 
                 "id": "AT2G26150 (pd) AT5G12870", 
                 "target": "-64"
             }
@@ -1686,6 +1780,7 @@
         {
             "data": {
                 "source": "-30", 
+                "faveColor": "#999999", 
                 "id": "AT2G26150 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1693,6 +1788,7 @@
         {
             "data": {
                 "source": "-24", 
+                "faveColor": "#999999", 
                 "id": "AT1G12260 (pd) AT5G15630", 
                 "target": "-25"
             }
@@ -1700,6 +1796,7 @@
         {
             "data": {
                 "source": "-23", 
+                "faveColor": "#999999", 
                 "id": "AT5G47230 (pd) AT5G15630", 
                 "target": "-25"
             }
@@ -1707,6 +1804,7 @@
         {
             "data": {
                 "source": "-21", 
+                "faveColor": "#999999", 
                 "id": "AT3G10500 (pd) AT5G15630", 
                 "target": "-25"
             }
@@ -1714,6 +1812,7 @@
         {
             "data": {
                 "source": "-10", 
+                "faveColor": "#999999", 
                 "id": "AT2G22850 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1721,6 +1820,7 @@
         {
             "data": {
                 "source": "-8", 
+                "faveColor": "#99CC00", 
                 "id": "AT4G14770 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1728,6 +1828,7 @@
         {
             "data": {
                 "source": "-6", 
+                "faveColor": "#99CC00", 
                 "id": "AT3G21270 (pd) AT5G60690", 
                 "target": "-76"
             }
@@ -1735,6 +1836,7 @@
         {
             "data": {
                 "source": "-4", 
+                "faveColor": "#99CC00", 
                 "id": "AT3G12270 (pd) AT5G60690", 
                 "target": "-76"
             }

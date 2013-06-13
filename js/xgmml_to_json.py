@@ -65,7 +65,7 @@ class Element(object):
 
         for eline in soup.find_all("edge"):
             edge = EdgeLine(eline)
-            edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target}}
+            edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor}}
             self.ejson.append(edges)
 
 def main(xgmml_file, outfh):
