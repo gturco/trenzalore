@@ -59,11 +59,29 @@ class Element(object):
             edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target}}
             self.ejson.append(edges)
 
-def main(xgmml_file, outfh):
-    outfile = open(outfh,"wb")
+def main(xgmml_file, nodefh, edgefh):
+    nodefile = open(nodefh,"wb")
+    edgefile = open(edgefh,"wb")
     cyto = Element(xgmml_file)
-    jsonformat = {"nodes":cyto.njson, "edges":cyto.ejson}
-    jsonformated =  json.dumps(jsonformat,indent=4)
-    outfile.write(jsonformated)
+    nodefile.write(json.dumps(cyto.njson,indent=4))
+    edgefile.write(json.dumps(cyto.ejson,indent=4))
 
-main("fe_minus_subset_stric_arrow.xgmml", "element.json")
+main("fe_minus_subset_stric_arrow.xgmml", "node.json", "edge.json")
+
+### edges
+###target-arrow-shape
+### need to create a class at the top.....
+#### need negative class with inhbit signal
+#### need postive class with arraow signal
+
+#### edge
+#### faveColor: '#6FB1FC' (in Data)
+### classes: 'neg' (in Data)
+### need to create stylesheets at top....
+### graphics fill and target (either 6 or 15)
+
+
+### nodes
+### faveColor: '#6FB1FC' (in data section)
+### faveShape 
+### graphics color
