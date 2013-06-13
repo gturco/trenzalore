@@ -48,7 +48,8 @@ $('#cy').cytoscape({
         'opacity': 0.25,
         'text-opacity': 0
       }),
-  
+
+  var elements  = JSON.stringify( elements )  
   elements: elements,
   
   ready: function(){
