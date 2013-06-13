@@ -49,7 +49,7 @@ $('#cy').cytoscape({
         'text-opacity': 0
       }),
 
-  elements: cy.load(elements),
+  elements: elements,
   
   ready: function(){
     window.cy = this;
