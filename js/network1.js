@@ -1,10 +1,10 @@
-$.get("elements.json",
+$.get("xylem_all.json",
    function(data) {
      console.log(data);
      loadCytoGraph(data);
    }, "json");
 
-function loadCytoGraph(elements){
+function loadCytoGraph(xylem_all){
 $('#cy').cytoscape({
   layout: {
     name: 'preset',
@@ -54,7 +54,7 @@ $('#cy').cytoscape({
         'text-opacity': 0
       }),
 
-  elements: elements,
+  elements: xylem_all,
   
   ready: function(){
     window.cy = this;
