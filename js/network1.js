@@ -32,7 +32,7 @@ $('#cy').cytoscape({
     .selector('edge')
       .css({
         'width': 'mapData(strength, 70, 100, 2, 6)',
-        'target-arrow-shape': 'circle',
+        'target-arrow-shape': 'triangle',
         'source-arrow-shape': 'circle',
         'line-color': 'data(faveColor)',
         'source-arrow-color': 'data(faveColor)',
