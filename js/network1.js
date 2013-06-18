@@ -20,7 +20,7 @@ $('#cy').cytoscape({
         'content': 'data(name)',
         'text-valign': 'center',
         'text-outline-width': 2,
-        'text-outline-color': 'data(faveColor)',
+        'text-outline-color': '#000000',
         'background-color': 'data(faveColor)',
         'color': '#fff'
       })
