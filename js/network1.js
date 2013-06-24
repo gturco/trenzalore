@@ -69,7 +69,7 @@ $('#cy').cytoscape({
       
       cy.elements().addClass('faded');
       neighborhood.removeClass('faded');
-      {console.log(node)}
+      {console.log(node.name)}
     });
     
     cy.on('tap', function(e){
