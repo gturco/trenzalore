@@ -1,8 +1,7 @@
 Root Xylem Cell Specification Gene Regulatory Networks
 ========================================================
 
-.. image:: https://github.com/gturco/trenzalore/blob/gh-pages/images/example_network.png
-
+.. image:: https://github.com/gturco/trenzalore/blob/gh-pages/images/example_network.png?raw=true
 Networks
 =========
 
