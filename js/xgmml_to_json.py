@@ -24,6 +24,11 @@ def get_estyle(xline):
     
     return faveColor, targetarrow
 
+def get_size(xline):
+    atts = xline.find_all("att")
+    size_line = atts[1].get("value")
+    return size_line
+
 
 class NodeLine(object):
     _slots_ = ("id","name","x","y","group","faveColor")
@@ -36,14 +41,15 @@ class NodeLine(object):
 
 
 class EdgeLine(object):
-    _slots_ = ("name","target","source","group","faveColor","classes")
+    _slots_ = ("name","target","source","group","faveColor","classes","size")
 
     def __init__(self, xline):
         self.group = "edge"
         self.name = xline.get("label")
         self.source = xline.get("source")
         self.target = xline.get("target")
-   	self.faveColor, self.classes = get_estyle(xline)
+        self.faveColor, self.classes = get_estyle(xline)
+        self.size = get_size(xline)
 
 class Element(object):
 
@@ -65,13 +71,13 @@ class Element(object):
 
         for eline in soup.find_all("edge"):
             edge = EdgeLine(eline)
-	    if edge.classes in ["6","15"]:
-		if edge.classes == "6":
-			edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor, "classes": "pos"}}
+            if edge.classes in ["6","15"]:
+                if edge.classes == "6":
+                    edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor, "line-width" : edge.size, "classes": "pos"}}
                 elif edge.classes == "15":
-			edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor, "classes": "neg"}}
-            else: 
-            	edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target}}
+                    edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor, "line-width": edge.size, "classes": "neg"}}
+            else:
+                edges = { "data": {"id": edge.name, "source": edge.source, "line-width": edge.size,  "target": edge.target}}
             self.ejson.append(edges)
 
 def main(xgmml_file, outfh):
@@ -81,7 +87,7 @@ def main(xgmml_file, outfh):
     jsonformated =  json.dumps(jsonformat,indent=4)
     outfile.write(jsonformated)
 
-main("fe_minus_subset_stric_arrow.xgmml", "../elements.json")
+main("/Users/gturco/code/Brady/network/06-24-13/CytoscapeSession-2013_06_21-15_51/Sheet1.xgmml", "test.json")
 
 ### edges
 ###target-arrow-shape

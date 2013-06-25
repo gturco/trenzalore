@@ -1,4 +1,4 @@
-$.get("xylem_all.json",
+$.get("test.json",
    function(data) {
      console.log(data);
      loadCytoGraph(data);
@@ -31,7 +31,7 @@ $('#cy').cytoscape({
       })
     .selector('edge')
       .css({
-        'width': 'mapData(strength, 70, 100, 2, 6)',
+        'width': 'data(line-width)',
         'target-arrow-shape': 'triangle',
         'source-arrow-shape': 'circle',
         'line-color': 'data(faveColor)',
