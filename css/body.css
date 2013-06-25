@@ -19,12 +19,14 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
+  background: white;
   left: 0;
   top: 0;
 }
 
 #key {
   position: absolute;
+  background: white;
   right: 10px;
   top: 0;
 }
