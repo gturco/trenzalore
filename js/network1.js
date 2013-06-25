@@ -4,6 +4,13 @@ $(document).ready(function(){
   function(){
     var fe_stress = cy.elements("node[fe = 0]");
     cy.remove(fe_stress);
+    cy.style()
+//    .resetToDefault() // start a fresh default stylesheet
+
+       .selector('edge')
+          .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
+     
+.update()
   }
 );
 
@@ -11,6 +18,14 @@ $(document).ready(function(){
     function(){
     var nacl_stress = cy.elements("node[nacl = 0]")
      cy.remove(nacl_stress);
+    cy.style()
+//    .resetToDefault() // start a fresh default stylesheet
+
+       .selector('edge')
+          .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
+     
+.update()
+
   });
 });
 
@@ -55,16 +70,6 @@ $('#cy').cytoscape({
         'line-color': 'data(faveColor)',
         'source-arrow-color': 'data(faveColor)',
         'target-arrow-color': 'data(faveColor)'
-      })
-    .selector('edge.neg')
-      .css({
-        'line-color': '#6FB1FC',
-        'target-arrow-shape': 'tee'
-      })
-    .selector('edge.pos')
-      .css({
-        'line-color': '#86B342',
-        'target-arrow-shape': 'triangle'
       })
     .selector('.faded')
       .css({

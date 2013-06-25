@@ -22,7 +22,8 @@ def get_estyle(xline):
     style = xline.find_all("graphics")
     faveColor = style[0].get("fill")
     targetarrow = style[0].get("cy:targetarrow")
-    
+    if targetarrow is None:
+        targetarrow = 7
     return faveColor, targetarrow
 
 def get_size(xline):
@@ -50,9 +51,9 @@ class EdgeLine(object):
         self.name = xline.get("label")
         self.source = xline.get("source")
         self.target = xline.get("target")
-        self.faveColor, self.classes = get_estyle(xline)
+        self.faveColor, self.sign = get_estyle(xline)
         self.size = get_size(xline)
-        self.edgeline = { "data": {"id": self.name, "source": self.source, "line-width": self.size,  "target": self.target}}
+        self.edgeline = { "data": {"id": self.name, "source": self.source, "line-width": self.size,  "target": self.target, "fesign": self.sign, "naclsign": self.sign}}
 
 
 class Element(object):
@@ -84,11 +85,13 @@ def stress(cyto_d,cytoid,stress,stress_dic):
         try:
            match_id = stress_dic[cytoid]
            cyto_d[cytoid]['data'][stress] = 1
-           #if 'sign' in list(match_id.keys()):
-           #    cyto_d['data']['sign'] = match_id['data']['sign']
+           if '{0}sign'.format(stress) in list(match_id['data'].keys()):
+               cyto_d[cytoid]['data']['{0}sign'.format(stress)] = int(match_id['data']['{0}sign'.format(stress)])
+               return cyto_d
+           else: return cyto_d
         except KeyError:
             cyto_d[cytoid]['data'][stress] = 0
- 
+            return cyto_d
 
 def main(xgmml_file,fe_file, nacl_file, outfh):
     outfile = open(outfh,"wb")
@@ -102,12 +105,12 @@ def main(xgmml_file,fe_file, nacl_file, outfh):
     nacl_d = nacl_cyto.get_dic()
 
     for cytoid in cyto_d:
-        stress(cyto_d,cytoid,"fe",fe_d)
-        stress(cyto_d,cytoid,"nacl",nacl_d)
-        if "position" in cyto_d[cytoid].keys():
-            nodelines.append(cyto_d[cytoid])
+        cyto_d_fe = stress(cyto_d,cytoid,"fe",fe_d)
+        cyto_d_nacl = stress(cyto_d_fe,cytoid,"nacl",nacl_d)
+        if "position" in cyto_d_nacl[cytoid].keys():
+            nodelines.append(cyto_d_nacl[cytoid])
         else:
-            edgelines.append(cyto_d[cytoid])
+            edgelines.append(cyto_d_nacl[cytoid])
 
     jsonformat = {"nodes": nodelines, "edges": edgelines}
     jsonformated =  json.dumps(jsonformat,indent=4)
