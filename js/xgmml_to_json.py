@@ -3,6 +3,7 @@
 ### https://github.com/bendtherules/GSOC_13/blob/master/nnf_and_sif_to_json_py/result.json
 from bs4 import BeautifulSoup
 import json
+import random
 from collections import OrderedDict
 
 
@@ -38,7 +39,8 @@ class NodeLine(object):
         self.cid = xline.get("id")
         self.name = xline.get("label")
         self.x, self.y, self.faveColor = get_nstyle(xline)
-
+        self.nodeline = {"data" : {"id": self.cid, "name": self.name, "faveColor": self.faveColor},  "position": {"x": self.x, "y": self.y}}
+          
 
 class EdgeLine(object):
     _slots_ = ("name","target","source","group","faveColor","classes","size")
@@ -50,44 +52,68 @@ class EdgeLine(object):
         self.target = xline.get("target")
         self.faveColor, self.classes = get_estyle(xline)
         self.size = get_size(xline)
+        self.edgeline = { "data": {"id": self.name, "source": self.source, "line-width": self.size,  "target": self.target}}
+
 
 class Element(object):
 
     def __init__(self,filename):
         self.filename = filename
-        self.njson = []
-        self.ejson = []
+        self.nodes = []
+        self.edges = []
 
         fh = open(filename)
         xgmml = fh.read()
         soup = BeautifulSoup(xgmml)
-
         for nline in soup.find_all("node"):
             node = NodeLine(nline)
-            ## need to use double brackets with bracket
-            nodes = {"data" : {"id": node.cid, "name": node.name, "faveColor": node.faveColor}, "position": {"x": node.x, "y": node.y}}
-            self.njson.append(nodes)
-
+            self.nodes.append(node)
 
         for eline in soup.find_all("edge"):
             edge = EdgeLine(eline)
-            if edge.classes in ["6","15"]:
-                if edge.classes == "6":
-                    edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor, "line-width" : edge.size, "classes": "pos"}}
-                elif edge.classes == "15":
-                    edges = { "data": {"id": edge.name, "source": edge.source, "target": edge.target, "faveColor": edge.faveColor, "line-width": edge.size, "classes": "neg"}}
-            else:
-                edges = { "data": {"id": edge.name, "source": edge.source, "line-width": edge.size,  "target": edge.target}}
-            self.ejson.append(edges)
+            self.edges.append(edge)
 
-def main(xgmml_file, outfh):
+
+    def get_dic(self):
+        n_dic = dict((n.cid, n.nodeline) for i,n in enumerate(self.nodes))
+        e_dic = dict((e.name, e.edgeline) for i,e in enumerate(self.edges))
+        return dict(n_dic.items() + e_dic.items())
+
+
+def stress(cyto_d,cytoid,stress,stress_dic):
+        try:
+           match_id = stress_dic[cytoid]
+           cyto_d[cytoid]['data'][stress] = 1
+           #if 'sign' in list(match_id.keys()):
+           #    cyto_d['data']['sign'] = match_id['data']['sign']
+        except KeyError:
+            cyto_d[cytoid]['data'][stress] = 0
+ 
+
+def main(xgmml_file,fe_file, nacl_file, outfh):
     outfile = open(outfh,"wb")
     cyto = Element(xgmml_file)
-    jsonformat = {"nodes":cyto.njson, "edges":cyto.ejson}
+    nodelines = []
+    edgelines = []
+    cyto_d = cyto.get_dic()
+    fe_cyto = Element(fe_file)
+    fe_d = fe_cyto.get_dic()
+    nacl_cyto = Element(nacl_file)
+    nacl_d = nacl_cyto.get_dic()
+
+    for cytoid in cyto_d:
+        stress(cyto_d,cytoid,"fe",fe_d)
+        stress(cyto_d,cytoid,"nacl",nacl_d)
+        if "position" in cyto_d[cytoid].keys():
+            nodelines.append(cyto_d[cytoid])
+        else:
+            edgelines.append(cyto_d[cytoid])
+
+    jsonformat = {"nodes": nodelines, "edges": edgelines}
     jsonformated =  json.dumps(jsonformat,indent=4)
     outfile.write(jsonformated)
 
-main("/Users/gturco/code/Brady/network/06-24-13/CytoscapeSession-2013_06_21-15_51/Sheet1.xgmml", "test.json")
+main("/Users/gturco/code/Brady/network/06-24-13/CytoscapeSession-2013_06_21-15_51/Sheet1.xgmml","/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/nacl_subset_stric_arrow.xgmml","/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/fe_minus_subset_stric_arrow.xgmml", "test.json")
 
 ### edges
 ###target-arrow-shape
@@ -102,7 +128,16 @@ main("/Users/gturco/code/Brady/network/06-24-13/CytoscapeSession-2013_06_21-15_5
 ### graphics fill and target (either 6 or 15)
 
 
-### nodes
-### faveColor: '#6FB1FC' (in data section)
-### faveShape 
-### graphics color
+
+#.slector('edge.stress')
+#    .css({
+#        'line-color': mapData(weight, 0, 100, arrow, tee)
+#        'target-arrow-shape': mapData(weight, 0, 100, blue, red)
+#        })
+# var non_nacl = cy.elements("node[stress != 'nacl']")
+# var non_fe = cy.elements("node[stess != 'fe']")
+
+## upon clicking
+## cy.remove(non_fe)
+## color edge stress class for nacl collections
+

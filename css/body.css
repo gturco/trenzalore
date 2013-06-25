@@ -17,18 +17,16 @@ body {
 
 #cy {
   height: 100%;
-  width: 100%;
-  position: absolute;
+  width: 80%;
+  float: left;
   background: white;
-  left: 0;
-  top: 0;
 }
 
 #key {
-  position: absolute;
+  float: right;
+  height: 100%;
+  width: 20%;
   background: white;
-  right: 10px;
-  top: 0;
 }
 
 #dashboard {

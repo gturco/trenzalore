@@ -1,3 +1,21 @@
+
+$(document).ready(function(){
+  $("#fe-link").click(
+  function(){
+    var fe_stress = cy.elements("node[fe = 0]");
+    cy.remove(fe_stress);
+  }
+);
+
+  $("#nacl-link").click(
+    function(){
+    var nacl_stress = cy.elements("node[nacl = 0]")
+     cy.remove(nacl_stress);
+  });
+});
+
+
+
 $.get("test.json",
    function(data) {
      console.log(data);
@@ -69,8 +87,7 @@ $('#cy').cytoscape({
       
       cy.elements().addClass('faded');
       neighborhood.removeClass('faded');
-      {console.log(node.json())}
-    });
+      });
     
     cy.on('tap', function(e){
       if( e.cyTarget === cy ){
