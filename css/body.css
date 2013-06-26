@@ -41,9 +41,15 @@ body {
   padding: 2px;
 }
 
+#text-box {
+  position: absolute
+ 
+}
+
 #color-box {
   width: 20px;
   height: 20px;
   margin: 5px 5px 5px 5px;
   float: left;
+  clear:both;
 }
