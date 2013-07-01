@@ -27,6 +27,16 @@ $(document).ready(function(){
 .update()
 
   });
+
+  $("#reset-link").click(
+    function(){
+    var all = cy.elements("node[nacl < 3]")
+     cy.load(all);
+//    .resetToDefault() // start a fresh default stylesheet
+
+.update()
+
+  });
 });
 
 
@@ -104,4 +114,11 @@ $('#cy').cytoscape({
 });
 }
 
-
+//    cy.on('tap', 'search', function(name){
+//     var select_node = ; cy.elements("node[name = name]")
+//      var node = select_node.cyTarget; 
+//      var neighborhood = node.neighborhood().add(node);
+//      
+//      cy.elements().addClass('faded');
+//      neighborhood.removeClass('faded');
+//      });
