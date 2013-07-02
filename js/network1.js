@@ -24,19 +24,10 @@ $(document).ready(function(){
        .selector('edge')
           .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
      
-.update()
+.update();
+  }
+ );
 
-  });
-
-  $("#reset-link").click(
-    function(){
-    var all = cy.elements("node[nacl < 3]")
-     cy.load(all);
-//    .resetToDefault() // start a fresh default stylesheet
-
-.update()
-
-  });
 });
 
 
@@ -93,11 +84,27 @@ $('#cy').cytoscape({
     window.cy = this;
     
     // giddy up
+    
+    $('#search-box').keyup(function(){
+      var gene_name = $(this).val();
+      if (gene_name == 'Enter Gene Name'){
+        return }
+      else if (gene_name == ''){
+        cy.elements().removeClass('faded')}
+      else {
+        console.log(gene_name)
+        var node = cy.elements("node[name='"+ gene_name + "']");
+        var neighborhood = node.neighborhood().add(node);
+        cy.elements().addClass('faded');
+        neighborhood.removeClass('faded'); }
+      }).keyup();
+
 
     cy.elements().unselectify();
     
     cy.on('tap', 'node', function(e){
       var node = e.cyTarget; 
+      console.log(node)
       var neighborhood = node.neighborhood().add(node);
       
       cy.elements().addClass('faded');
@@ -113,12 +120,3 @@ $('#cy').cytoscape({
   }
 });
 }
-
-//    cy.on('tap', 'search', function(name){
-//     var select_node = ; cy.elements("node[name = name]")
-//      var node = select_node.cyTarget; 
-//      var neighborhood = node.neighborhood().add(node);
-//      
-//      cy.elements().addClass('faded');
-//      neighborhood.removeClass('faded');
-//      });

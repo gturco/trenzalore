@@ -6,8 +6,6 @@ Networks
 =========
 
 - `Root Xylem Cell Specification Gene Regulatory Network <http://gturco.github.io/trenzalore/all>`_
-- `Root Xylem Cell Specification Gene Regulatory Network in Response to Iron Deprivation <http://gturco.github.io/trenzalore/fe>`_
-- `Root Xylem Cell Specification Gene Regulatory Network in Response to Salt Stress <http://gturco.github.io/trenzalore/nacl>`_
 - `Root Xylem Cell Specification Gene Regulatory Network Reconstructed  <http://gturco.github.io/trenzalore/sam>`_
 
 How to cite
