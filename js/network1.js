@@ -119,7 +119,8 @@ $('#cy').cytoscape({
 
     function loadGeneName(node){
       var gene_name = (node.element().data().name);
-      alert(gene_name);
+      $('#gene_name').html(gene_name);
+
   }
 
   }
