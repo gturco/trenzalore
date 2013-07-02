@@ -1,37 +1,4 @@
 
-$(document).ready(function(){
-  $("#fe-link").click(
-  function(){
-    var fe_stress = cy.elements("node[fe = 0]");
-    cy.remove(fe_stress);
-    cy.style()
-//    .resetToDefault() // start a fresh default stylesheet
-
-       .selector('edge')
-          .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
-     
-.update()
-  }
-);
-
-  $("#nacl-link").click(
-    function(){
-    var nacl_stress = cy.elements("node[nacl = 0]")
-     cy.remove(nacl_stress);
-    cy.style()
-//    .resetToDefault() // start a fresh default stylesheet
-
-       .selector('edge')
-          .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
-     
-.update();
-  }
- );
-
-});
-
-
-
 $.get("test.json",
    function(data) {
      console.log(data);
@@ -82,13 +49,27 @@ $('#cy').cytoscape({
   
   ready: function(){
     window.cy = this;
-    
+
+    function highlightNetwork(node){
+      //fade all genes not assocated with selected node
+        var neighborhood = node.neighborhood().add(node);
+        cy.elements().addClass('faded');
+        neighborhood.removeClass('faded'); }
+
+    function loadGeneName(node){
+      //find name of selected node and display in gene_name tag
+      var gene_name = (node.element().data().name);
+      $('#gene_name').html(gene_name); }
+
     $('#search-box').keyup(function(){
+      // highlight the gene entered in the search box and displays it in the key
       var gene_name = $(this).val();
       if (gene_name == 'Enter Gene Name'){
         return }
+        // if default text function stops here
       else if (gene_name == ''){
         cy.elements().removeClass('faded')}
+        // if no text function removes the faded class from all genes
       else {
         var node = cy.elements("node[name='"+ gene_name + "']");
         highlightNetwork(node);
@@ -99,29 +80,47 @@ $('#cy').cytoscape({
     cy.elements().unselectify();
     
     cy.on('tap', 'node', function(e){
+      // when click on the gene highlights other connected genes and loads in key
       var node = e.cyTarget;
       highlightNetwork(node);
       loadGeneName(node);
      });
     
     cy.on('tap', function(e){
+      // when tap background removed fadedness from all genes
       if( e.cyTarget === cy ){
         cy.elements().removeClass('faded');
 
           }
     });
 
-    function highlightNetwork(node){
-        var neighborhood = node.neighborhood().add(node);
-        console.log(node.element().data().name)
-        cy.elements().addClass('faded');
-        neighborhood.removeClass('faded'); }
-
-    function loadGeneName(node){
-      var gene_name = (node.element().data().name);
-      $('#gene_name').html(gene_name);
-
+   $("#fe-link").click(
+   function(){
+   // remove all genes not affected by fe
+    var fe_stress = cy.elements("node[fe = 0]");
+    cy.remove(fe_stress);
+    cy.style()
+    .selector('edge')
+    // color edges based on pos or neg correlations
+    .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
+     
+.update()
   }
+);
+
+
+  $("#nacl-link").click(
+    function(){
+    // remove all genes not affected by nacl
+    var nacl_stress = cy.elements("node[nacl = 0]")
+     cy.remove(nacl_stress);
+     cy.style()
+     .selector('edge')
+     // color edges based on pos or neg correlations
+     .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
+     .update();
+  }
+ );
 
   }
 });
