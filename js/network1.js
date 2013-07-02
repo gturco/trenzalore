@@ -83,8 +83,6 @@ $('#cy').cytoscape({
   ready: function(){
     window.cy = this;
     
-    // giddy up
-    
     $('#search-box').keyup(function(){
       var gene_name = $(this).val();
       if (gene_name == 'Enter Gene Name'){
@@ -92,31 +90,38 @@ $('#cy').cytoscape({
       else if (gene_name == ''){
         cy.elements().removeClass('faded')}
       else {
-        console.log(gene_name)
         var node = cy.elements("node[name='"+ gene_name + "']");
-        var neighborhood = node.neighborhood().add(node);
-        cy.elements().addClass('faded');
-        neighborhood.removeClass('faded'); }
+        highlightNetwork(node);
+        loadGeneName(node);
+      }
       }).keyup();
-
 
     cy.elements().unselectify();
     
     cy.on('tap', 'node', function(e){
-      var node = e.cyTarget; 
-      console.log(node)
-      var neighborhood = node.neighborhood().add(node);
-      
-      cy.elements().addClass('faded');
-      neighborhood.removeClass('faded');
-      });
+      var node = e.cyTarget;
+      highlightNetwork(node);
+      loadGeneName(node);
+     });
     
     cy.on('tap', function(e){
       if( e.cyTarget === cy ){
         cy.elements().removeClass('faded');
 
           }
-    });   
+    });
+
+    function highlightNetwork(node){
+        var neighborhood = node.neighborhood().add(node);
+        console.log(node.element().data().name)
+        cy.elements().addClass('faded');
+        neighborhood.removeClass('faded'); }
+
+    function loadGeneName(node){
+      var gene_name = (node.element().data().name);
+      alert(gene_name);
+  }
+
   }
 });
 }
