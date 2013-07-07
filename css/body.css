@@ -16,10 +16,10 @@ body {
 }
 
 #cy {
+  position: absolute;
   height: 100%;
   width: 77%;
   float: left;
-  padding-top: 20px;
   background: white;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 #gene_name {
-  margin:60px;
+  margin:50px;
 }
 
 #dashboard {

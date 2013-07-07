@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Xylem Network" content="X network" />
+<script src="src/jquery.min.js"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
+<meta charset=utf-8 />
+<title>Xylem Netywork</title>
+
+</head>
+<body>
+   <script src="src/cytoscape.min.js"></script>
+   <script src="js/network1.js"></script>
+   <link href="css/body.css" rel="stylesheet" />
+
+   <div id="dashboard">
+     <a href="https://github.com/gturco/trenzalore/blob/gh-pages/README.rst" id="home-link"><img src="src/home.png" style='width:30px; height:30px; padding-right:20px;'/></a>
+     <label> <input type="text" name="search-box" value="Enter Gene Name" id="search-box" size="20" maxlength="25" />testing </label>
+   <input type="checkbox" id="fe-link" name="Response to Iron Deprivation" style="padding:50px;"/>
+   <a href="#" id="nacl-link" style="padding:50px;">Response to Salt Stess</a>
+   </div>
+
+
+   <div id="network">
+   <div id="cy">
+   </div>
+   <div id="key">
+     <div  type="text" id=gene_name> </div>
+     <div class="color-color-text-box">
+       <div class="color-box" style="background-color: #33ff00;"> </div> <div class="text-box">= KNA7 root coexpressed </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #0033ff;"> </div> <div class="text-box">= Cellulose biosynthesis genes </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #33ccff;"> </div> <div class="text-box">= Cellulose coexpressed (Persson et al)</div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #ff00cc;"> </div> <div class="text-box">= HD-ZIP III </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #ff0000;"> </div><div class="text-box">= Lignin </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #9900ff;"> </div><div class="text-box">= Secondary cell wall regulating transcription factor </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #ffcc33;"> </div><div class="text-box">= Xylan </div> </div>
+   <div class="color-text-box">
+      <div class="color-box">    /   </div><div class="text-box">= Weight </div> </div>
+   </div>
+   </div>
+
+</body>
+</html>
