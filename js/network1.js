@@ -85,7 +85,8 @@ $('#cy').cytoscape({
       highlightNetwork(node);
       loadGeneName(node);
      });
-    
+
+
     cy.on('tap', function(e){
       // when tap background removed fadedness from all genes
       if( e.cyTarget === cy ){
@@ -94,34 +95,42 @@ $('#cy').cytoscape({
           }
     });
 
+   var non_fe;
    $("#fe-link").click(
    function(){
    // remove all genes not affected by fe
-    var fe_stress = cy.elements("node[fe = 0]");
-    cy.remove(fe_stress);
-    cy.style()
-    .selector('edge')
-    // color edges based on pos or neg correlations
-    .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
-     
-.update()
+    if ($("#fe-link").is(':checked')){
+      var fe_stress = cy.elements("node[fe = 0]");
+      non_fe = cy.remove(fe_stress);
+      cy.style()
+      .selector('edge')
+      // color edges based on pos or neg correlations
+      .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
+      .update()
+    } else {
+      cy.add(non_fe);
+    }
   }
-);
+  );
 
 
-  $("#nacl-link").click(
+    var non_nacl;
+    $("#nacl-link").click(
     function(){
     // remove all genes not affected by nacl
-    var nacl_stress = cy.elements("node[nacl = 0]")
-     cy.remove(nacl_stress);
-     cy.style()
-     .selector('edge')
-     // color edges based on pos or neg correlations
-     .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
-     .update();
-  }
- );
-
+      if ($('#nacl-link').is(':checked')){
+        var nacl_stress = cy.elements("node[nacl = 0]");
+        non_nacl = cy.remove(nacl_stress);
+        cy.style()
+        .selector('edge')
+        // color edges based on pos or neg correlations
+        .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
+        .update();
+      } else {
+        cy.add(non_nacl);
+      }
+    }
+    );
   }
 });
 }
