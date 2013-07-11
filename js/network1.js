@@ -59,6 +59,13 @@ $('#cy').cytoscape({
     function loadGeneName(node){
       //find name of selected node and display in gene_name tag
       var gene_name = (node.element().data().name);
+      var neighborhood = node.neighborhood();
+      $.each(neighborhood, function(i,n) {
+            var ele = n.element().data();
+            console.log(ele.name, ele.faveColor);
+      });
+      
+      
       $('#gene_name').html(gene_name); }
 
     $('#search-box').keyup(function(){
