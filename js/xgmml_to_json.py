@@ -81,19 +81,20 @@ class Element(object):
         return dict(n_dic.items() + e_dic.items())
 
 
-def stress(cyto_d,cytoid,stress,stress_dic):
+def stress(key,stress,stress_dic):
         try:
+           cytoid = key['data']['id']
            match_id = stress_dic[cytoid]
-           cyto_d[cytoid]['data'][stress] = 1
+           key['data'][stress] = 1
            if '{0}sign'.format(stress) in list(match_id['data'].keys()):
-               cyto_d[cytoid]['data']['{0}sign'.format(stress)] = int(match_id['data']['{0}sign'.format(stress)])
-               return cyto_d
-           else: return cyto_d
+               key['data']['{0}sign'.format(stress)] = int(match_id['data']['{0}sign'.format(stress)])
+               return key
+           else: return key
         except KeyError:
-            cyto_d[cytoid]['data'][stress] = 0
-            return cyto_d
+            key['data'][stress] = 0
+            return key
 
-def main(xgmml_file,fe_file, nacl_file, outfh):
+def main(xgmml_file,nacl_file, fe_file, outfh):
     outfile = open(outfh,"wb")
     cyto = Element(xgmml_file)
     nodelines = []
@@ -102,21 +103,27 @@ def main(xgmml_file,fe_file, nacl_file, outfh):
     fe_cyto = Element(fe_file)
     fe_d = fe_cyto.get_dic()
     nacl_cyto = Element(nacl_file)
+    #print nacl_file
     nacl_d = nacl_cyto.get_dic()
+    print nacl_d['-174']
+    print cyto_d['-174']
 
     for cytoid in cyto_d:
-        cyto_d_fe = stress(cyto_d,cytoid,"fe",fe_d)
-        cyto_d_nacl = stress(cyto_d_fe,cytoid,"nacl",nacl_d)
-        if "position" in cyto_d_nacl[cytoid].keys():
-            nodelines.append(cyto_d_nacl[cytoid])
+        cyto_d_fe = stress(cyto_d[cytoid],"fe",fe_d)
+        cyto_d_nacl = stress(cyto_d_fe,"nacl",nacl_d)
+        #print cyto_d_nacl['data'].keys()
+        if "position" in cyto_d_nacl.keys():
+            nodelines.append(cyto_d_nacl)
         else:
-            edgelines.append(cyto_d_nacl[cytoid])
+            edgelines.append(cyto_d_nacl)
 
+    print len(cyto_d.keys())
+    print len(cyto_d_fe.keys())
     jsonformat = {"nodes": nodelines, "edges": edgelines}
     jsonformated =  json.dumps(jsonformat,indent=4)
     outfile.write(jsonformated)
 
-main("/Users/gturco/code/Brady/network/06-24-13/CytoscapeSession-2013_06_21-15_51/Sheet1.xgmml","/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/nacl_subset_stric_arrow.xgmml","/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/fe_minus_subset_stric_arrow.xgmml", "test.json")
+main("/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/Sheet1.xgmml","/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/nacl_subset_stric_arrow.xgmml","/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/fe_minus_subset_stric_arrow.xgmml", "test.json")
 
 ### edges
 ###target-arrow-shape

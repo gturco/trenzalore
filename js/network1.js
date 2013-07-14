@@ -107,7 +107,7 @@ $('#cy').cytoscape({
    function(){
    // remove all genes not affected by fe
     if ($("#fe-link").is(':checked')){
-      var fe_stress = cy.elements("node[fe = 0]");
+      var fe_stress = cy.elements("[fe = 0]");
       non_fe = cy.remove(fe_stress);
       cy.style()
       .selector('edge')
@@ -120,13 +120,13 @@ $('#cy').cytoscape({
   }
   );
 
-
     var non_nacl;
     $("#nacl-link").click(
     function(){
     // remove all genes not affected by nacl
       if ($('#nacl-link').is(':checked')){
-        var nacl_stress = cy.elements("node[nacl = 0]");
+        console.log(cy.elements())
+        var nacl_stress = cy.elements("[nacl = 0]");
         non_nacl = cy.remove(nacl_stress);
         cy.style()
         .selector('edge')
@@ -135,6 +135,11 @@ $('#cy').cytoscape({
         .update();
       } else {
         cy.add(non_nacl);
+        cy.style()
+        .selector('edge')
+        // color edges based on pos or neg correlations
+        .css({'line-color': 'data(faveColor)'})
+        .update();
       }
     }
     );
