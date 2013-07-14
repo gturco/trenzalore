@@ -112,7 +112,7 @@ $('#cy').cytoscape({
       cy.style()
       .selector('edge')
       // color edges based on pos or neg correlations
-      .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
+      .css({'line-color':'mapData(fesign,7,15,grey,red)',})
       .update()
     } else {
       cy.add(non_fe);
@@ -131,7 +131,7 @@ $('#cy').cytoscape({
         cy.style()
         .selector('edge')
         // color edges based on pos or neg correlations
-        .css({'line-color':'mapData(fesign,7,15,grey,red)', 'target-arrow-shape': 'mapData(fesign,6,15,blue,red)',})
+        .css({'line-color':'mapData(naclsign,7,15,grey,red)',})
         .update();
       } else {
         cy.add(non_nacl);

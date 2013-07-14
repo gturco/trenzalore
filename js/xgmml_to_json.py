@@ -103,22 +103,16 @@ def main(xgmml_file,nacl_file, fe_file, outfh):
     fe_cyto = Element(fe_file)
     fe_d = fe_cyto.get_dic()
     nacl_cyto = Element(nacl_file)
-    #print nacl_file
     nacl_d = nacl_cyto.get_dic()
-    print nacl_d['-174']
-    print cyto_d['-174']
 
     for cytoid in cyto_d:
         cyto_d_fe = stress(cyto_d[cytoid],"fe",fe_d)
         cyto_d_nacl = stress(cyto_d_fe,"nacl",nacl_d)
-        #print cyto_d_nacl['data'].keys()
         if "position" in cyto_d_nacl.keys():
             nodelines.append(cyto_d_nacl)
         else:
             edgelines.append(cyto_d_nacl)
 
-    print len(cyto_d.keys())
-    print len(cyto_d_fe.keys())
     jsonformat = {"nodes": nodelines, "edges": edgelines}
     jsonformated =  json.dumps(jsonformat,indent=4)
     outfile.write(jsonformated)
