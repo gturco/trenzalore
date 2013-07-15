@@ -133,7 +133,7 @@ $('#cy').cytoscape({
 
     function SaveasTXT(element) {
       console.log("hi", element)
-      if (typeof e:lement == "string"){
+      if (typeof element == "string"){
         console.log("hi")
         csv_output = document.getElementById("#csv_output");
         var oWin = document.open('application/CSV','replace');
