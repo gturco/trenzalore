@@ -50,23 +50,50 @@ $('#cy').cytoscape({
   ready: function(){
     window.cy = this;
 
+
+    function SaveasTXT(element) {
+      console.log("hi", element)
+      if (typeof element == "string"){
+        console.log("hi")
+        csv_output = document.getElementById("#csv_output");
+        var oWin = document.open('application/CSV','replace');
+        document.write(element);
+        document.close();
+        document.execCommand('SaveAs', null, "idididid.csv");
+      }
+    };
+
+
+    var csv_output
     function highlightNetwork(node){
       //fade all genes not assocated with selected node
         var neighborhood = node.neighborhood().add(node);
         cy.elements().addClass('faded');
         neighborhood.removeClass('faded'); }
+    function isEven(value) {
+      if (value%2 == 0)
+        return true;
+      else
+        return false;
+     }
+
 
     function loadGeneName(node){
       //find name of selected node and display in gene_name tag
       var gene_name = (node.element().data().name);
       var neighborhood = node.neighborhood();
+      var csv_output = "";
       $.each(neighborhood, function(i,n) {
-            var ele = n.element().data();
-            console.log(ele.name, ele.faveColor);
-      });
-      
-      
-      $('#gene_name').html(gene_name); }
+        if (isEven(i)) {
+              var ele = n.element().data();
+              //console.log(ele.name,i );
+              csv_output += ele.name + "," + ele.faveColor + "\n"
+        }   
+       });
+      console.log(csv_output);
+ 
+
+    $('#gene_name').html(gene_name); }
 
     $('#search-box').keyup(function(){
       // highlight the gene entered in the search box and displays it in the key
@@ -102,6 +129,21 @@ $('#cy').cytoscape({
           }
     });
 
+   $("#csv_output").click(function(){ SaveasTXT(csv_output);});
+
+    function SaveasTXT(element) {
+      console.log("hi", element)
+      if (typeof e:lement == "string"){
+        console.log("hi")
+        csv_output = document.getElementById("#csv_output");
+        var oWin = document.open('application/CSV','replace');
+        document.write(element);
+        document.close();
+        document.execCommand('SaveAs', null, "idididid.csv");
+      }
+    };
+
+  
    var non_fe;
    $("#fe-link").click(
    function(){
