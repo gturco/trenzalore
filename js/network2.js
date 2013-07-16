@@ -1,18 +1,32 @@
-$.get("xylem_fe.json",
+
+var $network = $("#cy");
+
+$.get("test.json",
    function(data) {
      console.log(data);
      loadCytoGraph(data);
+     console.log("bf panzoom");
+     // $network.cyoscape(function(){
+     // $network.cytoscapePanzoom();
+     // console.log("panzoom");
+     //}); 
    }, "json");
 
-function loadCytoGraph(xylem_fe){
-$('#cy').cytoscape({
+$network.cyoscape(function(){
+     $network.cytoscapePanzoom();
+      console.log("panzoom");
+     });
+
+
+function loadCytoGraph(xylem_all){
+$network.cytoscape({
   layout: {
     name: 'preset',
     fit: true,
     padding: [ 50, 50, 50, 50 ]
  },
-  
-  style: cytoscape.stylesheet()
+
+ style: cytoscape.stylesheet()
     .selector('node')
       .css({
         'shape': 'data(faveShape)',
@@ -20,7 +34,7 @@ $('#cy').cytoscape({
         'content': 'data(name)',
         'text-valign': 'center',
         'text-outline-width': 2,
-        'text-outline-color': 'data(faveColor)',
+        'text-outline-color': '#000000',
         'background-color': 'data(faveColor)',
         'color': '#fff'
       })
@@ -31,22 +45,12 @@ $('#cy').cytoscape({
       })
     .selector('edge')
       .css({
-        'width': 'mapData(strength, 70, 100, 2, 6)',
-        'target-arrow-shape': 'circle',
+        'width': 'data(line-width)',
+        'target-arrow-shape': 'triangle',
         'source-arrow-shape': 'circle',
         'line-color': 'data(faveColor)',
         'source-arrow-color': 'data(faveColor)',
         'target-arrow-color': 'data(faveColor)'
-      })
-    .selector('edge.neg')
-      .css({
-        'line-color': '#6FB1FC',
-        'target-arrow-shape': 'tee'
-      })
-    .selector('edge.pos')
-      .css({
-        'line-color': '#86B342',
-        'target-arrow-shape': 'triangle'
       })
     .selector('.faded')
       .css({
@@ -54,31 +58,152 @@ $('#cy').cytoscape({
         'text-opacity': 0
       }),
 
-  elements: xylem_fe,
-  
+  elements: xylem_all,
+
+
   ready: function(){
     window.cy = this;
-    
-    // giddy up
+
+
+    var csv_output
+    function highlightNetwork(node){
+      //fade all genes not assocated with selected node
+        var neighborhood = node.neighborhood().add(node);
+        cy.elements().addClass('faded');
+        neighborhood.removeClass('faded'); }
+    function isEven(value) {
+      if (value%2 == 0)
+        return true;
+      else
+        return false;
+     }
+
+
+    function loadGeneName(node){
+      //find name of selected node and display in gene_name tag
+      var gene_name = (node.element().data().name);
+      var neighborhood = node.neighborhood();
+      csv_output = "";
+      $.each(neighborhood, function(i,n) {
+        if (isEven(i)) {
+              var ele = n.element().data();
+              //console.log(ele.name,i );
+              csv_output += ele.name + ", " + ele.faveColor + "\n"
+        }   
+       });
+      console.log(csv_output);
+ 
+
+    $('#gene_name').html(gene_name); }
+
+    $('#search-box').keyup(function(){
+      // highlight the gene entered in the search box and displays it in the key
+      var gene_name = $(this).val();
+      if (gene_name == 'Enter Gene Name'){
+        return }
+        // if default text function stops here
+      else if (gene_name == ''){
+        cy.elements().removeClass('faded')}
+        // if no text function removes the faded class from all genes
+      else {
+        var node = cy.elements("node[name='"+ gene_name + "']");
+        highlightNetwork(node);
+        loadGeneName(node);
+      }
+      }).keyup();
 
     cy.elements().unselectify();
     
     cy.on('tap', 'node', function(e){
-      var node = e.cyTarget; 
-      var neighborhood = node.neighborhood().add(node);
-      
-      cy.elements().addClass('faded');
-      neighborhood.removeClass('faded');
-    });
-    
+      // when click on the gene highlights other connected genes and loads in key
+      var node = e.cyTarget;
+      highlightNetwork(node);
+      loadGeneName(node);
+     });
+
+
     cy.on('tap', function(e){
+      // when tap background removed fadedness from all genes
       if( e.cyTarget === cy ){
         cy.elements().removeClass('faded');
 
           }
-    });   
+    });
+
+   $("#csv_output").click(function(){ SaveasTXT(csv_output);});
+
+    function SaveasTXT(element) {
+      if (typeof element == "string"){
+        var data = [["name1", "city1", "some other info"], ["name2", "city2", "more info"]]; 
+        var csvContent = "data:text/csv;charset=utf-8,"; 
+        data.forEach(function(infoArray, index){
+        
+        dataString = infoArray.join(","); 
+        csvContent += index < infoArray.length ? dataString+
+          "\n" : dataString;
+        });
+        console.log("hi",csvContent);
+      }
+    };
+        
+        //console.log("hi");
+        //console.log(csvContent);
+        //var encodedUri = encodeURI(csvContent);
+        //window.open(encodedUri);
+        // var link = document.createElement("a");
+        // link.setAttribute("href", encodedUri); link.setAttribute("download", "my_data.csv");
+        //csv_output = document.getElementById("#csv_output");
+        //var oWin = window.open('network:blank','csv');
+        //oWin.document.write(element);
+        //oWin.document.close();
+        //oWin.document.execCommand('SaveAs', true, "network.csv");
+
+
+  
+   var non_fe;
+   $("#fe-link").click(
+   function(){
+   // remove all genes not affected by fe
+    if ($("#fe-link").is(':checked')){
+      var fe_stress = cy.elements("[fe = 0]");
+      non_fe = cy.remove(fe_stress);
+      cy.style()
+      .selector('edge')
+      // color edges based on pos or neg correlations
+      .css({'line-color':'mapData(fesign,7,15,grey,red)',})
+      .update()
+    } else {
+      cy.add(non_fe);
+    }
+  }
+  );
+
+    var non_nacl;
+    $("#nacl-link").click(
+    function(){
+    // remove all genes not affected by nacl
+      if ($('#nacl-link').is(':checked')){
+        console.log(cy.elements())
+        var nacl_stress = cy.elements("[nacl = 0]");
+        non_nacl = cy.remove(nacl_stress);
+        cy.style()
+        .selector('edge')
+        // color edges based on pos or neg correlations
+        .css({'line-color':'mapData(naclsign,7,15,grey,red)',})
+        .update();
+      } else {
+        cy.add(non_nacl);
+        cy.style()
+        .selector('edge')
+        // color edges based on pos or neg correlations
+        .css({'line-color': 'data(faveColor)'})
+        .update();
+      }
+    }
+    );
   }
 });
 }
 
 
+console.log("end");
