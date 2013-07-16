@@ -1,25 +1,17 @@
 
-var $network = $("#cy");
 
 $.get("test.json",
    function(data) {
      console.log(data);
      loadCytoGraph(data);
-     console.log("bf panzoom");
-     // $network.cyoscape(function(){
-     // $network.cytoscapePanzoom();
-     // console.log("panzoom");
-     //}); 
+     $("#cy").cy(function(){
+     $("#cy").cytoscapePanzoom();
+     }); 
    }, "json");
 
-$network.cyoscape(function(){
-     $network.cytoscapePanzoom();
-      console.log("panzoom");
-     });
-
-
 function loadCytoGraph(xylem_all){
-$network.cytoscape({
+
+$("#cy").cytoscape({
   layout: {
     name: 'preset',
     fit: true,
