@@ -51,17 +51,6 @@ $('#cy').cytoscape({
     window.cy = this;
 
 
-    function SaveasTXT(element) {
-      console.log("hi", element)
-      if (typeof element == "string"){
-        console.log("hi")
-        csv_output = document.getElementById("#csv_output");
-        var oWin = document.open('application/CSV','replace');
-        document.write(element);
-        document.close();
-        document.execCommand('SaveAs', null, "idididid.csv");
-      }
-    };
 
 
     var csv_output
@@ -82,12 +71,12 @@ $('#cy').cytoscape({
       //find name of selected node and display in gene_name tag
       var gene_name = (node.element().data().name);
       var neighborhood = node.neighborhood();
-      var csv_output = "";
+      csv_output = "";
       $.each(neighborhood, function(i,n) {
         if (isEven(i)) {
               var ele = n.element().data();
               //console.log(ele.name,i );
-              csv_output += ele.name + "," + ele.faveColor + "\n"
+              csv_output += ele.name + ", " + ele.faveColor + "\n"
         }   
        });
       console.log(csv_output);
@@ -132,16 +121,31 @@ $('#cy').cytoscape({
    $("#csv_output").click(function(){ SaveasTXT(csv_output);});
 
     function SaveasTXT(element) {
-      console.log("hi", element)
       if (typeof element == "string"){
-        console.log("hi")
-        csv_output = document.getElementById("#csv_output");
-        var oWin = document.open('application/CSV','replace');
-        document.write(element);
-        document.close();
-        document.execCommand('SaveAs', null, "idididid.csv");
+        var data = [["name1", "city1", "some other info"], ["name2", "city2", "more info"]]; 
+        var csvContent = "data:text/csv;charset=utf-8,"; 
+        data.forEach(function(infoArray, index){
+        
+        dataString = infoArray.join(","); 
+        csvContent += index < infoArray.length ? dataString+
+          "\n" : dataString;
+        });
+        console.log("hi",csvContent);
       }
     };
+        
+        //console.log("hi");
+        //console.log(csvContent);
+        //var encodedUri = encodeURI(csvContent);
+        //window.open(encodedUri);
+        // var link = document.createElement("a");
+        // link.setAttribute("href", encodedUri); link.setAttribute("download", "my_data.csv");
+        //csv_output = document.getElementById("#csv_output");
+        //var oWin = window.open('network:blank','csv');
+        //oWin.document.write(element);
+        //oWin.document.close();
+        //oWin.document.execCommand('SaveAs', true, "network.csv");
+
 
   
    var non_fe;
