@@ -2,16 +2,62 @@
 <html>
 <head>
 <meta name="Xylem Network" content="X network" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="src/jquery.min.js"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
 <meta charset=utf-8 />
-<title>Xylem Netywork</title>
+<title>Xylem Network</title>
 
 </head>
 <body>
-   <div id="cy"></div>
-   <script src="http://cytoscape.github.io/cytoscape.js/api/cytoscape.js-latest/cytoscape.min.js"></script>
+   <script src="src/cytoscape.min.js"></script>
    <script src="js/network2.js"></script>
    <link href="css/body.css" rel="stylesheet" />
-  
+   <script type="text/javascript" src="src/jquery.cytoscape-panzoom.js"></script>
+   <link rel="stylesheet" href="src/jquery.cytoscape-panzoom.css" />
+   <link rel="stylesheet" href="font-awesome.css" />
+
+   <div id="dashboard">
+     <a href="/trenzalore" id="home-link"><img src="src/home.png" style='width:30px; height:30px; padding-right:100px;'/></a>
+     <input type="text" name="search-box" value="Enter Gene Name" id="search-box" size="20" maxlength="25" />
+     <label style="padding:50px;"><input type="checkbox" id="fe-link" name="Response to Iron Deprivation"/>Response to Iron Deprivation</label>
+     <label style="padding:50px;"><input type="checkbox" id="nacl-link" name="Response to Salt Stress"/>Response to Salt Stress</label>
+   </div>
+
+
+
+   <div id="network">
+   <div id="cy">
+   </div>
+   <div id="key">
+     <h3 style="padding-left:10px;">Name of Gene Selected:</h3>
+     <div  type="text" id=gene_name> </div>
+     <button type="button" id="csv_output" style="margin-left:50px;">download interactions</button>
+     <h3 style="padding-left:10px;"> Nodes </h3>
+     <div class="color-color-text-box">
+       <div class="color-box" style="background-color: #33ff00;"> </div> <div class="text-box">= KNA7 root coexpressed </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #0033ff;"> </div> <div class="text-box">= Cellulose biosynthesis genes </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #33ccff;"> </div> <div class="text-box">= Cellulose coexpressed (Persson et al)</div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #ff00cc;"> </div> <div class="text-box">= HD-ZIP III </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #ff0000;"> </div><div class="text-box">= Lignin </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #9900ff;"> </div><div class="text-box">= Secondary cell wall regulating transcription factor </div> </div>
+     <div class="color-text-box">
+       <div class="color-box" style="background-color: #ffcc33;"> </div><div class="text-box">= Xylan </div> </div>
+    <h3 style="padding-left:10px;"> Edges </h3>
+    <div class="color-text-box">
+      <div class="color-box" style="color:grey; font-size:200%;">    /   </div><div class="text-box" style="margin-bottom:10px; padding-top:10px;">= Larger node indicates higher confidence based on literature  </div> </div>
+    <div class="color-text-box">
+      <div class="color-box" style="color:grey; font-size:120%;">    /   </div><div class="text-box">= No Correlation  </div> </div>
+    <div class="color-text-box">
+      <div class="color-box" style="color:red; font-size:120%;">    /   </div><div class="text-box">= Negative Correlation </div> </div>
+    <div class="color-text-box">
+      <div class="color-box" style="color:#33ccff; font-size:120%;">    /   </div><div class="text-box">= Positive Correlation </div> </div>
+  </div>
+   </div>
+
 </body>
 </html>

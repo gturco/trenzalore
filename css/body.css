@@ -16,11 +16,12 @@ body {
 }
 
 #cy {
-  position: absolute;
+  border: 1px solid #888;
+  position: relative;
   height: 100%;
   width: 77%;
   float: left;
-  background: white;
+  background: #fff;
 }
 
 #key {

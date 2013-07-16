@@ -1,19 +1,24 @@
 
+
 $.get("test.json",
    function(data) {
      console.log(data);
      loadCytoGraph(data);
+     $("#cy").cy(function(){
+     $("#cy").cytoscapePanzoom();
+     }); 
    }, "json");
 
 function loadCytoGraph(xylem_all){
-$('#cy').cytoscape({
+
+$("#cy").cytoscape({
   layout: {
     name: 'preset',
     fit: true,
     padding: [ 50, 50, 50, 50 ]
  },
-  
-  style: cytoscape.stylesheet()
+
+ style: cytoscape.stylesheet()
     .selector('node')
       .css({
         'shape': 'data(faveShape)',
@@ -46,11 +51,10 @@ $('#cy').cytoscape({
       }),
 
   elements: xylem_all,
-  
+
+
   ready: function(){
     window.cy = this;
-
-
 
 
     var csv_output
@@ -192,3 +196,6 @@ $('#cy').cytoscape({
   }
 });
 }
+
+
+console.log("end");
