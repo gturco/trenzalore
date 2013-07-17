@@ -126,31 +126,13 @@ $("#cy").cytoscape({
 
     function SaveasTXT(element) {
       if (typeof element == "string"){
-        var data = [["name1", "city1", "some other info"], ["name2", "city2", "more info"]]; 
-        var csvContent = "data:text/csv;charset=utf-8,"; 
-        data.forEach(function(infoArray, index){
-        
-        dataString = infoArray.join(","); 
-        csvContent += index < infoArray.length ? dataString+
-          "\n" : dataString;
-        });
-        console.log("hi",csvContent);
+        var csvContent = "data:text/csv;charset=utf-8," + encodeURIComponent(element); 
+        console.log(csvContent)
+        var link = document.createElement("a");
+        link.setAttribute("href", csvContent); link.setAttribute("download", "my_data.csv");
+        link.click();
       }
     };
-        
-        //console.log("hi");
-        //console.log(csvContent);
-        //var encodedUri = encodeURI(csvContent);
-        //window.open(encodedUri);
-        // var link = document.createElement("a");
-        // link.setAttribute("href", encodedUri); link.setAttribute("download", "my_data.csv");
-        //csv_output = document.getElementById("#csv_output");
-        //var oWin = window.open('network:blank','csv');
-        //oWin.document.write(element);
-        //oWin.document.close();
-        //oWin.document.execCommand('SaveAs', true, "network.csv");
-
-
   
    var non_fe;
    $("#fe-link").click(
