@@ -80,7 +80,7 @@ $("#cy").cytoscape({
         if (isEven(i)) {
               var ele = n.element().data();
               //console.log(ele.name,i );
-              csv_output += ele.name + "," + ele.faveColor + "\n"
+              csv_output += ele.name + "," + ele.node_type + "\n"
         }   
        });
       console.log(csv_output);
@@ -129,8 +129,8 @@ $("#cy").cytoscape({
         console.log(csvContent,gene_name)
         var link = document.createElement("a");
         var gene_name = element.split("\n")[0]
-        link.setAttribute("href", csvContent); link.setAttribute("download", gene_name + "_interactions.csv");
-        link.click();
+        var y = link.setAttribute("href", csvContent); link.setAttribute("download", gene_name + "_interactions.csv");
+        var x = link.click();
       }
     };
   

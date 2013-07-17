@@ -9,14 +9,25 @@ from collections import OrderedDict
 
 
 def get_nstyle(xline):
+    color_dic = { "#33ff00" : "KNA7 Root Coexpressed",
+            "#0033ff" : "Cellulose Biosynthesis",
+            "#33ccff" : "Cellulose Coexpressed",
+            "#ff00cc" : "HD-ZIP III",
+            "#ff0000" : "Lignin",
+            "#9900ff" : "Secondary Cell Wall TF",
+            "#ff9900" : "Xylan",
+            "#cc99ff" : "None",
+            "#ffff00" : "Xylan"
+            }
+
     style = xline.find_all("graphics")
     faveColor = style[0].get("fill")
     x = style[0].get("x")
     y = style[0].get("y") 
     try:
-	return float(x),float(y), faveColor
+	return float(x),float(y), faveColor, color_dic[faveColor]
     except TypeError:
-	return x,y,faveColor
+	return x,y,faveColor,color_dic[faveColor]
 
 def get_estyle(xline):
     style = xline.find_all("graphics")
@@ -33,14 +44,14 @@ def get_size(xline):
 
 
 class NodeLine(object):
-    _slots_ = ("id","name","x","y","group","faveColor")
+    _slots_ = ("id","name","x","y","group","faveColor", "type")
 
     def __init__(self, xline):
         self.group = "nodes"
         self.cid = xline.get("id")
         self.name = xline.get("label")
-        self.x, self.y, self.faveColor = get_nstyle(xline)
-        self.nodeline = {"data" : {"id": self.cid, "name": self.name, "faveColor": self.faveColor},  "position": {"x": self.x, "y": self.y}}
+        self.x, self.y, self.faveColor, self.node_type  = get_nstyle(xline)
+        self.nodeline = {"data" : {"id": self.cid, "name": self.name, "faveColor": self.faveColor, "node_type": self.node_type},  "position": {"x": self.x, "y": self.y}}
           
 
 class EdgeLine(object):
