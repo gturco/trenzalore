@@ -75,12 +75,12 @@ $("#cy").cytoscape({
       //find name of selected node and display in gene_name tag
       var gene_name = (node.element().data().name);
       var neighborhood = node.neighborhood();
-      csv_output = "";
+      csv_output = gene_name + "\n";
       $.each(neighborhood, function(i,n) {
         if (isEven(i)) {
               var ele = n.element().data();
               //console.log(ele.name,i );
-              csv_output += ele.name + ", " + ele.faveColor + "\n"
+              csv_output += ele.name + "," + ele.faveColor + "\n"
         }   
        });
       console.log(csv_output);
@@ -98,7 +98,7 @@ $("#cy").cytoscape({
         cy.elements().removeClass('faded')}
         // if no text function removes the faded class from all genes
       else {
-        var node = cy.elements("node[name='"+ gene_name + "']");
+        var node = cy.elements("node[name='"+ gene_name.toUpperCase() + "']");
         highlightNetwork(node);
         loadGeneName(node);
       }
@@ -118,18 +118,18 @@ $("#cy").cytoscape({
       // when tap background removed fadedness from all genes
       if( e.cyTarget === cy ){
         cy.elements().removeClass('faded');
-
           }
     });
 
    $("#csv_output").click(function(){ SaveasTXT(csv_output);});
 
-    function SaveasTXT(element) {
+    function SaveasTXT(element,gene_name) {
       if (typeof element == "string"){
         var csvContent = "data:text/csv;charset=utf-8," + encodeURIComponent(element); 
-        console.log(csvContent)
+        console.log(csvContent,gene_name)
         var link = document.createElement("a");
-        link.setAttribute("href", csvContent); link.setAttribute("download", "my_data.csv");
+        var gene_name = element.split("\n")[0]
+        link.setAttribute("href", csvContent); link.setAttribute("download", gene_name + "_interactions.csv");
         link.click();
       }
     };
