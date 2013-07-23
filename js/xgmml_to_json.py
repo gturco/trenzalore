@@ -128,31 +128,5 @@ def main(xgmml_file,nacl_file, fe_file, outfh):
     jsonformated =  json.dumps(jsonformat,indent=4)
     outfile.write(jsonformated)
 
-main("/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/Sheet1.xgmml","/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/nacl_subset_stric_arrow.xgmml","/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/fe_minus_subset_stric_arrow.xgmml", "test.json")
-
-### edges
-###target-arrow-shape
-### need to create a class at the top.....
-#### need negative class with inhbit signal
-#### need postive class with arraow signal
-
-#### edge
-#### faveColor: '#6FB1FC' (in Data)
-### classes: 'neg' (in Data)
-### need to create stylesheets at top....
-### graphics fill and target (either 6 or 15)
-
-
-
-#.slector('edge.stress')
-#    .css({
-#        'line-color': mapData(weight, 0, 100, arrow, tee)
-#        'target-arrow-shape': mapData(weight, 0, 100, blue, red)
-#        })
-# var non_nacl = cy.elements("node[stress != 'nacl']")
-# var non_fe = cy.elements("node[stess != 'fe']")
-
-## upon clicking
-## cy.remove(non_fe)
-## color edge stress class for nacl collections
+main("/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/Sheet1.xgmml","/Users/gturco//Desktop/mallorie/stelexylem/MallorieData/Cytoscape_data/nacl_subset_stric_arrow_web.xgmml","/Users/gturco/Desktop/mallorie/stelexylem/MallorieData/Cytoscape_data/fe_minus_subset_stric_arrow_web.xgmml", "test.json")
 

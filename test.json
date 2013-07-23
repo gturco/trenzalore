@@ -3523,7 +3523,7 @@
                 "nacl": 1, 
                 "source": "-154", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT4G35040 (pd) AT3G10340", 
                 "line-width": "pd"
             }
@@ -3547,7 +3547,7 @@
                 "nacl": 0, 
                 "source": "-217", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G21910 (pd) AT5G17420", 
                 "line-width": "pd"
             }
@@ -3715,7 +3715,7 @@
                 "nacl": 0, 
                 "source": "-233", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT3G06590 (pd) AT1G15950", 
                 "line-width": "pd"
             }
@@ -3979,7 +3979,7 @@
                 "nacl": 1, 
                 "source": "-180", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G79180 (pd) AT1G51680", 
                 "line-width": "pd"
             }
@@ -4087,7 +4087,7 @@
                 "nacl": 0, 
                 "source": "-187", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT3G57230 (pd) AT1G51680", 
                 "line-width": "pd"
             }
@@ -4219,7 +4219,7 @@
                 "nacl": 1, 
                 "source": "-201", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT5G60200 (pd) AT2G40890", 
                 "line-width": "pd"
             }
@@ -4303,7 +4303,7 @@
                 "nacl": 1, 
                 "source": "-156", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G62020 (pd) AT2G40890", 
                 "line-width": "pd"
             }
@@ -4447,7 +4447,7 @@
                 "nacl": 0, 
                 "source": "-173", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT2G36400 (pd) AT2G37090", 
                 "line-width": "pd"
             }
@@ -4471,7 +4471,7 @@
                 "nacl": 1, 
                 "source": "-180", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G79180 (pd) AT4G18780", 
                 "line-width": "pd"
             }
@@ -4483,7 +4483,7 @@
                 "nacl": 1, 
                 "source": "-99", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT3G11280 (pd) AT2G40890", 
                 "line-width": "pd"
             }
@@ -4519,7 +4519,7 @@
                 "nacl": 0, 
                 "source": "-188", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G26660 (pd) AT1G51680", 
                 "line-width": "pd"
             }
@@ -4555,7 +4555,7 @@
                 "nacl": 1, 
                 "source": "-206", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G05410 (pd) AT5G17420", 
                 "line-width": "pd"
             }
@@ -4747,7 +4747,7 @@
                 "nacl": 1, 
                 "source": "-24", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G12260 (pd) AT5G15630", 
                 "line-width": "pd"
             }
@@ -4771,7 +4771,7 @@
                 "nacl": 1, 
                 "source": "-180", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G79180 (pd) AT4G34050", 
                 "line-width": "pd"
             }
@@ -4879,7 +4879,7 @@
                 "nacl": 1, 
                 "source": "-156", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G62020 (pd) AT1G71930", 
                 "line-width": "pd"
             }
@@ -4963,7 +4963,7 @@
                 "nacl": 1, 
                 "source": "-30", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT2G26150 (pd) AT5G12870", 
                 "line-width": "pd"
             }
@@ -5191,7 +5191,7 @@
                 "nacl": 1, 
                 "source": "-186", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G77450 (pd) AT5G48930", 
                 "line-width": "pd"
             }
@@ -5239,7 +5239,7 @@
                 "nacl": 1, 
                 "source": "-180", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G79180 (pd) AT2G30490", 
                 "line-width": "pd"
             }
@@ -5431,7 +5431,7 @@
                 "nacl": 0, 
                 "source": "-173", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT2G36400 (pd) AT1G71930", 
                 "line-width": "pd"
             }
@@ -5563,7 +5563,7 @@
                 "nacl": 0, 
                 "source": "-188", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G26660 (pd) AT2G30490", 
                 "line-width": "pd"
             }
@@ -5647,7 +5647,7 @@
                 "nacl": 0, 
                 "source": "-239", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G13910 (pd) AT5G15630", 
                 "line-width": "pd"
             }
@@ -5743,7 +5743,7 @@
                 "nacl": 0, 
                 "source": "-79", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT4G36620 (pd) AT3G10340", 
                 "line-width": "pd"
             }
@@ -5839,7 +5839,7 @@
                 "nacl": 0, 
                 "source": "-169", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT3G23690 (pd) AT1G62990", 
                 "line-width": "pd"
             }
@@ -5887,7 +5887,7 @@
                 "nacl": 0, 
                 "source": "-217", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G21910 (pd) AT1G51680", 
                 "line-width": "pd"
             }
@@ -5947,7 +5947,7 @@
                 "nacl": 1, 
                 "source": "-159", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT4G17490 (pd) AT3G10340", 
                 "line-width": "pd"
             }
@@ -5971,7 +5971,7 @@
                 "nacl": 1, 
                 "source": "-231", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G47220 (pd) AT5G15630", 
                 "line-width": "pd"
             }
@@ -5983,7 +5983,7 @@
                 "nacl": 1, 
                 "source": "-21", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT3G10500 (pd) AT5G15630", 
                 "line-width": "pd"
             }
@@ -6055,7 +6055,7 @@
                 "nacl": 1, 
                 "source": "-154", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT4G35040 (pd) AT2G40890", 
                 "line-width": "pd"
             }
@@ -6175,7 +6175,7 @@
                 "nacl": 0, 
                 "source": "-217", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G21910 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -6211,7 +6211,7 @@
                 "nacl": 0, 
                 "source": "-4", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT3G12270 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -6355,7 +6355,7 @@
                 "nacl": 1, 
                 "source": "-186", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G77450 (pd) AT1G51680", 
                 "line-width": "pd"
             }
@@ -6391,7 +6391,7 @@
                 "nacl": 0, 
                 "source": "-245", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G61590 (pd) AT1G71930", 
                 "line-width": "pd"
             }
@@ -6427,7 +6427,7 @@
                 "nacl": 0, 
                 "source": "-141", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G24625 (pd) AT3G62020", 
                 "line-width": "pd"
             }
@@ -6535,7 +6535,7 @@
                 "nacl": 0, 
                 "source": "-30", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT2G26150 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -6643,7 +6643,7 @@
                 "nacl": 0, 
                 "source": "-163", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G61600 (pd) AT5G15630", 
                 "line-width": "pd"
             }
@@ -6655,7 +6655,7 @@
                 "nacl": 1, 
                 "source": "-231", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G47220 (pd) AT1G15950", 
                 "line-width": "pd"
             }
@@ -6667,7 +6667,7 @@
                 "nacl": 1, 
                 "source": "-214", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT2G22840 (pd) AT5G12870", 
                 "line-width": "pd"
             }
@@ -6775,7 +6775,7 @@
                 "nacl": 1, 
                 "source": "-206", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT5G05410 (pd) AT5G13180", 
                 "line-width": "pd"
             }
@@ -6967,7 +6967,7 @@
                 "nacl": 1, 
                 "source": "-214", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT2G22840 (pd) AT1G61820", 
                 "line-width": "pd"
             }
@@ -7663,7 +7663,7 @@
                 "nacl": 0, 
                 "source": "-173", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT2G36400 (pd) AT1G62990", 
                 "line-width": "pd"
             }
@@ -7795,7 +7795,7 @@
                 "nacl": 0, 
                 "source": "-76", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT5G60690 (pd) AT3G10340", 
                 "line-width": "pd"
             }
@@ -7831,7 +7831,7 @@
                 "nacl": 1, 
                 "source": "-23", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G47230 (pd) AT5G15630", 
                 "line-width": "pd"
             }
@@ -7843,7 +7843,7 @@
                 "nacl": 1, 
                 "source": "-180", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G79180 (pd) AT5G48930", 
                 "line-width": "pd"
             }
@@ -7891,7 +7891,7 @@
                 "nacl": 0, 
                 "source": "-8", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT4G14770 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -7915,7 +7915,7 @@
                 "nacl": 0, 
                 "source": "-217", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G21910 (pd) AT2G30490", 
                 "line-width": "pd"
             }
@@ -7939,7 +7939,7 @@
                 "nacl": 0, 
                 "source": "-188", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G26660 (pd) AT4G34050", 
                 "line-width": "pd"
             }
@@ -7975,7 +7975,7 @@
                 "nacl": 1, 
                 "source": "-201", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT5G60200 (pd) AT1G51680", 
                 "line-width": "pd"
             }
@@ -8119,7 +8119,7 @@
                 "nacl": 0, 
                 "source": "-201", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT5G60200 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -8287,7 +8287,7 @@
                 "nacl": 0, 
                 "source": "-116", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G10480 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -8443,7 +8443,7 @@
                 "nacl": 0, 
                 "source": "-10", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT2G22850 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -8575,7 +8575,7 @@
                 "nacl": 0, 
                 "source": "-217", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT1G21910 (pd) AT5G15630", 
                 "line-width": "pd"
             }
@@ -8683,7 +8683,7 @@
                 "nacl": 1, 
                 "source": "-126", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT2G27050 (pd) AT2G30490", 
                 "line-width": "pd"
             }
@@ -9175,7 +9175,7 @@
                 "nacl": 0, 
                 "source": "-186", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G77450 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -9223,7 +9223,7 @@
                 "nacl": 0, 
                 "source": "-67", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT4G37790 (pd) AT3G23090", 
                 "line-width": "pd"
             }
@@ -9451,7 +9451,7 @@
                 "nacl": 0, 
                 "source": "-39", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT3G47620 (pd) AT4G34050", 
                 "line-width": "pd"
             }
@@ -9523,7 +9523,7 @@
                 "nacl": 1, 
                 "source": "-84", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT3G07340 (pd) AT2G40890", 
                 "line-width": "pd"
             }
@@ -9559,7 +9559,7 @@
                 "nacl": 1, 
                 "source": "-186", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G77450 (pd) AT2G40890", 
                 "line-width": "pd"
             }
@@ -9619,7 +9619,7 @@
                 "nacl": 1, 
                 "source": "-64", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G12870 (pd) AT4G18780", 
                 "line-width": "pd"
             }
@@ -9643,7 +9643,7 @@
                 "nacl": 1, 
                 "source": "-40", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G78080 (pd) AT4G34050", 
                 "line-width": "pd"
             }
@@ -9655,7 +9655,7 @@
                 "nacl": 0, 
                 "source": "-245", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G61590 (pd) AT5G15630", 
                 "line-width": "pd"
             }
@@ -9703,7 +9703,7 @@
                 "nacl": 1, 
                 "source": "-200", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT3G61850 (pd) AT4G27435", 
                 "line-width": "pd"
             }
@@ -9751,7 +9751,7 @@
                 "nacl": 1, 
                 "source": "-75", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G02840 (pd) AT3G10340", 
                 "line-width": "pd"
             }
@@ -9931,7 +9931,7 @@
                 "nacl": 0, 
                 "source": "-6", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT3G21270 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -10015,7 +10015,7 @@
                 "nacl": 0, 
                 "source": "-141", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G24625 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -10087,7 +10087,7 @@
                 "nacl": 1, 
                 "source": "-41", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G22190 (pd) AT4G34050", 
                 "line-width": "pd"
             }
@@ -10339,7 +10339,7 @@
                 "nacl": 0, 
                 "source": "-214", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT2G22840 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -10447,7 +10447,7 @@
                 "nacl": 0, 
                 "source": "-200", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT3G61850 (pd) AT5G60690", 
                 "line-width": "pd"
             }
@@ -10507,7 +10507,7 @@
                 "nacl": 1, 
                 "source": "-100", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G78600 (pd) AT2G40890", 
                 "line-width": "pd"
             }
@@ -10555,7 +10555,7 @@
                 "nacl": 0, 
                 "source": "-188", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G26660 (pd) AT5G48930", 
                 "line-width": "pd"
             }
@@ -10807,7 +10807,7 @@
                 "nacl": 0, 
                 "source": "-33", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT1G04550 (pd) AT5G12870", 
                 "line-width": "pd"
             }
@@ -10819,7 +10819,7 @@
                 "nacl": 1, 
                 "source": "-214", 
                 "fe": 1, 
-                "fesign": 6, 
+                "fesign": 0, 
                 "id": "AT2G22840 (pd) AT2G37090", 
                 "line-width": "pd"
             }
@@ -10867,7 +10867,7 @@
                 "nacl": 1, 
                 "source": "-231", 
                 "fe": 1, 
-                "fesign": 0, 
+                "fesign": 7, 
                 "id": "AT5G47220 (pd) AT3G10340", 
                 "line-width": "pd"
             }
