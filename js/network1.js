@@ -1,6 +1,6 @@
 
 
-$.get("test.json",
+$.get("stress.json",
    function(data) {
      console.log(data);
      loadCytoGraph(data);
