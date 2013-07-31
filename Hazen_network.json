@@ -6,6 +6,7 @@
                 "x": 108.52720260620117
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-5", 
                 "name": "AT1G16490"
@@ -17,6 +18,7 @@
                 "x": 5.49970817565918
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-4", 
                 "name": "AT1G14920"
@@ -28,6 +30,7 @@
                 "x": 2.200815200805664
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-7", 
                 "name": "AT2G28810"
@@ -39,6 +42,7 @@
                 "x": 2453.767822265625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-6", 
                 "name": "AT1G20910"
@@ -50,6 +54,7 @@
                 "x": 2432.996337890625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-1", 
                 "name": "AT1G08810"
@@ -61,6 +66,7 @@
                 "x": 10.259842872619629
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-3", 
                 "name": "AT1G14687"
@@ -72,6 +78,7 @@
                 "x": 1213.2781982421875
             }, 
             "data": {
+                "node_type": "Lignin", 
                 "faveColor": "#ff0000", 
                 "id": "-2", 
                 "name": "4CL1"
@@ -83,6 +90,7 @@
                 "x": 892.005859375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-9", 
                 "name": "AT2G41070"
@@ -94,6 +102,7 @@
                 "x": 2238.292724609375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-8", 
                 "name": "AT2G40620"
@@ -105,6 +114,7 @@
                 "x": 2473.236572265625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-28", 
                 "name": "AT1G22190"
@@ -116,6 +126,7 @@
                 "x": 126.671630859375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-29", 
                 "name": "AT1G47870"
@@ -127,6 +138,7 @@
                 "x": 1480.7720947265625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-24", 
                 "name": "AT5G65410"
@@ -138,6 +150,7 @@
                 "x": 2363.109130859375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-25", 
                 "name": "AT1G03800"
@@ -149,6 +162,7 @@
                 "x": 912.7991943359375
             }, 
             "data": {
+                "node_type": "Cellulose Biosynthesis", 
                 "faveColor": "#0033ff", 
                 "id": "-26", 
                 "name": "CESA4"
@@ -160,6 +174,7 @@
                 "x": 2387.641357421875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-27", 
                 "name": "AT1G04370"
@@ -171,6 +186,7 @@
                 "x": 2399.448974609375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-20", 
                 "name": "AT5G53950"
@@ -182,6 +198,7 @@
                 "x": 1602.9022216796875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-21", 
                 "name": "AT5G54230"
@@ -193,6 +210,7 @@
                 "x": 1560.2618408203125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-22", 
                 "name": "AT5G59780"
@@ -204,6 +222,7 @@
                 "x": 1524.148193359375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-23", 
                 "name": "AT5G65230"
@@ -215,6 +234,7 @@
                 "x": 49.58080196380615
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-102", 
                 "name": "AT4G37790"
@@ -226,6 +246,7 @@
                 "x": 38.33521842956543
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-101", 
                 "name": "AT3G47600"
@@ -237,6 +258,7 @@
                 "x": 91.72770690917969
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-106", 
                 "name": "AT5G66300 "
@@ -248,6 +270,7 @@
                 "x": 1039.6463928222656
             }, 
             "data": {
+                "node_type": "Cellulose Coexpressed", 
                 "faveColor": "#33ccff", 
                 "id": "-107", 
                 "name": "COBL4"
@@ -259,6 +282,7 @@
                 "x": 62.23786544799805
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-104", 
                 "name": "AT5G15210"
@@ -270,6 +294,7 @@
                 "x": 76.29212188720703
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-105", 
                 "name": "AT5G25890"
@@ -281,6 +306,7 @@
                 "x": 1869.6185302734375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-108", 
                 "name": "AT1G17460"
@@ -292,6 +318,7 @@
                 "x": 1908.5523681640625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-109", 
                 "name": "AT1G28160"
@@ -303,6 +330,7 @@
                 "x": 440.41253662109375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-54", 
                 "name": "AT5G43650"
@@ -314,6 +342,7 @@
                 "x": 1645.200439453125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-57", 
                 "name": "AT5G54680"
@@ -325,6 +354,7 @@
                 "x": 1393.6258544921875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-56", 
                 "name": "AT5G51990"
@@ -336,6 +366,7 @@
                 "x": 376.8626403808594
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-51", 
                 "name": "AT5G27090"
@@ -347,6 +378,7 @@
                 "x": 346.6330871582031
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-50", 
                 "name": "AT5G18450"
@@ -358,6 +390,7 @@
                 "x": 408.1342468261719
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-53", 
                 "name": "AT5G42520"
@@ -369,6 +402,7 @@
                 "x": 2142.990478515625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-52", 
                 "name": "AT5G39610"
@@ -380,6 +414,7 @@
                 "x": 473.6611633300781
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-58", 
                 "name": "AT1G17950"
@@ -391,7 +426,8 @@
                 "x": 1299.282470703125
             }, 
             "data": {
-                "faveColor": "#ffcc33", 
+                "node_type": "Xylan", 
+                "faveColor": "#ffff00", 
                 "id": "-146", 
                 "name": "IRX9"
             }
@@ -402,6 +438,7 @@
                 "x": 200.45941162109375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-147", 
                 "name": "AT1G49720"
@@ -413,6 +450,7 @@
                 "x": 275.83902740478516
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-144", 
                 "name": "AT5G50480"
@@ -424,6 +462,7 @@
                 "x": 249.51724243164062
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-145", 
                 "name": "AT5G53200"
@@ -435,6 +474,7 @@
                 "x": 1452.481689453125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-142", 
                 "name": "AT4G39780"
@@ -446,6 +486,7 @@
                 "x": 303.31689453125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-143", 
                 "name": "AT5G20240"
@@ -457,6 +498,7 @@
                 "x": 361.6154479980469
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-140", 
                 "name": "AT3G61150"
@@ -468,6 +510,7 @@
                 "x": 331.9197998046875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-141", 
                 "name": "AT4G26440"
@@ -479,6 +522,7 @@
                 "x": 177.7787322998047
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-148", 
                 "name": "AT1G51600"
@@ -490,6 +534,7 @@
                 "x": 156.3648223876953
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-149", 
                 "name": "AT1G51700"
@@ -501,6 +546,7 @@
                 "x": 0.36688804626464844
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-11", 
                 "name": "AT3G01530"
@@ -512,6 +558,7 @@
                 "x": 20.127673149108887
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-10", 
                 "name": "AT2G47190"
@@ -523,6 +570,7 @@
                 "x": 1018.2864990234375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-13", 
                 "name": "AT3G14180"
@@ -534,6 +582,7 @@
                 "x": 0.0
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-12", 
                 "name": "AT3G02940"
@@ -545,6 +594,7 @@
                 "x": 1321.7930908203125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-15", 
                 "name": "AT3G56850"
@@ -556,6 +606,7 @@
                 "x": 2566.66259765625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-14", 
                 "name": "AT3G28910"
@@ -567,6 +618,7 @@
                 "x": 1.1005630493164062
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-17", 
                 "name": "AT4G28110"
@@ -578,6 +630,7 @@
                 "x": 2207.537841796875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-16", 
                 "name": "AT4G01120"
@@ -589,6 +642,7 @@
                 "x": 2109.270751953125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-19", 
                 "name": "AT5G10510"
@@ -600,6 +654,7 @@
                 "x": 1927.764404296875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-18", 
                 "name": "AT5G10280"
@@ -611,6 +666,7 @@
                 "x": 2282.428466796875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-119", 
                 "name": "AT3G25730"
@@ -622,6 +678,7 @@
                 "x": 2223.045654296875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-118", 
                 "name": "AT3G18550"
@@ -633,6 +690,7 @@
                 "x": 2126.2470703125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-115", 
                 "name": "AT2G45650"
@@ -644,6 +702,7 @@
                 "x": 2092.065673828125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-114", 
                 "name": "AT2G42430"
@@ -655,6 +714,7 @@
                 "x": 2191.77392578125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-117", 
                 "name": "AT3G18400"
@@ -666,6 +726,7 @@
                 "x": 2159.49560546875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-116", 
                 "name": "AT3G04420"
@@ -677,6 +738,7 @@
                 "x": 1984.31591796875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-111", 
                 "name": "AT1G49010"
@@ -688,6 +750,7 @@
                 "x": 1946.79931640625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-110", 
                 "name": "AT1G45249"
@@ -699,6 +762,7 @@
                 "x": 2056.990234375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-113", 
                 "name": "AT1G78080"
@@ -710,6 +774,7 @@
                 "x": 2021.06005859375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-112", 
                 "name": "AT1G73730"
@@ -721,6 +786,7 @@
                 "x": 830.3399658203125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-182", 
                 "name": "AT1G19220"
@@ -732,6 +798,7 @@
                 "x": 789.8823852539062
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-183", 
                 "name": "AT2G01570"
@@ -743,6 +810,7 @@
                 "x": 525.2709808349609
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-180", 
                 "name": "AT5G22290"
@@ -754,6 +822,7 @@
                 "x": 1082.58056640625
             }, 
             "data": {
+                "node_type": "Lignin", 
                 "faveColor": "#ff0000", 
                 "id": "-181", 
                 "name": "C3H"
@@ -765,6 +834,7 @@
                 "x": 672.1438598632812
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-186", 
                 "name": "AT4G28500"
@@ -776,6 +846,7 @@
                 "x": 1347.9541015625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-187", 
                 "name": "AT5G07690"
@@ -787,6 +858,7 @@
                 "x": 750.0006103515625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-184", 
                 "name": "AT2G28450"
@@ -798,6 +870,7 @@
                 "x": 710.7396850585938
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-185", 
                 "name": "AT3G50650"
@@ -809,6 +882,7 @@
                 "x": 1437.2481689453125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-55", 
                 "name": "AT5G47220"
@@ -820,6 +894,7 @@
                 "x": 507.842529296875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-59", 
                 "name": "AT1G32770"
@@ -831,6 +906,7 @@
                 "x": 1965.6514892578125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-48", 
                 "name": "AT4G38900"
@@ -842,6 +918,7 @@
                 "x": 2175.758544921875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-49", 
                 "name": "AT5G12870"
@@ -853,6 +930,7 @@
                 "x": 212.266845703125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-42", 
                 "name": "AT4G00270"
@@ -864,6 +942,7 @@
                 "x": 236.7992172241211
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-43", 
                 "name": "AT4G00390"
@@ -875,6 +954,7 @@
                 "x": 1365.4462890625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-40", 
                 "name": "AT3G61910"
@@ -886,6 +966,7 @@
                 "x": 188.96229553222656
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-41", 
                 "name": "AT4G00238"
@@ -897,6 +978,7 @@
                 "x": 317.47967529296875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-46", 
                 "name": "AT4G34680"
@@ -908,6 +990,7 @@
                 "x": 2499.9501953125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-47", 
                 "name": "AT4G37260"
@@ -919,6 +1002,7 @@
                 "x": 262.53173828125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-44", 
                 "name": "AT4G01260"
@@ -930,6 +1014,7 @@
                 "x": 289.43536376953125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-45", 
                 "name": "AT4G04890"
@@ -941,6 +1026,7 @@
                 "x": 2002.7872314453125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-124", 
                 "name": "AT5G66320"
@@ -952,6 +1038,7 @@
                 "x": 1169.13623046875
             }, 
             "data": {
+                "node_type": "Lignin", 
                 "faveColor": "#ff0000", 
                 "id": "-125", 
                 "name": "HCT"
@@ -963,6 +1050,7 @@
                 "x": 1624.0970458984375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-126", 
                 "name": "AT1G53320"
@@ -974,6 +1062,7 @@
                 "x": 1666.2064208984375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-127", 
                 "name": "AT1G68520"
@@ -985,6 +1074,7 @@
                 "x": 2310.472900390625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-120", 
                 "name": "AT4G31690"
@@ -996,6 +1086,7 @@
                 "x": 2337.37646484375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-121", 
                 "name": "AT4G37750"
@@ -1007,6 +1098,7 @@
                 "x": 2074.63720703125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-122", 
                 "name": "AT5G49300"
@@ -1018,6 +1110,7 @@
                 "x": 2039.1294555664062
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-123", 
                 "name": "AT5G64060"
@@ -1029,6 +1122,7 @@
                 "x": 1707.9024658203125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-128", 
                 "name": "AT2G36270"
@@ -1040,6 +1134,7 @@
                 "x": 1749.1378173828125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-129", 
                 "name": "AT3G07650"
@@ -1051,6 +1146,7 @@
                 "x": 117.43254089355469
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-151", 
                 "name": "AT2G31370"
@@ -1062,6 +1158,7 @@
                 "x": 136.2418556213379
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-150", 
                 "name": "AT2G03340"
@@ -1073,6 +1170,7 @@
                 "x": 83.83830261230469
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-153", 
                 "name": "AT3G04060"
@@ -1084,6 +1182,7 @@
                 "x": 99.95811462402344
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-152", 
                 "name": "AT2G36610"
@@ -1095,6 +1194,7 @@
                 "x": 55.73375415802002
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-155", 
                 "name": "AT3G11440"
@@ -1106,6 +1206,7 @@
                 "x": 69.09129905700684
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-154", 
                 "name": "AT3G09370"
@@ -1117,6 +1218,7 @@
                 "x": 33.245763301849365
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-157", 
                 "name": "AT3G21175"
@@ -1128,6 +1230,7 @@
                 "x": 43.780744552612305
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-156", 
                 "name": "AT3G11580"
@@ -1139,6 +1242,7 @@
                 "x": 16.47584819793701
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-159", 
                 "name": "AT5G43290"
@@ -1150,6 +1254,7 @@
                 "x": 24.140705585479736
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-158", 
                 "name": "AT4G18450"
@@ -1161,6 +1266,7 @@
                 "x": 1581.621826171875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-103", 
                 "name": "AT5G10030"
@@ -1172,6 +1278,7 @@
                 "x": 1190.8828125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-100", 
                 "name": "AT3G45150"
@@ -1183,6 +1290,7 @@
                 "x": 28.513813853263855
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-99", 
                 "name": "AT3G28920"
@@ -1194,6 +1302,7 @@
                 "x": 933.7017822265625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-98", 
                 "name": "AT2G46270"
@@ -1205,6 +1314,7 @@
                 "x": 2375.527099609375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-91", 
                 "name": "AT5G61420"
@@ -1216,6 +1326,7 @@
                 "x": 2422.129638671875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-90", 
                 "name": "AT5G40330"
@@ -1227,6 +1338,7 @@
                 "x": 2350.39111328125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-93", 
                 "name": "AT5G66160"
@@ -1238,6 +1350,7 @@
                 "x": 1810.02587890625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-92", 
                 "name": "AT5G65210"
@@ -1249,6 +1362,7 @@
                 "x": 3.6673336029052734
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-95", 
                 "name": "AT1G69690"
@@ -1260,6 +1374,7 @@
                 "x": 871.32763671875
             }, 
             "data": {
+                "node_type": "Cellulose Biosynthesis", 
                 "faveColor": "#0033ff", 
                 "id": "-94", 
                 "name": "CESA8"
@@ -1271,6 +1386,7 @@
                 "x": 13.186261177062988
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-97", 
                 "name": "AT2G28510"
@@ -1282,6 +1398,7 @@
                 "x": 7.697417259216309
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-96", 
                 "name": "AT1G79840"
@@ -1293,6 +1410,7 @@
                 "x": 975.8112182617188
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-168", 
                 "name": "AT3G12250"
@@ -1304,6 +1422,7 @@
                 "x": 1061.0797119140625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-169", 
                 "name": "AT3G21330"
@@ -1315,6 +1434,7 @@
                 "x": 615.5923461914062
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-160", 
                 "name": "AT1G01780"
@@ -1326,6 +1446,7 @@
                 "x": 954.707763671875
             }, 
             "data": {
+                "node_type": "Cellulose Biosynthesis", 
                 "faveColor": "#0033ff", 
                 "id": "-161", 
                 "name": "KOR"
@@ -1337,6 +1458,7 @@
                 "x": 653.1090087890625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-162", 
                 "name": "AT1G06070"
@@ -1348,6 +1470,7 @@
                 "x": 691.3558959960938
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-163", 
                 "name": "AT1G13260"
@@ -1359,6 +1482,7 @@
                 "x": 730.2897338867188
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-164", 
                 "name": "AT1G30970"
@@ -1370,6 +1494,7 @@
                 "x": 769.86669921875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-165", 
                 "name": "AT1G49560"
@@ -1381,6 +1506,7 @@
                 "x": 810.0420532226562
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-166", 
                 "name": "AT1G62300"
@@ -1392,6 +1518,7 @@
                 "x": 850.7704467773438
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-167", 
                 "name": "AT1G77250"
@@ -1403,6 +1530,7 @@
                 "x": 2537.67041015625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-73", 
                 "name": "AT1G66600"
@@ -1414,6 +1542,7 @@
                 "x": 2523.6162109375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-72", 
                 "name": "AT1G60300"
@@ -1425,6 +1554,7 @@
                 "x": 2508.1806640625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-71", 
                 "name": "AT1G44830"
@@ -1436,6 +1566,7 @@
                 "x": 2491.381103515625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-70", 
                 "name": "AT1G44810"
@@ -1447,6 +1578,7 @@
                 "x": 2596.240966796875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-77", 
                 "name": "AT2G40350"
@@ -1458,6 +1590,7 @@
                 "x": 2592.2109375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-76", 
                 "name": "AT2G01150"
@@ -1469,6 +1602,7 @@
                 "x": 2579.780517578125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-75", 
                 "name": "AT1G74930"
@@ -1480,6 +1614,7 @@
                 "x": 2550.327392578125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-74", 
                 "name": "AT1G68670"
@@ -1491,6 +1626,7 @@
                 "x": 2599.54150390625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-79", 
                 "name": "AT2G44940"
@@ -1502,6 +1638,7 @@
                 "x": 2599.908203125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-78", 
                 "name": "AT2G44840"
@@ -1513,6 +1650,7 @@
                 "x": 1147.4266357421875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-39", 
                 "name": "AT3G27785"
@@ -1524,6 +1662,7 @@
                 "x": 166.91189575195312
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-38", 
                 "name": "AT3G23220"
@@ -1535,6 +1674,7 @@
                 "x": 2253.2752685546875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-37", 
                 "name": "AT3G20840"
@@ -1546,6 +1686,7 @@
                 "x": 2575.767578125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-36", 
                 "name": "AT3G20310"
@@ -1557,6 +1698,7 @@
                 "x": 2597.70751953125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-35", 
                 "name": "AT3G08500"
@@ -1568,6 +1710,7 @@
                 "x": 2598.8076171875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-34", 
                 "name": "AT2G40470"
@@ -1579,6 +1722,7 @@
                 "x": 146.14051818847656
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-33", 
                 "name": "AT2G25650"
@@ -1590,6 +1734,7 @@
                 "x": 2586.721923828125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-32", 
                 "name": "AT1G75490"
@@ -1601,6 +1746,7 @@
                 "x": 2561.572998046875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-31", 
                 "name": "AT1G73360"
@@ -1612,6 +1758,7 @@
                 "x": 2296.59130859375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-30", 
                 "name": "AT1G72570"
@@ -1623,6 +1770,7 @@
                 "x": 456.9178771972656
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-137", 
                 "name": "AT1G57560"
@@ -1634,6 +1782,7 @@
                 "x": 224.38125610351562
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-136", 
                 "name": "AT1G21450"
@@ -1645,6 +1794,7 @@
                 "x": 490.63763427734375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-135", 
                 "name": "AT1G06850"
@@ -1656,7 +1806,8 @@
                 "x": 1255.6600341796875
             }, 
             "data": {
-                "faveColor": "#ffcc33", 
+                "node_type": "Xylan", 
+                "faveColor": "#ffff00", 
                 "id": "-134", 
                 "name": "IRX14"
             }
@@ -1667,6 +1818,7 @@
                 "x": 1849.9075927734375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-133", 
                 "name": "AT5G65070"
@@ -1678,6 +1830,7 @@
                 "x": 1889.1685791015625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-132", 
                 "name": "AT5G26630"
@@ -1689,6 +1842,7 @@
                 "x": 1830.04150390625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-131", 
                 "name": "AT4G25480"
@@ -1700,6 +1854,7 @@
                 "x": 1789.8662109375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-130", 
                 "name": "AT3G47120"
@@ -1711,6 +1866,7 @@
                 "x": 392.370361328125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-139", 
                 "name": "AT3G44460"
@@ -1722,6 +1878,7 @@
                 "x": 424.1498107910156
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-138", 
                 "name": "AT2G41370"
@@ -1733,6 +1890,7 @@
                 "x": 2463.66650390625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-88", 
                 "name": "AT5G06950"
@@ -1744,6 +1902,7 @@
                 "x": 2443.54345703125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-89", 
                 "name": "AT5G13330"
@@ -1755,6 +1914,7 @@
                 "x": 2516.070068359375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-86", 
                 "name": "AT4G36900"
@@ -1766,6 +1926,7 @@
                 "x": 2482.475830078125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-87", 
                 "name": "AT4G37650"
@@ -1777,6 +1938,7 @@
                 "x": 2544.174560546875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-84", 
                 "name": "AT4G18770"
@@ -1788,6 +1950,7 @@
                 "x": 2530.81689453125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-85", 
                 "name": "AT4G31060"
@@ -1799,6 +1962,7 @@
                 "x": 2583.432373046875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-82", 
                 "name": "AT3G16770"
@@ -1810,6 +1974,7 @@
                 "x": 2556.12744140625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-83", 
                 "name": "AT3G61830"
@@ -1821,6 +1986,7 @@
                 "x": 2594.408447265625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-80", 
                 "name": "AT3G09230"
@@ -1832,6 +1998,7 @@
                 "x": 2589.6484375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-81", 
                 "name": "AT3G15210"
@@ -1843,6 +2010,7 @@
                 "x": 560.77880859375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-179", 
                 "name": "AT5G06839"
@@ -1854,6 +2022,7 @@
                 "x": 597.12109375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-178", 
                 "name": "AT5G03680"
@@ -1865,6 +2034,7 @@
                 "x": 1409.0255126953125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-173", 
                 "name": "AT4G32800"
@@ -1876,6 +2046,7 @@
                 "x": 1278.115234375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-172", 
                 "name": "AT3G55370"
@@ -1887,6 +2058,7 @@
                 "x": 1234.4620361328125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-171", 
                 "name": "AT3G53920"
@@ -1898,6 +2070,7 @@
                 "x": 1104.1427001953125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-170", 
                 "name": "AT3G21880"
@@ -1909,6 +2082,7 @@
                 "x": 634.2567138671875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-177", 
                 "name": "AT4G34590"
@@ -1920,6 +2094,7 @@
                 "x": 1125.7601318359375
             }, 
             "data": {
+                "node_type": "Lignin", 
                 "faveColor": "#ff0000", 
                 "id": "-176", 
                 "name": "LAC4"
@@ -1931,6 +2106,7 @@
                 "x": 1538.8284912109375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-175", 
                 "name": "AT5G07060"
@@ -1942,6 +2118,7 @@
                 "x": 1495.765625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-174", 
                 "name": "AT5G06550"
@@ -1953,6 +2130,7 @@
                 "x": 542.9180908203125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-60", 
                 "name": "AT1G63910"
@@ -1964,6 +2142,7 @@
                 "x": 2324.0693359375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-61", 
                 "name": "AT1G71930"
@@ -1975,6 +2154,7 @@
                 "x": 2571.39453125
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-62", 
                 "name": "AT1G73410"
@@ -1986,6 +2166,7 @@
                 "x": 578.8482055664062
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-63", 
                 "name": "AT2G22760"
@@ -1997,6 +2178,7 @@
                 "x": 2267.988525390625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-64", 
                 "name": "AT2G34820"
@@ -2008,6 +2190,7 @@
                 "x": 1769.568359375
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-65", 
                 "name": "AT2G35700"
@@ -2019,6 +2202,7 @@
                 "x": 1728.58056640625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-66", 
                 "name": "AT3G19860"
@@ -2030,6 +2214,7 @@
                 "x": 1687.1090087890625
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-67", 
                 "name": "AT4G01460"
@@ -2041,6 +2226,7 @@
                 "x": 997.006103515625
             }, 
             "data": {
+                "node_type": "Cellulose Biosynthesis", 
                 "faveColor": "#0033ff", 
                 "id": "-68", 
                 "name": "CESA7"
@@ -2052,6 +2238,7 @@
                 "x": 2410.946044921875
             }, 
             "data": {
+                "node_type": "None", 
                 "faveColor": "#cc99ff", 
                 "id": "-69", 
                 "name": "AT1G06180"
