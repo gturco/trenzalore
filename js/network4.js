@@ -1,6 +1,6 @@
 
 
-$.get("sam.json",
+$.get("Hazen_network.json",
    function(data) {
      console.log(data);
      loadCytoGraph(data);
