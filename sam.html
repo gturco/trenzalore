@@ -2,16 +2,33 @@
 <html>
 <head>
 <meta name="Sams Xylem Network" content="X network" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="src/jquery.min.js"></script>
 <meta charset=utf-8 />
 <title>Xylem Network</title>
 
 </head>
 <body>
-   <div id="cy"></div>
-   <script src="http://cytoscape.github.io/cytoscape.js/api/cytoscape.js-latest/cytoscape.min.js"></script>
-   <script src="js/network4.js"></script>
-   <link href="css/body.css" rel="stylesheet" />
+  <script src="src/cytoscape.min.js"></script>
+  <script src="js/network4.js"></script>
+  <link href="css/body.css" rel="stylesheet" />
+  <script type="text/javascript" src="src/jquery.cytoscape-panzoom.js"></script>
+  <link rel="stylesheet" href="src/jquery.cytoscape-panzoom.css" />
+  <link rel="stylesheet" href="font-awesome.css" /> 
+
+  <div id="dashboard">
+    <a href="/trenzalore" id="home-link"><img src="src/home.png" style='width:30px; height:30px; padding-right:100px;'/></a>
+    <input type="text" name="search-box" value="Enter Gene Name" id="search-box" size="20" maxlength="25" />
+  </div>
   
+
+  <div id="network">
+  <div id="cy">
+  </div>
+  <div id="key">
+    <h3 style="padding-left:10px;">Name of Gene Selected:</h3>
+    <div  type="text" id=gene_name> </div>
+    <button type="button" id="csv_output" style="margin-left:50px;">download interactions</button>
+  </div>
+
 </body>
 </html>
