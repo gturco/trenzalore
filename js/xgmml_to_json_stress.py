@@ -50,7 +50,7 @@ class NodeLine(object):
         self.group = "nodes"
         self.cid = xline.get("id")
         self.name = xline.get("label")
-        self.x, self.y, self.faveColor, self.node_type = get_nstyle(xline)
+        self.x, self.y, self.faveColor, self.node_type  = get_nstyle(xline)
         self.nodeline = {"data" : {"id": self.cid, "name": self.name, "faveColor": self.faveColor, "node_type": self.node_type},  "position": {"x": self.x, "y": self.y}}
           
 
@@ -105,27 +105,28 @@ def stress(key,stress,stress_dic):
             key['data'][stress] = 0
             return key
 
-def main(xgmml_file, outfh):
+def main(xgmml_file,nacl_file, fe_file, outfh):
     outfile = open(outfh,"wb")
     cyto = Element(xgmml_file)
     nodelines = []
     edgelines = []
     cyto_d = cyto.get_dic()
-    #fe_cyto = Element(fe_file)
-    #fe_d = fe_cyto.get_dic()
-    #nacl_cyto = Element(nacl_file)
-    #nacl_d = nacl_cyto.get_dic()
+    fe_cyto = Element(fe_file)
+    fe_d = fe_cyto.get_dic()
+    nacl_cyto = Element(nacl_file)
+    nacl_d = nacl_cyto.get_dic()
 
     for cytoid in cyto_d:
-        cyto_value = cyto_d[cytoid]
-        if "position" in cyto_value.keys():
-            nodelines.append(cyto_value)
+        cyto_d_fe = stress(cyto_d[cytoid],"fe",fe_d)
+        cyto_d_nacl = stress(cyto_d_fe,"nacl",nacl_d)
+        if "position" in cyto_d_nacl.keys():
+            nodelines.append(cyto_d_nacl)
         else:
-            edgelines.append(cyto_value)
+            edgelines.append(cyto_d_nacl)
 
     jsonformat = {"nodes": nodelines, "edges": edgelines}
     jsonformated =  json.dumps(jsonformat,indent=4)
     outfile.write(jsonformated)
 
-main("/Users/gturco/Desktop/MallorieData_New/CytoscapeSession-2013_07_01-17_20//Sheet1.xgmml", "../Hazen_network.json")
+main("/Users/gturco/Desktop/MallorieData_New/CytoscapeSession/Sheet1.xgmml","/Users/gturco//Desktop/mallorie/stelexylem/MallorieData/Cytoscape_data/nacl_subset_stric_arrow_web.xgmml","/Users/gturco/Desktop/mallorie/stelexylem/MallorieData/Cytoscape_data/fe_minus_subset_stric_arrow_web.xgmml", "../stress_network.json")
 
