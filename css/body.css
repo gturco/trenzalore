@@ -1,8 +1,8 @@
-body {
+#body {
   margin: 0;
   width: 100%;
   height: 100%;
-  background: #404853;
+  background: white;
   font: 14px helvetica neue, helvetica, arial, sans-serif;
 }
 
@@ -16,7 +16,8 @@ body {
 }
 
 #cy {
-  border: 1px solid #888;
+  border-top: 1px solid #888;
+  border-right: 1px solid #888;
   position: relative;
   height: 100%;
   width: 77%;
@@ -25,16 +26,16 @@ body {
 }
 
 #top-key {
+  border-top: 1px solid #888;
   float: right;
-  height: 475px;
-  width: 22%;
+  width: 22.8%;
   background: white;
 }
 
 #bottom-key {
   float: right;
-  height: 400px;
-  width: 22%;
+  top: 480px;
+  width: 22.8%;
   background: white;
   display: none;
 }
@@ -42,20 +43,37 @@ body {
 
 #gene_name {
   margin:50px;
+  margin-left:100px;
 }
 
 #dashboard {
   position: fixed;
-  height: 55px;
-  top: 10px;
-  left: 10px;
-  right: 10px;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   background: #eeeee2;
-  border-radius: 5px;
-  padding-top: 15px;
-  padding-left: 100px;
+  padding-top: 0px;
+  padding-left: 10px;
 }
 
+#search_checkbox {
+  padding-top: 15px;
+  float: left;
+  width: 500px;
+}
+
+
+#search-box{
+  width: 500px;
+  float: left
+}
+
+
+#checkboxs{
+  width: 500px;
+  float: left
+}
 
 
 .color-text-box {
