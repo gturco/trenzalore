@@ -1,5 +1,4 @@
 
-
 $.get("stress.json",
    function(data) {
      console.log(data);
@@ -138,14 +137,15 @@ $("#cy").cytoscape({
    $("#fe-link").click(
    function(){
    // remove all genes not affected by fe
-    if ($("#fe-link").is(':checked')){
+   refresh_sidebar(); 
+   if ($("#fe-link").is(':checked')){
       var fe_stress = cy.elements("[fe = 0]");
       non_fe = cy.remove(fe_stress);
       cy.style()
       .selector('edge')
       // color edges based on pos or neg correlations
       .css({'line-color':'mapData(fesign,7,15,grey,red)',})
-      .update()
+      .update();
     } else {
       cy.add(non_fe);
     }
@@ -156,6 +156,7 @@ $("#cy").cytoscape({
     $("#nacl-link").click(
     function(){
     // remove all genes not affected by nacl
+      refresh_sidebar();
       if ($('#nacl-link').is(':checked')){
         console.log(cy.elements())
         var nacl_stress = cy.elements("[nacl = 0]");
@@ -175,6 +176,12 @@ $("#cy").cytoscape({
       }
     }
     );
+    function refresh_sidebar(){
+      if ($('#nacl-link').is(':checked') && $('#fe-link').not(':checked')){ $("#bottom-key").show(); }
+      else if ($('#fe-link').is(':checked') && $('#nacl-link').not(':checked')){ $("#bottom-key").show();}
+      else if ($('#nacl-link').is(':checked') && $('#fe-link').is(':checked')){ $("#bottom-key").show();}
+      else if ($('#nacl-link').not(':checked') && $('#fe-link').not(':checked')){ $("#bottom-key").hide();}
+  }
   }
 });
 }
