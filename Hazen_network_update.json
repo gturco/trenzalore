@@ -1,0 +1,6114 @@
+{
+    "nodes": [
+        {
+            "position": {
+                "y": 581.5893455043245, 
+                "x": 1169.2145433262406
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "199", 
+                "name": "AT5G66160"
+            }
+        }, 
+        {
+            "position": {
+                "y": 621.3454186157162, 
+                "x": 1149.4681752274357
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "198", 
+                "name": "AT1G44810"
+            }
+        }, 
+        {
+            "position": {
+                "y": 772.9452883145452, 
+                "x": 1057.2782522179225
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "195", 
+                "name": "AT3G09230"
+            }
+        }, 
+        {
+            "position": {
+                "y": 808.7681759426412, 
+                "x": 1031.0640361450244
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "194", 
+                "name": "AT2G44840"
+            }
+        }, 
+        {
+            "position": {
+                "y": 698.7200046112819, 
+                "x": 1105.9626172147834
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "197", 
+                "name": "AT2G40350"
+            }
+        }, 
+        {
+            "position": {
+                "y": 736.2483021893324, 
+                "x": 1082.2541528354725
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "196", 
+                "name": "AT1G20910"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1177.5116534883057, 
+                "x": 593.301940354846
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "191", 
+                "name": "AT5G10510"
+            }
+        }, 
+        {
+            "position": {
+                "y": 942.4996851077301, 
+                "x": 914.4562068468597
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "190", 
+                "name": "AT4G36900"
+            }
+        }, 
+        {
+            "position": {
+                "y": 843.6751971890869, 
+                "x": 1003.6420692200938
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "193", 
+                "name": "AT1G74930"
+            }
+        }, 
+        {
+            "position": {
+                "y": 877.6256520285826, 
+                "x": 975.0443242299177
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "192", 
+                "name": "AT3G16770"
+            }
+        }, 
+        {
+            "position": {
+                "y": 244.14437010248457, 
+                "x": -1285.8799817280078
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "108", 
+                "name": "AT2G31370"
+            }
+        }, 
+        {
+            "position": {
+                "y": 287.7536865336415, 
+                "x": -1277.5919226826718
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "109", 
+                "name": "AT2G22760"
+            }
+        }, 
+        {
+            "position": {
+                "y": 23.260869565217945, 
+                "x": -1304.7826086956518
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "102", 
+                "name": "AT3G11580"
+            }
+        }, 
+        {
+            "position": {
+                "y": 67.64431280697568, 
+                "x": -1304.024737771678
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "103", 
+                "name": "AT3G11440"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1063.7758919659059, 
+                "x": 708.2048239284625
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "100", 
+                "name": "AT3G47120"
+            }
+        }, 
+        {
+            "position": {
+                "y": -21.122573676539787, 
+                "x": -1304.024737771678
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "101", 
+                "name": "AT3G21175"
+            }
+        }, 
+        {
+            "position": {
+                "y": -412.08262625706413, 
+                "x": -1229.7218074501184
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "106", 
+                "name": "AT3G02940"
+            }
+        }, 
+        {
+            "position": {
+                "y": 200.27751339033784, 
+                "x": -1292.674338542882
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "107", 
+                "name": "AT2G36270"
+            }
+        }, 
+        {
+            "position": {
+                "y": 111.97600693929053, 
+                "x": -1301.7520086433526
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "104", 
+                "name": "AT3G09370"
+            }
+        }, 
+        {
+            "position": {
+                "y": 156.20426318986233, 
+                "x": -1297.9670712111752
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "105", 
+                "name": "AT3G04060"
+            }
+        }, 
+        {
+            "position": {
+                "y": -65.45426780885464, 
+                "x": -1301.7520086433526
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "99", 
+                "name": "AT4G18450"
+            }
+        }, 
+        {
+            "position": {
+                "y": -109.68252405942644, 
+                "x": -1297.9670712111752
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "98", 
+                "name": "AT5G43290"
+            }
+        }, 
+        {
+            "position": {
+                "y": -327.4749329389135, 
+                "x": -1256.5750822477908
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "91", 
+                "name": "AT2G28810"
+            }
+        }, 
+        {
+            "position": {
+                "y": -370.00804658018114, 
+                "x": -1243.8708055540606
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "90", 
+                "name": "AT3G01530"
+            }
+        }, 
+        {
+            "position": {
+                "y": -241.2319474032056, 
+                "x": -1277.5919226826716
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "93", 
+                "name": "AT1G14920"
+            }
+        }, 
+        {
+            "position": {
+                "y": -284.53287704116315, 
+                "x": -1267.8198249129755
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "92", 
+                "name": "AT1G16490"
+            }
+        }, 
+        {
+            "position": {
+                "y": -153.7557742599031, 
+                "x": -1292.6743385428815
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "95", 
+                "name": "AT5G54230"
+            }
+        }, 
+        {
+            "position": {
+                "y": -197.62263097204868, 
+                "x": -1285.8799817280078
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "94", 
+                "name": "AT5G59780"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1304.358242597574, 
+                "x": 216.10089184161484
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "97", 
+                "name": "AT5G65230"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1311.152599412448, 
+                "x": -181.79925252077305
+            }, 
+            "data": {
+                "node_type": "IDONTKNOW", 
+                "faveColor": "#ff0033", 
+                "id": "96", 
+                "name": "4CL1"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1273.7085303824826, 
+                "x": 83.9325286784208
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "238", 
+                "name": "AT3G27785"
+            }
+        }, 
+        {
+            "position": {
+                "y": 877.6256520285817, 
+                "x": -984.6095416212216
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "239", 
+                "name": "AT3G23220"
+            }
+        }, 
+        {
+            "position": {
+                "y": 808.7681759426407, 
+                "x": -1040.6292535363282
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "235", 
+                "name": "AT4G00270"
+            }
+        }, 
+        {
+            "position": {
+                "y": 772.9452883145452, 
+                "x": -1066.8434696092268
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "234", 
+                "name": "AT4G00390"
+            }
+        }, 
+        {
+            "position": {
+                "y": 843.6751971890865, 
+                "x": -1013.2072866113975
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "236", 
+                "name": "AT4G00238"
+            }
+        }, 
+        {
+            "position": {
+                "y": -726.423549184109, 
+                "x": 1057.278252217923
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "237", 
+                "name": "AT3G61910"
+            }
+        }, 
+        {
+            "position": {
+                "y": -797.1534580586508, 
+                "x": -1013.2072866113972
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "231", 
+                "name": "AT4G04890"
+            }
+        }, 
+        {
+            "position": {
+                "y": 736.2483021893327, 
+                "x": -1091.8193702267758
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "232", 
+                "name": "AT4G01260"
+            }
+        }, 
+        {
+            "position": {
+                "y": -956.5660633603509, 
+                "x": 849.5821737677127
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "233", 
+                "name": "AT4G01120"
+            }
+        }, 
+        {
+            "position": {
+                "y": 698.7200046112814, 
+                "x": -1115.5278346060873
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "230", 
+                "name": "AT4G34680"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1239.7763466521058, 
+                "x": 303.01113791072953
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "146", 
+                "name": "AT2G41070"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1249.5484444218014, 
+                "x": 259.71020827277243
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "147", 
+                "name": "AT3G18400"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1215.8273272931908, 
+                "x": 388.48630744974685
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "144", 
+                "name": "AT3G55370"
+            }
+        }, 
+        {
+            "position": {
+                "y": -895.9779459772939, 
+                "x": -924.0214242381635
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "142", 
+                "name": "AT1G17460"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1156.419480607795, 
+                "x": 632.3606736357706
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "143", 
+                "name": "AT3G56850"
+            }
+        }, 
+        {
+            "position": {
+                "y": -926.8258839963434, 
+                "x": -892.1016948799019
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "140", 
+                "name": "AT2G42430"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1286.2980857825416, 
+                "x": -312.5763553020331
+            }, 
+            "data": {
+                "node_type": "IDONTKNOW", 
+                "faveColor": "#00ccff", 
+                "id": "141", 
+                "name": "COBL4"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1257.8365034671378, 
+                "x": 216.10089184161507
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "148", 
+                "name": "AT4G39780"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1087.4843563452173, 
+                "x": -680.241743741715
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "133", 
+                "name": "AT4G31690"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1109.8977414773585, 
+                "x": -641.9258910270742
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "132", 
+                "name": "AT4G37750"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1197.2580215871105, 
+                "x": 553.5458672434545
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "131", 
+                "name": "AT5G49300"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1215.6355615223072, 
+                "x": 513.1388081044622
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "130", 
+                "name": "AT5G64060"
+            }
+        }, 
+        {
+            "position": {
+                "y": -985.1638083505276, 
+                "x": -825.1969363195203
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "137", 
+                "name": "AT1G45249"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1012.5857752754578, 
+                "x": -790.2899150730747
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "136", 
+                "name": "AT1G78080"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1038.7999913483566, 
+                "x": -754.4670274449788
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "135", 
+                "name": "AT2G45650"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1186.1011067739648, 
+                "x": 472.127875761322
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "139", 
+                "name": "AT3G25730"
+            }
+        }, 
+        {
+            "position": {
+                "y": -956.5660633603517, 
+                "x": -859.1473911590157
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "138", 
+                "name": "AT1G28160"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1296.070183552238, 
+                "x": 259.7102082727722
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "88", 
+                "name": "AT5G58110"
+            }
+        }, 
+        {
+            "position": {
+                "y": -574.8236794852795, 
+                "x": 1149.4681752274357
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "176", 
+                "name": "AT2G28510"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1109.8977414773583, 
+                "x": 632.3606736357708
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "82", 
+                "name": "AT3G07650"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1110.297631096342, 
+                "x": -717.7700413197667
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "83", 
+                "name": "AT2G28450"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1038.7999913483563, 
+                "x": 744.9018100536757
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "80", 
+                "name": "AT4G25480"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1085.3217304787925, 
+                "x": -754.4670274449793
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "81", 
+                "name": "AT3G50650"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1130.9899143578696, 
+                "x": 593.3019403548462
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "86", 
+                "name": "AT1G68520"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1304.358242597574, 
+                "x": -225.66610923291887
+            }, 
+            "data": {
+                "node_type": "IDONTKNOW", 
+                "faveColor": "#ff0033", 
+                "id": "87", 
+                "name": "C3H"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1134.0060954756534, 
+                "x": -680.2417437417154
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "84", 
+                "name": "AT2G01570"
+            }
+        }, 
+        {
+            "position": {
+                "y": -370.00804658018023, 
+                "x": 1234.3055881627572
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "170", 
+                "name": "AT4G01460"
+            }
+        }, 
+        {
+            "position": {
+                "y": -689.7265630588968, 
+                "x": -1091.8193702267756
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "245", 
+                "name": "AT2G40620"
+            }
+        }, 
+        {
+            "position": {
+                "y": 910.5799557494677, 
+                "x": -954.8693622572138
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "244", 
+                "name": "AT2G42040"
+            }
+        }, 
+        {
+            "position": {
+                "y": 942.4996851077296, 
+                "x": -924.0214242381638
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "247", 
+                "name": "AT2G25650"
+            }
+        }, 
+        {
+            "position": {
+                "y": 660.4041518966408, 
+                "x": 1128.3760023469247
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "246", 
+                "name": "AT2G40470"
+            }
+        }, 
+        {
+            "position": {
+                "y": -109.68252405942644, 
+                "x": 1288.4018538198718
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "241", 
+                "name": "AT3G20310"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1087.4843563452166, 
+                "x": 670.6765263504124
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "240", 
+                "name": "AT3G20840"
+            }
+        }, 
+        {
+            "position": {
+                "y": -65.45426780885396, 
+                "x": 1292.186791252049
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "243", 
+                "name": "AT3G08500"
+            }
+        }, 
+        {
+            "position": {
+                "y": -926.8258839963432, 
+                "x": 882.5364774885986
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "242", 
+                "name": "AT3G14180"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1264.6308602820118, 
+                "x": 172.2340351294688
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "149", 
+                "name": "AT1G12630"
+            }
+        }, 
+        {
+            "position": {
+                "y": -153.75577425990218, 
+                "x": 1283.109121151578
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "249", 
+                "name": "AT1G73360"
+            }
+        }, 
+        {
+            "position": {
+                "y": 244.14437010248503, 
+                "x": 1276.314764336704
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "248", 
+                "name": "AT1G75490"
+            }
+        }, 
+        {
+            "position": {
+                "y": -689.7265630588959, 
+                "x": 1082.2541528354725
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "179", 
+                "name": "AT5G10030"
+            }
+        }, 
+        {
+            "position": {
+                "y": -652.1982654808452, 
+                "x": 1105.9626172147834
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "178", 
+                "name": "AT3G47600"
+            }
+        }, 
+        {
+            "position": {
+                "y": -613.8824127662043, 
+                "x": 1128.3760023469247
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "177", 
+                "name": "AT1G69690"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1110.2976310963425, 
+                "x": 708.2048239284625
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "175", 
+                "name": "AT5G10280"
+            }
+        }, 
+        {
+            "position": {
+                "y": -535.0676063738881, 
+                "x": 1169.2145433262406
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "174", 
+                "name": "AT2G47190"
+            }
+        }, 
+        {
+            "position": {
+                "y": -494.6605472348957, 
+                "x": 1187.5920832614372
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "173", 
+                "name": "AT3G45150"
+            }
+        }, 
+        {
+            "position": {
+                "y": -453.64961489175516, 
+                "x": 1204.5793676435312
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "172", 
+                "name": "AT5G25890"
+            }
+        }, 
+        {
+            "position": {
+                "y": -412.0826262570638, 
+                "x": 1220.156590058815
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "171", 
+                "name": "AT4G37790"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1311.152599412448, 
+                "x": 172.2340351294688
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "182", 
+                "name": "AT5G65410"
+            }
+        }, 
+        {
+            "position": {
+                "y": -831.1039128981457, 
+                "x": 975.0443242299177
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "183", 
+                "name": "AT1G79840"
+            }
+        }, 
+        {
+            "position": {
+                "y": -762.2464368122047, 
+                "x": 1031.0640361450244
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "180", 
+                "name": "AT5G15210"
+            }
+        }, 
+        {
+            "position": {
+                "y": -797.1534580586506, 
+                "x": 1003.6420692200938
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "181", 
+                "name": "AT3G19860"
+            }
+        }, 
+        {
+            "position": {
+                "y": -985.1638083505275, 
+                "x": 815.631718928217
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "186", 
+                "name": "AT3G28920"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1059.1075144058943, 
+                "x": 780.7246976817712
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "187", 
+                "name": "AT4G31060"
+            }
+        }, 
+        {
+            "position": {
+                "y": -895.9779459772935, 
+                "x": 914.4562068468601
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "184", 
+                "name": "AT2G46270"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1262.3490664236272, 
+                "x": -398.0515248410511
+            }, 
+            "data": {
+                "node_type": "Secondary Cell Wall TF", 
+                "faveColor": "#0066ff", 
+                "id": "185", 
+                "name": "CESA8"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1031.6855474809638, 
+                "x": 815.6317189282165
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "188", 
+                "name": "AT5G40330"
+            }
+        }, 
+        {
+            "position": {
+                "y": 973.3476231267798, 
+                "x": 882.5364774885986
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "189", 
+                "name": "AT1G68670"
+            }
+        }, 
+        {
+            "position": {
+                "y": 500.1713540221915, 
+                "x": 1204.5793676435312
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "201", 
+                "name": "AT1G06180"
+            }
+        }, 
+        {
+            "position": {
+                "y": 541.1822863653322, 
+                "x": 1187.5920832614368
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "200", 
+                "name": "AT3G61830"
+            }
+        }, 
+        {
+            "position": {
+                "y": 416.5297857106168, 
+                "x": 1234.3055881627572
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "203", 
+                "name": "AT5G61420"
+            }
+        }, 
+        {
+            "position": {
+                "y": 458.60436538750037, 
+                "x": 1220.156590058815
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "202", 
+                "name": "AT1G08810"
+            }
+        }, 
+        {
+            "position": {
+                "y": 331.05461617159904, 
+                "x": 1258.2546075216721
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "205", 
+                "name": "AT2G44940"
+            }
+        }, 
+        {
+            "position": {
+                "y": 373.99667206934987, 
+                "x": 1247.0098648564874
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "204", 
+                "name": "AT1G66600"
+            }
+        }, 
+        {
+            "position": {
+                "y": 200.27751339033875, 
+                "x": 1283.109121151578
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "207", 
+                "name": "AT4G37650"
+            }
+        }, 
+        {
+            "position": {
+                "y": 287.7536865336424, 
+                "x": 1268.026705291368
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "206", 
+                "name": "AT3G15210"
+            }
+        }, 
+        {
+            "position": {
+                "y": 156.2042631898628, 
+                "x": 1288.4018538198718
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "209", 
+                "name": "AT1G44830"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1134.0060954756534, 
+                "x": 670.6765263504119
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "208", 
+                "name": "AT5G65210"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1316.4453320807418, 
+                "x": -137.7260023202964
+            }, 
+            "data": {
+                "node_type": "IDONTKNOW", 
+                "faveColor": "#ff0033", 
+                "id": "77", 
+                "name": "HCT"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1296.070183552238, 
+                "x": -269.27542566407556
+            }, 
+            "data": {
+                "node_type": "IDONTKNOW", 
+                "faveColor": "#ff0033", 
+                "id": "76", 
+                "name": "LAC4"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1215.6355615223067, 
+                "x": -522.7040254957662
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "75", 
+                "name": "AT5G03680"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1197.2580215871105, 
+                "x": -563.1110846347584
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "74", 
+                "name": "AT4G34590"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1177.5116534883057, 
+                "x": -602.8671577461504
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "73", 
+                "name": "AT5G06839"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1323.2608695652182, 
+                "x": -4.782608695651788
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "72", 
+                "name": "AT5G22290"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1059.1075144058934, 
+                "x": -790.2899150730755
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "79", 
+                "name": "AT4G28500"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1031.6855474809638, 
+                "x": -825.1969363195208
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "78", 
+                "name": "AT5G07690"
+            }
+        }, 
+        {
+            "position": {
+                "y": -831.1039128981465, 
+                "x": -984.6095416212208
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "120", 
+                "name": "AT4G26440"
+            }
+        }, 
+        {
+            "position": {
+                "y": -762.2464368122054, 
+                "x": -1040.6292535363273
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "121", 
+                "name": "AT3G61150"
+            }
+        }, 
+        {
+            "position": {
+                "y": -726.4235491841092, 
+                "x": -1066.8434696092263
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "122", 
+                "name": "AT3G44460"
+            }
+        }, 
+        {
+            "position": {
+                "y": -652.1982654808454, 
+                "x": -1115.527834606087
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "123", 
+                "name": "AT1G57560"
+            }
+        }, 
+        {
+            "position": {
+                "y": -613.8824127662045, 
+                "x": -1137.9412197382283
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "124", 
+                "name": "AT5G20240"
+            }
+        }, 
+        {
+            "position": {
+                "y": -574.8236794852803, 
+                "x": -1159.0333926187393
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "125", 
+                "name": "AT2G41370"
+            }
+        }, 
+        {
+            "position": {
+                "y": -535.0676063738883, 
+                "x": -1178.7797607175441
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "126", 
+                "name": "AT1G21450"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1322.5029986412444, 
+                "x": -49.16605193741111
+            }, 
+            "data": {
+                "node_type": "IDONTKNOW", 
+                "faveColor": "#ffcc00", 
+                "id": "127", 
+                "name": "IRX14"
+            }
+        }, 
+        {
+            "position": {
+                "y": -494.66054723489617, 
+                "x": -1197.1573006527406
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "128", 
+                "name": "AT1G06850"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1232.6228459044012, 
+                "x": 472.12787576132155
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "129", 
+                "name": "AT5G66320"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1063.775891965906, 
+                "x": -717.7700413197658
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "134", 
+                "name": "AT3G04420"
+            }
+        }, 
+        {
+            "position": {
+                "y": 67.64431280697659, 
+                "x": 1294.4595203803744
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "252", 
+                "name": "AT1G22190"
+            }
+        }, 
+        {
+            "position": {
+                "y": 910.5799557494686, 
+                "x": 945.3041448659094
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "253", 
+                "name": "AT1G04370"
+            }
+        }, 
+        {
+            "position": {
+                "y": 973.3476231267789, 
+                "x": -892.1016948799025
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "250", 
+                "name": "AT1G72570"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1003.0878024907877, 
+                "x": -859.147391159016
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "251", 
+                "name": "AT1G47870"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1232.6228459044012, 
+                "x": -481.6930931526251
+            }, 
+            "data": {
+                "node_type": "Secondary Cell Wall TF", 
+                "faveColor": "#0066ff", 
+                "id": "254", 
+                "name": "CESA4"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1085.321730478793, 
+                "x": 744.9018100536753
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "255", 
+                "name": "AT1G03800"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1248.200068319685, 
+                "x": -440.1261045179342
+            }, 
+            "data": {
+                "node_type": "Secondary Cell Wall TF", 
+                "faveColor": "#0066ff", 
+                "id": "168", 
+                "name": "KOR1"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1130.9899143578698, 
+                "x": -602.8671577461495
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "169", 
+                "name": "AT1G62300"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1201.6783291892484, 
+                "x": -440.12610451793375
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "164", 
+                "name": "AT1G30970"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1186.101106773965, 
+                "x": -481.6930931526248
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "165", 
+                "name": "AT2G38750"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1169.1138223918708, 
+                "x": -522.7040254957653
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "166", 
+                "name": "AT5G07060"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1150.7362824566744, 
+                "x": -563.111084634758
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "167", 
+                "name": "AT1G77250"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1249.5484444218016, 
+                "x": -269.2754256640758
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "160", 
+                "name": "AT3G18550"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1239.7763466521058, 
+                "x": -312.5763553020322
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "161", 
+                "name": "AT3G53920"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1228.531603986921, 
+                "x": -355.51841119978303
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "162", 
+                "name": "AT5G06550"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1215.8273272931908, 
+                "x": -398.0515248410502
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "163", 
+                "name": "AT1G73730"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1275.0533431173574, 
+                "x": -355.5184111997835
+            }, 
+            "data": {
+                "node_type": "Secondary Cell Wall TF", 
+                "faveColor": "#0066ff", 
+                "id": "216", 
+                "name": "CESA7"
+            }
+        }, 
+        {
+            "position": {
+                "y": -327.4749329389132, 
+                "x": 1247.0098648564874
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "217", 
+                "name": "AT3G28910"
+            }
+        }, 
+        {
+            "position": {
+                "y": -241.2319474032056, 
+                "x": 1268.026705291368
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "214", 
+                "name": "AT1G73410"
+            }
+        }, 
+        {
+            "position": {
+                "y": -284.53287704116246, 
+                "x": 1258.2546075216721
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "215", 
+                "name": "AT1G60300"
+            }
+        }, 
+        {
+            "position": {
+                "y": -21.122573676539787, 
+                "x": 1294.4595203803744
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "212", 
+                "name": "AT2G01150"
+            }
+        }, 
+        {
+            "position": {
+                "y": -197.62263097204846, 
+                "x": 1276.314764336704
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "213", 
+                "name": "AT5G06950"
+            }
+        }, 
+        {
+            "position": {
+                "y": 111.97600693929053, 
+                "x": 1292.186791252049
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "210", 
+                "name": "AT5G13330"
+            }
+        }, 
+        {
+            "position": {
+                "y": 23.260869565218172, 
+                "x": 1295.2173913043482
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "211", 
+                "name": "AT4G18770"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1316.4453320807418, 
+                "x": 128.16078492899283
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "218", 
+                "name": "AT5G54680"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1286.298085782542, 
+                "x": 303.0111379107291
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "219", 
+                "name": "AT5G53950"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1201.6783291892484, 
+                "x": 430.5608871266304
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "115", 
+                "name": "AT1G53320"
+            }
+        }, 
+        {
+            "position": {
+                "y": 500.17135402219105, 
+                "x": -1214.144585034835
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "114", 
+                "name": "AT2G36610"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1320.230269512919, 
+                "x": -93.4977460697246
+            }, 
+            "data": {
+                "node_type": "IDONTKNOW", 
+                "faveColor": "#ffcc00", 
+                "id": "117", 
+                "name": "IRX9"
+            }
+        }, 
+        {
+            "position": {
+                "y": 541.1822863653322, 
+                "x": -1197.1573006527408
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "116", 
+                "name": "AT1G51700"
+            }
+        }, 
+        {
+            "position": {
+                "y": 373.9966720693494, 
+                "x": -1256.575082247791
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "111", 
+                "name": "AT1G51600"
+            }
+        }, 
+        {
+            "position": {
+                "y": 331.05461617159904, 
+                "x": -1267.8198249129757
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "110", 
+                "name": "AT2G03340"
+            }
+        }, 
+        {
+            "position": {
+                "y": 458.60436538750014, 
+                "x": -1229.7218074501184
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "113", 
+                "name": "AT1G14687"
+            }
+        }, 
+        {
+            "position": {
+                "y": 416.5297857106159, 
+                "x": -1243.8708055540612
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "112", 
+                "name": "AT1G49720"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1262.3490664236272, 
+                "x": 388.4863074497466
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "119", 
+                "name": "AT5G50480"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1275.0533431173574, 
+                "x": 345.9531938084797
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "118", 
+                "name": "AT5G53200"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1228.531603986921, 
+                "x": 345.9531938084797
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "145", 
+                "name": "AT3G12250"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1003.0878024907877, 
+                "x": 849.5821737677127
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "229", 
+                "name": "AT4G37260"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1012.5857752754578, 
+                "x": 780.7246976817712
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "228", 
+                "name": "AT4G38900"
+            }
+        }, 
+        {
+            "position": {
+                "y": 660.4041518966405, 
+                "x": -1137.9412197382285
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "227", 
+                "name": "AT5G12870"
+            }
+        }, 
+        {
+            "position": {
+                "y": -864.0582166190322, 
+                "x": -954.869362257213
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "226", 
+                "name": "AT5G18450"
+            }
+        }, 
+        {
+            "position": {
+                "y": 621.3454186157153, 
+                "x": -1159.03339261874
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "225", 
+                "name": "AT5G27090"
+            }
+        }, 
+        {
+            "position": {
+                "y": -864.0582166190319, 
+                "x": 945.3041448659098
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "224", 
+                "name": "AT5G39610"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1320.230269512919, 
+                "x": 83.93252867842057
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "223", 
+                "name": "AT5G42520"
+            }
+        }, 
+        {
+            "position": {
+                "y": 581.5893455043242, 
+                "x": -1178.7797607175444
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "222", 
+                "name": "AT5G43650"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1248.200068319685, 
+                "x": 430.5608871266302
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "221", 
+                "name": "AT5G47220"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1322.5029986412444, 
+                "x": 39.6008345461064
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "220", 
+                "name": "AT5G51990"
+            }
+        }, 
+        {
+            "position": {
+                "y": -453.64961489175516, 
+                "x": -1214.1445850348348
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "89", 
+                "name": "AT4G28110"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1275.981259510808, 
+                "x": 39.60083454610685
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "151", 
+                "name": "AT4G32800"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1269.9235929503052, 
+                "x": 128.1607849289926
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "150", 
+                "name": "AT2G35700"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1275.981259510808, 
+                "x": -49.166051937409975
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "153", 
+                "name": "AT1G49560"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1276.7391304347818, 
+                "x": -4.782608695651561
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "152", 
+                "name": "AT1G06070"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1150.7362824566744, 
+                "x": 553.5458672434547
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "155", 
+                "name": "AT5G65070"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1169.1138223918706, 
+                "x": 513.1388081044627
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "154", 
+                "name": "AT5G26630"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1269.9235929503052, 
+                "x": -137.72600232029595
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "157", 
+                "name": "AT1G49010"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1273.7085303824829, 
+                "x": -93.49774606972346
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "156", 
+                "name": "AT1G01780"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1257.8365034671378, 
+                "x": -225.66610923291842
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "159", 
+                "name": "AT3G21330"
+            }
+        }, 
+        {
+            "position": {
+                "y": -1264.6308602820118, 
+                "x": -181.79925252077214
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "158", 
+                "name": "AT3G21880"
+            }
+        }, 
+        {
+            "position": {
+                "y": 1156.4194806077946, 
+                "x": -641.9258910270745
+            }, 
+            "data": {
+                "node_type": "None", 
+                "faveColor": "#cc99ff", 
+                "id": "85", 
+                "name": "AT1G19220"
+            }
+        }
+    ], 
+    "edges": [
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "175", 
+                "fesign": 7, 
+                "id": "AT5G10280 (pd) HCT", 
+                "line-width": "AT5G10280 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) COBL4", 
+                "line-width": "AT2G40470 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "223", 
+                "fesign": 7, 
+                "id": "AT5G42520 (pd) C3H", 
+                "line-width": "AT5G42520 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "72", 
+                "fesign": 7, 
+                "id": "AT5G22290 (pd) LAC4", 
+                "line-width": "AT5G22290 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "89", 
+                "fesign": 7, 
+                "id": "AT4G28110 (pd) 4CL1", 
+                "line-width": "AT4G28110 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "136", 
+                "fesign": 7, 
+                "id": "AT1G78080 (pd) IRX14", 
+                "line-width": "AT1G78080 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "222", 
+                "fesign": 7, 
+                "id": "AT5G43650 (pd) CESA4", 
+                "line-width": "AT5G43650 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "184", 
+                "fesign": 7, 
+                "id": "AT2G46270 (pd) IRX14", 
+                "line-width": "AT2G46270 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "100", 
+                "fesign": 7, 
+                "id": "AT3G47120 (pd) IRX9", 
+                "line-width": "AT3G47120 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "202", 
+                "fesign": 7, 
+                "id": "AT1G08810 (pd) COBL4", 
+                "line-width": "AT1G08810 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "212", 
+                "fesign": 7, 
+                "id": "AT2G01150 (pd) COBL4", 
+                "line-width": "AT2G01150 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "150", 
+                "fesign": 7, 
+                "id": "AT2G35700 (pd) KOR1", 
+                "line-width": "AT2G35700 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "212", 
+                "fesign": 7, 
+                "id": "AT2G01150 (pd) IRX14", 
+                "line-width": "AT2G01150 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "227", 
+                "fesign": 7, 
+                "id": "AT5G12870 (pd) CESA4", 
+                "line-width": "AT5G12870 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "173", 
+                "fesign": 7, 
+                "id": "AT3G45150 (pd) KOR1", 
+                "line-width": "AT3G45150 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "114", 
+                "fesign": 7, 
+                "id": "AT2G36610 (pd) IRX9", 
+                "line-width": "AT2G36610 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "166", 
+                "fesign": 7, 
+                "id": "AT5G07060 (pd) KOR1", 
+                "line-width": "AT5G07060 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "253", 
+                "fesign": 7, 
+                "id": "AT1G04370 (pd) COBL4", 
+                "line-width": "AT1G04370 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "224", 
+                "fesign": 7, 
+                "id": "AT5G39610 (pd) LAC4", 
+                "line-width": "AT5G39610 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "163", 
+                "fesign": 7, 
+                "id": "AT1G73730 (pd) COBL4", 
+                "line-width": "AT1G73730 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "157", 
+                "fesign": 7, 
+                "id": "AT1G49010 (pd) LAC4", 
+                "line-width": "AT1G49010 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "196", 
+                "fesign": 7, 
+                "id": "AT1G20910 (pd) CESA7", 
+                "line-width": "AT1G20910 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "200", 
+                "fesign": 7, 
+                "id": "AT3G61830 (pd) C3H", 
+                "line-width": "AT3G61830 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "236", 
+                "fesign": 7, 
+                "id": "AT4G00238 (pd) CESA4", 
+                "line-width": "AT4G00238 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) LAC4", 
+                "line-width": "AT2G40470 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "140", 
+                "fesign": 7, 
+                "id": "AT2G42430 (pd) C3H", 
+                "line-width": "AT2G42430 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "225", 
+                "fesign": 7, 
+                "id": "AT5G27090 (pd) CESA4", 
+                "line-width": "AT5G27090 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "217", 
+                "fesign": 7, 
+                "id": "AT3G28910 (pd) IRX14", 
+                "line-width": "AT3G28910 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "220", 
+                "fesign": 7, 
+                "id": "AT5G51990 (pd) IRX14", 
+                "line-width": "AT5G51990 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "171", 
+                "fesign": 7, 
+                "id": "AT4G37790 (pd) IRX14", 
+                "line-width": "AT4G37790 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "255", 
+                "fesign": 7, 
+                "id": "AT1G03800 (pd) CESA4", 
+                "line-width": "AT1G03800 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "255", 
+                "fesign": 7, 
+                "id": "AT1G03800 (pd) CESA7", 
+                "line-width": "AT1G03800 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "255", 
+                "fesign": 7, 
+                "id": "AT1G03800 (pd) CESA8", 
+                "line-width": "AT1G03800 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "247", 
+                "fesign": 7, 
+                "id": "AT2G25650 (pd) CESA4", 
+                "line-width": "AT2G25650 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "228", 
+                "fesign": 7, 
+                "id": "AT4G38900 (pd) IRX14", 
+                "line-width": "AT4G38900 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "144", 
+                "fesign": 7, 
+                "id": "AT3G55370 (pd) KOR1", 
+                "line-width": "AT3G55370 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "196", 
+                "fesign": 7, 
+                "id": "AT1G20910 (pd) IRX9", 
+                "line-width": "AT1G20910 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "201", 
+                "fesign": 7, 
+                "id": "AT1G06180 (pd) CESA7", 
+                "line-width": "AT1G06180 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "187", 
+                "fesign": 7, 
+                "id": "AT4G31060 (pd) 4CL1", 
+                "line-width": "AT4G31060 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "102", 
+                "fesign": 7, 
+                "id": "AT3G11580 (pd) IRX9", 
+                "line-width": "AT3G11580 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "207", 
+                "fesign": 7, 
+                "id": "AT4G37650 (pd) COBL4", 
+                "line-width": "AT4G37650 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "233", 
+                "fesign": 7, 
+                "id": "AT4G01120 (pd) KOR1", 
+                "line-width": "AT4G01120 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "135", 
+                "fesign": 7, 
+                "id": "AT2G45650 (pd) COBL4", 
+                "line-width": "AT2G45650 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "218", 
+                "fesign": 7, 
+                "id": "AT5G54680 (pd) IRX9", 
+                "line-width": "AT5G54680 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "202", 
+                "fesign": 7, 
+                "id": "AT1G08810 (pd) CESA8", 
+                "line-width": "AT1G08810 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "190", 
+                "fesign": 7, 
+                "id": "AT4G36900 (pd) LAC4", 
+                "line-width": "AT4G36900 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "231", 
+                "fesign": 7, 
+                "id": "AT4G04890 (pd) LAC4", 
+                "line-width": "AT4G04890 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "207", 
+                "fesign": 7, 
+                "id": "AT4G37650 (pd) CESA7", 
+                "line-width": "AT4G37650 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "198", 
+                "fesign": 7, 
+                "id": "AT1G44810 (pd) HCT", 
+                "line-width": "AT1G44810 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "74", 
+                "fesign": 7, 
+                "id": "AT4G34590 (pd) LAC4", 
+                "line-width": "AT4G34590 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "208", 
+                "fesign": 7, 
+                "id": "AT5G65210 (pd) CESA7", 
+                "line-width": "AT5G65210 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "202", 
+                "fesign": 7, 
+                "id": "AT1G08810 (pd) 4CL1", 
+                "line-width": "AT1G08810 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "208", 
+                "fesign": 7, 
+                "id": "AT5G65210 (pd) CESA8", 
+                "line-width": "AT5G65210 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "173", 
+                "fesign": 7, 
+                "id": "AT3G45150 (pd) CESA8", 
+                "line-width": "AT3G45150 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "101", 
+                "fesign": 7, 
+                "id": "AT3G21175 (pd) LAC4", 
+                "line-width": "AT3G21175 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "145", 
+                "fesign": 7, 
+                "id": "AT3G12250 (pd) KOR1", 
+                "line-width": "AT3G12250 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "248", 
+                "fesign": 7, 
+                "id": "AT1G75490 (pd) LAC4", 
+                "line-width": "AT1G75490 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "167", 
+                "fesign": 7, 
+                "id": "AT1G77250 (pd) KOR1", 
+                "line-width": "AT1G77250 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "204", 
+                "fesign": 7, 
+                "id": "AT1G66600 (pd) COBL4", 
+                "line-width": "AT1G66600 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "191", 
+                "fesign": 7, 
+                "id": "AT5G10510 (pd) C3H", 
+                "line-width": "AT5G10510 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "162", 
+                "fesign": 7, 
+                "id": "AT5G06550 (pd) KOR1", 
+                "line-width": "AT5G06550 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "188", 
+                "fesign": 7, 
+                "id": "AT5G40330 (pd) CESA7", 
+                "line-width": "AT5G40330 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "188", 
+                "fesign": 7, 
+                "id": "AT5G40330 (pd) CESA8", 
+                "line-width": "AT5G40330 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "245", 
+                "fesign": 7, 
+                "id": "AT2G40620 (pd) IRX14", 
+                "line-width": "AT2G40620 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "129", 
+                "fesign": 7, 
+                "id": "AT5G66320 (pd) COBL4", 
+                "line-width": "AT5G66320 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "116", 
+                "fesign": 7, 
+                "id": "AT1G51700 (pd) IRX9", 
+                "line-width": "AT1G51700 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "243", 
+                "fesign": 7, 
+                "id": "AT3G08500 (pd) CESA7", 
+                "line-width": "AT3G08500 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "226", 
+                "fesign": 7, 
+                "id": "AT5G18450 (pd) IRX14", 
+                "line-width": "AT5G18450 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "155", 
+                "fesign": 7, 
+                "id": "AT5G65070 (pd) KOR1", 
+                "line-width": "AT5G65070 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) KOR1", 
+                "line-width": "AT2G40470 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "191", 
+                "fesign": 7, 
+                "id": "AT5G10510 (pd) CESA7", 
+                "line-width": "AT5G10510 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "119", 
+                "fesign": 7, 
+                "id": "AT5G50480 (pd) IRX14", 
+                "line-width": "AT5G50480 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "243", 
+                "fesign": 7, 
+                "id": "AT3G08500 (pd) CESA4", 
+                "line-width": "AT3G08500 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "209", 
+                "fesign": 7, 
+                "id": "AT1G44830 (pd) KOR1", 
+                "line-width": "AT1G44830 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "191", 
+                "fesign": 7, 
+                "id": "AT5G10510 (pd) CESA8", 
+                "line-width": "AT5G10510 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "205", 
+                "fesign": 7, 
+                "id": "AT2G44940 (pd) CESA7", 
+                "line-width": "AT2G44940 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "143", 
+                "fesign": 7, 
+                "id": "AT3G56850 (pd) IRX14", 
+                "line-width": "AT3G56850 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "219", 
+                "fesign": 7, 
+                "id": "AT5G53950 (pd) CESA4", 
+                "line-width": "AT5G53950 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "146", 
+                "fesign": 7, 
+                "id": "AT2G41070 (pd) KOR1", 
+                "line-width": "AT2G41070 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "219", 
+                "fesign": 7, 
+                "id": "AT5G53950 (pd) CESA7", 
+                "line-width": "AT5G53950 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "199", 
+                "fesign": 7, 
+                "id": "AT5G66160 (pd) CESA7", 
+                "line-width": "AT5G66160 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "217", 
+                "fesign": 7, 
+                "id": "AT3G28910 (pd) 4CL1", 
+                "line-width": "AT3G28910 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "240", 
+                "fesign": 7, 
+                "id": "AT3G20840 (pd) LAC4", 
+                "line-width": "AT3G20840 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "136", 
+                "fesign": 7, 
+                "id": "AT1G78080 (pd) COBL4", 
+                "line-width": "AT1G78080 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "175", 
+                "fesign": 7, 
+                "id": "AT5G10280 (pd) C3H", 
+                "line-width": "AT5G10280 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "139", 
+                "fesign": 7, 
+                "id": "AT3G25730 (pd) COBL4", 
+                "line-width": "AT3G25730 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "107", 
+                "fesign": 7, 
+                "id": "AT2G36270 (pd) LAC4", 
+                "line-width": "AT2G36270 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "221", 
+                "fesign": 7, 
+                "id": "AT5G47220 (pd) COBL4", 
+                "line-width": "AT5G47220 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "230", 
+                "fesign": 7, 
+                "id": "AT4G34680 (pd) CESA4", 
+                "line-width": "AT4G34680 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "221", 
+                "fesign": 7, 
+                "id": "AT5G47220 (pd) LAC4", 
+                "line-width": "AT5G47220 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "197", 
+                "fesign": 7, 
+                "id": "AT2G40350 (pd) COBL4", 
+                "line-width": "AT2G40350 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "78", 
+                "fesign": 7, 
+                "id": "AT5G07690 (pd) C3H", 
+                "line-width": "AT5G07690 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "204", 
+                "fesign": 7, 
+                "id": "AT1G66600 (pd) KOR1", 
+                "line-width": "AT1G66600 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "170", 
+                "fesign": 7, 
+                "id": "AT4G01460 (pd) CESA8", 
+                "line-width": "AT4G01460 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "198", 
+                "fesign": 7, 
+                "id": "AT1G44810 (pd) CESA8", 
+                "line-width": "AT1G44810 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "198", 
+                "fesign": 7, 
+                "id": "AT1G44810 (pd) CESA7", 
+                "line-width": "AT1G44810 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "138", 
+                "fesign": 7, 
+                "id": "AT1G28160 (pd) COBL4", 
+                "line-width": "AT1G28160 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "233", 
+                "fesign": 7, 
+                "id": "AT4G01120 (pd) IRX14", 
+                "line-width": "AT4G01120 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "90", 
+                "fesign": 7, 
+                "id": "AT3G01530 (pd) 4CL1", 
+                "line-width": "AT3G01530 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "120", 
+                "fesign": 7, 
+                "id": "AT4G26440 (pd) IRX14", 
+                "line-width": "AT4G26440 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "234", 
+                "fesign": 7, 
+                "id": "AT4G00390 (pd) CESA4", 
+                "line-width": "AT4G00390 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "181", 
+                "fesign": 7, 
+                "id": "AT3G19860 (pd) IRX14", 
+                "line-width": "AT3G19860 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "240", 
+                "fesign": 7, 
+                "id": "AT3G20840 (pd) CESA4", 
+                "line-width": "AT3G20840 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "194", 
+                "fesign": 7, 
+                "id": "AT2G44840 (pd) C3H", 
+                "line-width": "AT2G44840 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "164", 
+                "fesign": 7, 
+                "id": "AT1G30970 (pd) KOR1", 
+                "line-width": "AT1G30970 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "208", 
+                "fesign": 7, 
+                "id": "AT5G65210 (pd) KOR1", 
+                "line-width": "AT5G65210 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "98", 
+                "fesign": 7, 
+                "id": "AT5G43290 (pd) IRX9", 
+                "line-width": "AT5G43290 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "172", 
+                "fesign": 7, 
+                "id": "AT5G25890 (pd) CESA8", 
+                "line-width": "AT5G25890 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "88", 
+                "fesign": 7, 
+                "id": "AT5G58110 (pd) 4CL1", 
+                "line-width": "AT5G58110 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "100", 
+                "fesign": 7, 
+                "id": "AT3G47120 (pd) HCT", 
+                "line-width": "AT3G47120 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "182", 
+                "fesign": 7, 
+                "id": "AT5G65410 (pd) IRX9", 
+                "line-width": "AT5G65410 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "193", 
+                "fesign": 7, 
+                "id": "AT1G74930 (pd) CESA7", 
+                "line-width": "AT1G74930 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "186", 
+                "fesign": 7, 
+                "id": "AT3G28920 (pd) CESA8", 
+                "line-width": "AT3G28920 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "128", 
+                "fesign": 7, 
+                "id": "AT1G06850 (pd) IRX14", 
+                "line-width": "AT1G06850 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "193", 
+                "fesign": 7, 
+                "id": "AT1G74930 (pd) CESA8", 
+                "line-width": "AT1G74930 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "204", 
+                "fesign": 7, 
+                "id": "AT1G66600 (pd) CESA7", 
+                "line-width": "AT1G66600 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "158", 
+                "fesign": 7, 
+                "id": "AT3G21880 (pd) KOR1", 
+                "line-width": "AT3G21880 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "219", 
+                "fesign": 7, 
+                "id": "AT5G53950 (pd) CESA8", 
+                "line-width": "AT5G53950 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "194", 
+                "fesign": 7, 
+                "id": "AT2G44840 (pd) CESA8", 
+                "line-width": "AT2G44840 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "148", 
+                "fesign": 7, 
+                "id": "AT4G39780 (pd) IRX14", 
+                "line-width": "AT4G39780 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "186", 
+                "fesign": 7, 
+                "id": "AT3G28920 (pd) LAC4", 
+                "line-width": "AT3G28920 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "194", 
+                "fesign": 7, 
+                "id": "AT2G44840 (pd) CESA7", 
+                "line-width": "AT2G44840 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "229", 
+                "fesign": 7, 
+                "id": "AT4G37260 (pd) CESA7", 
+                "line-width": "AT4G37260 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "229", 
+                "fesign": 7, 
+                "id": "AT4G37260 (pd) CESA4", 
+                "line-width": "AT4G37260 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "229", 
+                "fesign": 7, 
+                "id": "AT4G37260 (pd) CESA8", 
+                "line-width": "AT4G37260 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "220", 
+                "fesign": 7, 
+                "id": "AT5G51990 (pd) IRX9", 
+                "line-width": "AT5G51990 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "200", 
+                "fesign": 7, 
+                "id": "AT3G61830 (pd) CESA7", 
+                "line-width": "AT3G61830 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "182", 
+                "fesign": 7, 
+                "id": "AT5G65410 (pd) 4CL1", 
+                "line-width": "AT5G65410 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "251", 
+                "fesign": 7, 
+                "id": "AT1G47870 (pd) CESA4", 
+                "line-width": "AT1G47870 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "245", 
+                "fesign": 7, 
+                "id": "AT2G40620 (pd) 4CL1", 
+                "line-width": "AT2G40620 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "182", 
+                "fesign": 7, 
+                "id": "AT5G65410 (pd) CESA8", 
+                "line-width": "AT5G65410 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "253", 
+                "fesign": 7, 
+                "id": "AT1G04370 (pd) CESA4", 
+                "line-width": "AT1G04370 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "183", 
+                "fesign": 7, 
+                "id": "AT1G79840 (pd) IRX14", 
+                "line-width": "AT1G79840 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "253", 
+                "fesign": 7, 
+                "id": "AT1G04370 (pd) CESA7", 
+                "line-width": "AT1G04370 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "151", 
+                "fesign": 7, 
+                "id": "AT4G32800 (pd) KOR1", 
+                "line-width": "AT4G32800 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "228", 
+                "fesign": 7, 
+                "id": "AT4G38900 (pd) IRX9", 
+                "line-width": "AT4G38900 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "211", 
+                "fesign": 7, 
+                "id": "AT4G18770 (pd) CESA7", 
+                "line-width": "AT4G18770 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "233", 
+                "fesign": 7, 
+                "id": "AT4G01120 (pd) LAC4", 
+                "line-width": "AT4G01120 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "196", 
+                "fesign": 7, 
+                "id": "AT1G20910 (pd) COBL4", 
+                "line-width": "AT1G20910 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "231", 
+                "fesign": 7, 
+                "id": "AT4G04890 (pd) CESA4", 
+                "line-width": "AT4G04890 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "161", 
+                "fesign": 7, 
+                "id": "AT3G53920 (pd) KOR1", 
+                "line-width": "AT3G53920 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "192", 
+                "fesign": 7, 
+                "id": "AT3G16770 (pd) CESA7", 
+                "line-width": "AT3G16770 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "191", 
+                "fesign": 7, 
+                "id": "AT5G10510 (pd) 4CL1", 
+                "line-width": "AT5G10510 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "133", 
+                "fesign": 7, 
+                "id": "AT4G31690 (pd) COBL4", 
+                "line-width": "AT4G31690 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "201", 
+                "fesign": 7, 
+                "id": "AT1G06180 (pd) IRX9", 
+                "line-width": "AT1G06180 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "193", 
+                "fesign": 7, 
+                "id": "AT1G74930 (pd) COBL4", 
+                "line-width": "AT1G74930 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "255", 
+                "fesign": 7, 
+                "id": "AT1G03800 (pd) IRX14", 
+                "line-width": "AT1G03800 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "226", 
+                "fesign": 7, 
+                "id": "AT5G18450 (pd) CESA4", 
+                "line-width": "AT5G18450 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "196", 
+                "fesign": 7, 
+                "id": "AT1G20910 (pd) 4CL1", 
+                "line-width": "AT1G20910 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "115", 
+                "fesign": 7, 
+                "id": "AT1G53320 (pd) HCT", 
+                "line-width": "AT1G53320 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "249", 
+                "fesign": 7, 
+                "id": "AT1G73360 (pd) IRX9", 
+                "line-width": "AT1G73360 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "85", 
+                "fesign": 7, 
+                "id": "AT1G19220 (pd) C3H", 
+                "line-width": "AT1G19220 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "233", 
+                "fesign": 7, 
+                "id": "AT4G01120 (pd) C3H", 
+                "line-width": "AT4G01120 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "255", 
+                "fesign": 7, 
+                "id": "AT1G03800 (pd) LAC4", 
+                "line-width": "AT1G03800 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "114", 
+                "fesign": 7, 
+                "id": "AT2G36610 (pd) C3H", 
+                "line-width": "AT2G36610 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "193", 
+                "fesign": 7, 
+                "id": "AT1G74930 (pd) LAC4", 
+                "line-width": "AT1G74930 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "175", 
+                "fesign": 7, 
+                "id": "AT5G10280 (pd) CESA8", 
+                "line-width": "AT5G10280 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "213", 
+                "fesign": 7, 
+                "id": "AT5G06950 (pd) CESA7", 
+                "line-width": "AT5G06950 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "205", 
+                "fesign": 7, 
+                "id": "AT2G44940 (pd) KOR1", 
+                "line-width": "AT2G44940 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "208", 
+                "fesign": 7, 
+                "id": "AT5G65210 (pd) IRX9", 
+                "line-width": "AT5G65210 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "229", 
+                "fesign": 7, 
+                "id": "AT4G37260 (pd) KOR1", 
+                "line-width": "AT4G37260 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "124", 
+                "fesign": 7, 
+                "id": "AT5G20240 (pd) IRX14", 
+                "line-width": "AT5G20240 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "108", 
+                "fesign": 7, 
+                "id": "AT2G31370 (pd) IRX9", 
+                "line-width": "AT2G31370 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "221", 
+                "fesign": 7, 
+                "id": "AT5G47220 (pd) CESA4", 
+                "line-width": "AT5G47220 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "221", 
+                "fesign": 7, 
+                "id": "AT5G47220 (pd) CESA7", 
+                "line-width": "AT5G47220 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "140", 
+                "fesign": 7, 
+                "id": "AT2G42430 (pd) COBL4", 
+                "line-width": "AT2G42430 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "219", 
+                "fesign": 7, 
+                "id": "AT5G53950 (pd) IRX14", 
+                "line-width": "AT5G53950 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "82", 
+                "fesign": 7, 
+                "id": "AT3G07650 (pd) C3H", 
+                "line-width": "AT3G07650 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "221", 
+                "fesign": 7, 
+                "id": "AT5G47220 (pd) CESA8", 
+                "line-width": "AT5G47220 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "179", 
+                "fesign": 7, 
+                "id": "AT5G10030 (pd) KOR1", 
+                "line-width": "AT5G10030 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "238", 
+                "fesign": 7, 
+                "id": "AT3G27785 (pd) IRX14", 
+                "line-width": "AT3G27785 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "220", 
+                "fesign": 7, 
+                "id": "AT5G51990 (pd) CESA7", 
+                "line-width": "AT5G51990 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "220", 
+                "fesign": 7, 
+                "id": "AT5G51990 (pd) CESA4", 
+                "line-width": "AT5G51990 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "228", 
+                "fesign": 7, 
+                "id": "AT4G38900 (pd) CESA4", 
+                "line-width": "AT4G38900 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "146", 
+                "fesign": 7, 
+                "id": "AT2G41070 (pd) 4CL1", 
+                "line-width": "AT2G41070 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "202", 
+                "fesign": 7, 
+                "id": "AT1G08810 (pd) C3H", 
+                "line-width": "AT1G08810 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "228", 
+                "fesign": 7, 
+                "id": "AT4G38900 (pd) COBL4", 
+                "line-width": "AT4G38900 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "178", 
+                "fesign": 7, 
+                "id": "AT3G47600 (pd) CESA8", 
+                "line-width": "AT3G47600 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "139", 
+                "fesign": 7, 
+                "id": "AT3G25730 (pd) C3H", 
+                "line-width": "AT3G25730 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "142", 
+                "fesign": 7, 
+                "id": "AT1G17460 (pd) COBL4", 
+                "line-width": "AT1G17460 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "159", 
+                "fesign": 7, 
+                "id": "AT3G21330 (pd) KOR1", 
+                "line-width": "AT3G21330 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "110", 
+                "fesign": 7, 
+                "id": "AT2G03340 (pd) IRX9", 
+                "line-width": "AT2G03340 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "131", 
+                "fesign": 7, 
+                "id": "AT5G49300 (pd) COBL4", 
+                "line-width": "AT5G49300 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "106", 
+                "fesign": 7, 
+                "id": "AT3G02940 (pd) IRX9", 
+                "line-width": "AT3G02940 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "143", 
+                "fesign": 7, 
+                "id": "AT3G56850 (pd) KOR1", 
+                "line-width": "AT3G56850 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "126", 
+                "fesign": 7, 
+                "id": "AT1G21450 (pd) IRX9", 
+                "line-width": "AT1G21450 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "242", 
+                "fesign": 7, 
+                "id": "AT3G14180 (pd) CESA4", 
+                "line-width": "AT3G14180 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "183", 
+                "fesign": 7, 
+                "id": "AT1G79840 (pd) CESA8", 
+                "line-width": "AT1G79840 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "136", 
+                "fesign": 7, 
+                "id": "AT1G78080 (pd) LAC4", 
+                "line-width": "AT1G78080 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "125", 
+                "fesign": 7, 
+                "id": "AT2G41370 (pd) IRX14", 
+                "line-width": "AT2G41370 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "206", 
+                "fesign": 7, 
+                "id": "AT3G15210 (pd) LAC4", 
+                "line-width": "AT3G15210 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "157", 
+                "fesign": 7, 
+                "id": "AT1G49010 (pd) COBL4", 
+                "line-width": "AT1G49010 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "204", 
+                "fesign": 7, 
+                "id": "AT1G66600 (pd) C3H", 
+                "line-width": "AT1G66600 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "107", 
+                "fesign": 7, 
+                "id": "AT2G36270 (pd) C3H", 
+                "line-width": "AT2G36270 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "143", 
+                "fesign": 7, 
+                "id": "AT3G56850 (pd) 4CL1", 
+                "line-width": "AT3G56850 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "155", 
+                "fesign": 7, 
+                "id": "AT5G65070 (pd) IRX14", 
+                "line-width": "AT5G65070 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "157", 
+                "fesign": 7, 
+                "id": "AT1G49010 (pd) KOR1", 
+                "line-width": "AT1G49010 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "202", 
+                "fesign": 7, 
+                "id": "AT1G08810 (pd) CESA7", 
+                "line-width": "AT1G08810 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "235", 
+                "fesign": 7, 
+                "id": "AT4G00270 (pd) CESA4", 
+                "line-width": "AT4G00270 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "122", 
+                "fesign": 7, 
+                "id": "AT3G44460 (pd) IRX14", 
+                "line-width": "AT3G44460 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "242", 
+                "fesign": 7, 
+                "id": "AT3G14180 (pd) LAC4", 
+                "line-width": "AT3G14180 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "92", 
+                "fesign": 7, 
+                "id": "AT1G16490 (pd) 4CL1", 
+                "line-width": "AT1G16490 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "203", 
+                "fesign": 7, 
+                "id": "AT5G61420 (pd) CESA7", 
+                "line-width": "AT5G61420 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "212", 
+                "fesign": 7, 
+                "id": "AT2G01150 (pd) CESA7", 
+                "line-width": "AT2G01150 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "215", 
+                "fesign": 7, 
+                "id": "AT1G60300 (pd) CESA7", 
+                "line-width": "AT1G60300 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "154", 
+                "fesign": 7, 
+                "id": "AT5G26630 (pd) HCT", 
+                "line-width": "AT5G26630 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "206", 
+                "fesign": 7, 
+                "id": "AT3G15210 (pd) CESA7", 
+                "line-width": "AT3G15210 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "176", 
+                "fesign": 7, 
+                "id": "AT2G28510 (pd) IRX9", 
+                "line-width": "AT2G28510 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "233", 
+                "fesign": 7, 
+                "id": "AT4G01120 (pd) 4CL1", 
+                "line-width": "AT4G01120 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "184", 
+                "fesign": 7, 
+                "id": "AT2G46270 (pd) LAC4", 
+                "line-width": "AT2G46270 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "135", 
+                "fesign": 7, 
+                "id": "AT2G45650 (pd) C3H", 
+                "line-width": "AT2G45650 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "195", 
+                "fesign": 7, 
+                "id": "AT3G09230 (pd) IRX14", 
+                "line-width": "AT3G09230 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "229", 
+                "fesign": 7, 
+                "id": "AT4G37260 (pd) LAC4", 
+                "line-width": "AT4G37260 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "130", 
+                "fesign": 7, 
+                "id": "AT5G64060 (pd) COBL4", 
+                "line-width": "AT5G64060 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "190", 
+                "fesign": 7, 
+                "id": "AT4G36900 (pd) KOR1", 
+                "line-width": "AT4G36900 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "80", 
+                "fesign": 7, 
+                "id": "AT4G25480 (pd) C3H", 
+                "line-width": "AT4G25480 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "75", 
+                "fesign": 7, 
+                "id": "AT5G03680 (pd) LAC4", 
+                "line-width": "AT5G03680 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "180", 
+                "fesign": 7, 
+                "id": "AT5G15210 (pd) IRX9", 
+                "line-width": "AT5G15210 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "126", 
+                "fesign": 7, 
+                "id": "AT1G21450 (pd) IRX14", 
+                "line-width": "AT1G21450 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "82", 
+                "fesign": 7, 
+                "id": "AT3G07650 (pd) HCT", 
+                "line-width": "AT3G07650 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "132", 
+                "fesign": 7, 
+                "id": "AT4G37750 (pd) LAC4", 
+                "line-width": "AT4G37750 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "91", 
+                "fesign": 7, 
+                "id": "AT2G28810 (pd) 4CL1", 
+                "line-width": "AT2G28810 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "180", 
+                "fesign": 7, 
+                "id": "AT5G15210 (pd) LAC4", 
+                "line-width": "AT5G15210 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "195", 
+                "fesign": 7, 
+                "id": "AT3G09230 (pd) CESA7", 
+                "line-width": "AT3G09230 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "118", 
+                "fesign": 7, 
+                "id": "AT5G53200 (pd) IRX14", 
+                "line-width": "AT5G53200 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "160", 
+                "fesign": 7, 
+                "id": "AT3G18550 (pd) COBL4", 
+                "line-width": "AT3G18550 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "106", 
+                "fesign": 7, 
+                "id": "AT3G02940 (pd) 4CL1", 
+                "line-width": "AT3G02940 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "113", 
+                "fesign": 7, 
+                "id": "AT1G14687 (pd) C3H", 
+                "line-width": "AT1G14687 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "238", 
+                "fesign": 7, 
+                "id": "AT3G27785 (pd) KOR1", 
+                "line-width": "AT3G27785 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "155", 
+                "fesign": 7, 
+                "id": "AT5G65070 (pd) HCT", 
+                "line-width": "AT5G65070 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) IRX14", 
+                "line-width": "AT2G40470 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "151", 
+                "fesign": 7, 
+                "id": "AT4G32800 (pd) LAC4", 
+                "line-width": "AT4G32800 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "132", 
+                "fesign": 7, 
+                "id": "AT4G37750 (pd) IRX14", 
+                "line-width": "AT4G37750 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "228", 
+                "fesign": 7, 
+                "id": "AT4G38900 (pd) LAC4", 
+                "line-width": "AT4G38900 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "208", 
+                "fesign": 7, 
+                "id": "AT5G65210 (pd) COBL4", 
+                "line-width": "AT5G65210 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "123", 
+                "fesign": 7, 
+                "id": "AT1G57560 (pd) IRX14", 
+                "line-width": "AT1G57560 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "111", 
+                "fesign": 7, 
+                "id": "AT1G51600 (pd) IRX9", 
+                "line-width": "AT1G51600 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "148", 
+                "fesign": 7, 
+                "id": "AT4G39780 (pd) KOR1", 
+                "line-width": "AT4G39780 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "174", 
+                "fesign": 7, 
+                "id": "AT2G47190 (pd) 4CL1", 
+                "line-width": "AT2G47190 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "112", 
+                "fesign": 7, 
+                "id": "AT1G49720 (pd) IRX9", 
+                "line-width": "AT1G49720 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "245", 
+                "fesign": 7, 
+                "id": "AT2G40620 (pd) LAC4", 
+                "line-width": "AT2G40620 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "187", 
+                "fesign": 7, 
+                "id": "AT4G31060 (pd) KOR1", 
+                "line-width": "AT4G31060 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "103", 
+                "fesign": 7, 
+                "id": "AT3G11440 (pd) IRX9", 
+                "line-width": "AT3G11440 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "186", 
+                "fesign": 7, 
+                "id": "AT3G28920 (pd) IRX14", 
+                "line-width": "AT3G28920 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "237", 
+                "fesign": 7, 
+                "id": "AT3G61910 (pd) KOR1", 
+                "line-width": "AT3G61910 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "253", 
+                "fesign": 7, 
+                "id": "AT1G04370 (pd) LAC4", 
+                "line-width": "AT1G04370 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "149", 
+                "fesign": 7, 
+                "id": "AT1G12630 (pd) KOR1", 
+                "line-width": "AT1G12630 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "206", 
+                "fesign": 7, 
+                "id": "AT3G15210 (pd) IRX14", 
+                "line-width": "AT3G15210 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "164", 
+                "fesign": 7, 
+                "id": "AT1G30970 (pd) C3H", 
+                "line-width": "AT1G30970 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "84", 
+                "fesign": 7, 
+                "id": "AT2G01570 (pd) C3H", 
+                "line-width": "AT2G01570 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "146", 
+                "fesign": 7, 
+                "id": "AT2G41070 (pd) LAC4", 
+                "line-width": "AT2G41070 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "169", 
+                "fesign": 7, 
+                "id": "AT1G62300 (pd) KOR1", 
+                "line-width": "AT1G62300 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "197", 
+                "fesign": 7, 
+                "id": "AT2G40350 (pd) CESA7", 
+                "line-width": "AT2G40350 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "181", 
+                "fesign": 7, 
+                "id": "AT3G19860 (pd) CESA8", 
+                "line-width": "AT3G19860 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "239", 
+                "fesign": 7, 
+                "id": "AT3G23220 (pd) CESA4", 
+                "line-width": "AT3G23220 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "210", 
+                "fesign": 7, 
+                "id": "AT5G13330 (pd) CESA7", 
+                "line-width": "AT5G13330 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "210", 
+                "fesign": 7, 
+                "id": "AT5G13330 (pd) CESA8", 
+                "line-width": "AT5G13330 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "97", 
+                "fesign": 7, 
+                "id": "AT5G65230 (pd) 4CL1", 
+                "line-width": "AT5G65230 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "79", 
+                "fesign": 7, 
+                "id": "AT4G28500 (pd) C3H", 
+                "line-width": "AT4G28500 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "215", 
+                "fesign": 7, 
+                "id": "AT1G60300 (pd) KOR1", 
+                "line-width": "AT1G60300 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) IRX9", 
+                "line-width": "AT2G40470 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "160", 
+                "fesign": 7, 
+                "id": "AT3G18550 (pd) IRX9", 
+                "line-width": "AT3G18550 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "253", 
+                "fesign": 7, 
+                "id": "AT1G04370 (pd) IRX14", 
+                "line-width": "AT1G04370 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "113", 
+                "fesign": 7, 
+                "id": "AT1G14687 (pd) IRX9", 
+                "line-width": "AT1G14687 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "152", 
+                "fesign": 7, 
+                "id": "AT1G06070 (pd) KOR1", 
+                "line-width": "AT1G06070 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) CESA8", 
+                "line-width": "AT2G40470 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "175", 
+                "fesign": 7, 
+                "id": "AT5G10280 (pd) 4CL1", 
+                "line-width": "AT5G10280 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "176", 
+                "fesign": 7, 
+                "id": "AT2G28510 (pd) CESA8", 
+                "line-width": "AT2G28510 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) CESA4", 
+                "line-width": "AT2G40470 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "99", 
+                "fesign": 7, 
+                "id": "AT4G18450 (pd) IRX9", 
+                "line-width": "AT4G18450 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) CESA7", 
+                "line-width": "AT2G40470 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "174", 
+                "fesign": 7, 
+                "id": "AT2G47190 (pd) CESA8", 
+                "line-width": "AT2G47190 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "246", 
+                "fesign": 7, 
+                "id": "AT2G40470 (pd) HCT", 
+                "line-width": "AT2G40470 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "220", 
+                "fesign": 7, 
+                "id": "AT5G51990 (pd) LAC4", 
+                "line-width": "AT5G51990 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "81", 
+                "fesign": 7, 
+                "id": "AT3G50650 (pd) C3H", 
+                "line-width": "AT3G50650 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "147", 
+                "fesign": 7, 
+                "id": "AT3G18400 (pd) COBL4", 
+                "line-width": "AT3G18400 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "107", 
+                "fesign": 7, 
+                "id": "AT2G36270 (pd) IRX9", 
+                "line-width": "AT2G36270 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "177", 
+                "fesign": 7, 
+                "id": "AT1G69690 (pd) CESA8", 
+                "line-width": "AT1G69690 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "244", 
+                "fesign": 7, 
+                "id": "AT2G42040 (pd) CESA4", 
+                "line-width": "AT2G42040 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "132", 
+                "fesign": 7, 
+                "id": "AT4G37750 (pd) COBL4", 
+                "line-width": "AT4G37750 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "215", 
+                "fesign": 7, 
+                "id": "AT1G60300 (pd) COBL4", 
+                "line-width": "AT1G60300 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "187", 
+                "fesign": 7, 
+                "id": "AT4G31060 (pd) CESA7", 
+                "line-width": "AT4G31060 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "94", 
+                "fesign": 7, 
+                "id": "AT5G59780 (pd) 4CL1", 
+                "line-width": "AT5G59780 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "191", 
+                "fesign": 7, 
+                "id": "AT5G10510 (pd) KOR1", 
+                "line-width": "AT5G10510 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "191", 
+                "fesign": 7, 
+                "id": "AT5G10510 (pd) COBL4", 
+                "line-width": "AT5G10510 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "217", 
+                "fesign": 7, 
+                "id": "AT3G28910 (pd) CESA7", 
+                "line-width": "AT3G28910 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "83", 
+                "fesign": 7, 
+                "id": "AT2G28450 (pd) C3H", 
+                "line-width": "AT2G28450 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "240", 
+                "fesign": 7, 
+                "id": "AT3G20840 (pd) COBL4", 
+                "line-width": "AT3G20840 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "190", 
+                "fesign": 7, 
+                "id": "AT4G36900 (pd) CESA7", 
+                "line-width": "AT4G36900 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "228", 
+                "fesign": 7, 
+                "id": "AT4G38900 (pd) HCT", 
+                "line-width": "AT4G38900 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "238", 
+                "fesign": 7, 
+                "id": "AT3G27785 (pd) CESA4", 
+                "line-width": "AT3G27785 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "73", 
+                "fesign": 7, 
+                "id": "AT5G06839 (pd) LAC4", 
+                "line-width": "AT5G06839 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "224", 
+                "fesign": 7, 
+                "id": "AT5G39610 (pd) IRX14", 
+                "line-width": "AT5G39610 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "232", 
+                "fesign": 7, 
+                "id": "AT4G01260 (pd) CESA4", 
+                "line-width": "AT4G01260 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "104", 
+                "fesign": 7, 
+                "id": "AT3G09370 (pd) IRX9", 
+                "line-width": "AT3G09370 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "242", 
+                "fesign": 7, 
+                "id": "AT3G14180 (pd) CESA8", 
+                "line-width": "AT3G14180 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "241", 
+                "fesign": 7, 
+                "id": "AT3G20310 (pd) LAC4", 
+                "line-width": "AT3G20310 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "242", 
+                "fesign": 7, 
+                "id": "AT3G14180 (pd) IRX14", 
+                "line-width": "AT3G14180 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "121", 
+                "fesign": 7, 
+                "id": "AT3G61150 (pd) IRX14", 
+                "line-width": "AT3G61150 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "193", 
+                "fesign": 7, 
+                "id": "AT1G74930 (pd) IRX14", 
+                "line-width": "AT1G74930 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "208", 
+                "fesign": 7, 
+                "id": "AT5G65210 (pd) HCT", 
+                "line-width": "AT5G65210 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "209", 
+                "fesign": 7, 
+                "id": "AT1G44830 (pd) CESA7", 
+                "line-width": "AT1G44830 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "196", 
+                "fesign": 7, 
+                "id": "AT1G20910 (pd) LAC4", 
+                "line-width": "AT1G20910 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "194", 
+                "fesign": 7, 
+                "id": "AT2G44840 (pd) COBL4", 
+                "line-width": "AT2G44840 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "184", 
+                "fesign": 7, 
+                "id": "AT2G46270 (pd) CESA8", 
+                "line-width": "AT2G46270 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "165", 
+                "fesign": 7, 
+                "id": "AT2G38750 (pd) KOR1", 
+                "line-width": "AT2G38750 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "205", 
+                "fesign": 7, 
+                "id": "AT2G44940 (pd) COBL4", 
+                "line-width": "AT2G44940 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "105", 
+                "fesign": 7, 
+                "id": "AT3G04060 (pd) IRX9", 
+                "line-width": "AT3G04060 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "200", 
+                "fesign": 7, 
+                "id": "AT3G61830 (pd) LAC4", 
+                "line-width": "AT3G61830 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "231", 
+                "fesign": 7, 
+                "id": "AT4G04890 (pd) IRX14", 
+                "line-width": "AT4G04890 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "214", 
+                "fesign": 7, 
+                "id": "AT1G73410 (pd) CESA7", 
+                "line-width": "AT1G73410 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "156", 
+                "fesign": 7, 
+                "id": "AT1G01780 (pd) KOR1", 
+                "line-width": "AT1G01780 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "245", 
+                "fesign": 7, 
+                "id": "AT2G40620 (pd) CESA4", 
+                "line-width": "AT2G40620 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "86", 
+                "fesign": 7, 
+                "id": "AT1G68520 (pd) HCT", 
+                "line-width": "AT1G68520 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "147", 
+                "fesign": 7, 
+                "id": "AT3G18400 (pd) KOR1", 
+                "line-width": "AT3G18400 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "213", 
+                "fesign": 7, 
+                "id": "AT5G06950 (pd) KOR1", 
+                "line-width": "AT5G06950 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "91", 
+                "fesign": 7, 
+                "id": "AT2G28810 (pd) C3H", 
+                "line-width": "AT2G28810 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "223", 
+                "fesign": 7, 
+                "id": "AT5G42520 (pd) CESA4", 
+                "line-width": "AT5G42520 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "184", 
+                "fesign": 7, 
+                "id": "AT2G46270 (pd) IRX9", 
+                "line-width": "AT2G46270 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "237", 
+                "fesign": 7, 
+                "id": "AT3G61910 (pd) CESA8", 
+                "line-width": "AT3G61910 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "192", 
+                "fesign": 7, 
+                "id": "AT3G16770 (pd) LAC4", 
+                "line-width": "AT3G16770 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "248", 
+                "fesign": 7, 
+                "id": "AT1G75490 (pd) COBL4", 
+                "line-width": "AT1G75490 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "248", 
+                "fesign": 7, 
+                "id": "AT1G75490 (pd) CESA7", 
+                "line-width": "AT1G75490 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "248", 
+                "fesign": 7, 
+                "id": "AT1G75490 (pd) CESA4", 
+                "line-width": "AT1G75490 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "237", 
+                "fesign": 7, 
+                "id": "AT3G61910 (pd) CESA4", 
+                "line-width": "AT3G61910 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "171", 
+                "fesign": 7, 
+                "id": "AT4G37790 (pd) CESA8", 
+                "line-width": "AT4G37790 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "219", 
+                "fesign": 7, 
+                "id": "AT5G53950 (pd) 4CL1", 
+                "line-width": "AT5G53950 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "217", 
+                "fesign": 7, 
+                "id": "AT3G28910 (pd) COBL4", 
+                "line-width": "AT3G28910 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "194", 
+                "fesign": 7, 
+                "id": "AT2G44840 (pd) IRX14", 
+                "line-width": "AT2G44840 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "248", 
+                "fesign": 7, 
+                "id": "AT1G75490 (pd) IRX14", 
+                "line-width": "AT1G75490 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "191", 
+                "fesign": 7, 
+                "id": "AT5G10510 (pd) IRX14", 
+                "line-width": "AT5G10510 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "97", 
+                "fesign": 7, 
+                "id": "AT5G65230 (pd) IRX9", 
+                "line-width": "AT5G65230 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "252", 
+                "fesign": 7, 
+                "id": "AT1G22190 (pd) COBL4", 
+                "line-width": "AT1G22190 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "224", 
+                "fesign": 7, 
+                "id": "AT5G39610 (pd) CESA8", 
+                "line-width": "AT5G39610 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "180", 
+                "fesign": 7, 
+                "id": "AT5G15210 (pd) IRX14", 
+                "line-width": "AT5G15210 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "224", 
+                "fesign": 7, 
+                "id": "AT5G39610 (pd) CESA4", 
+                "line-width": "AT5G39610 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "202", 
+                "fesign": 7, 
+                "id": "AT1G08810 (pd) LAC4", 
+                "line-width": "AT1G08810 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "196", 
+                "fesign": 7, 
+                "id": "AT1G20910 (pd) IRX14", 
+                "line-width": "AT1G20910 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "180", 
+                "fesign": 7, 
+                "id": "AT5G15210 (pd) C3H", 
+                "line-width": "AT5G15210 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "163", 
+                "fesign": 7, 
+                "id": "AT1G73730 (pd) KOR1", 
+                "line-width": "AT1G73730 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "224", 
+                "fesign": 7, 
+                "id": "AT5G39610 (pd) KOR1", 
+                "line-width": "AT5G39610 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "101", 
+                "fesign": 7, 
+                "id": "AT3G21175 (pd) IRX9", 
+                "line-width": "AT3G21175 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "86", 
+                "fesign": 7, 
+                "id": "AT1G68520 (pd) C3H", 
+                "line-width": "AT1G68520 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "220", 
+                "fesign": 7, 
+                "id": "AT5G51990 (pd) COBL4", 
+                "line-width": "AT5G51990 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "147", 
+                "fesign": 7, 
+                "id": "AT3G18400 (pd) C3H", 
+                "line-width": "AT3G18400 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "240", 
+                "fesign": 7, 
+                "id": "AT3G20840 (pd) HCT", 
+                "line-width": "AT3G20840 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "93", 
+                "fesign": 7, 
+                "id": "AT1G14920 (pd) 4CL1", 
+                "line-width": "AT1G14920 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "115", 
+                "fesign": 7, 
+                "id": "AT1G53320 (pd) IRX9", 
+                "line-width": "AT1G53320 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "137", 
+                "fesign": 7, 
+                "id": "AT1G45249 (pd) LAC4", 
+                "line-width": "AT1G45249 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "255", 
+                "fesign": 7, 
+                "id": "AT1G03800 (pd) COBL4", 
+                "line-width": "AT1G03800 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "184", 
+                "fesign": 7, 
+                "id": "AT2G46270 (pd) KOR1", 
+                "line-width": "AT2G46270 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "179", 
+                "fesign": 7, 
+                "id": "AT5G10030 (pd) CESA8", 
+                "line-width": "AT5G10030 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "186", 
+                "fesign": 7, 
+                "id": "AT3G28920 (pd) IRX9", 
+                "line-width": "AT3G28920 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "180", 
+                "fesign": 7, 
+                "id": "AT5G15210 (pd) CESA8", 
+                "line-width": "AT5G15210 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "153", 
+                "fesign": 7, 
+                "id": "AT1G49560 (pd) KOR1", 
+                "line-width": "AT1G49560 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "249", 
+                "fesign": 7, 
+                "id": "AT1G73360 (pd) KOR1", 
+                "line-width": "AT1G73360 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "80", 
+                "fesign": 7, 
+                "id": "AT4G25480 (pd) HCT", 
+                "line-width": "AT4G25480 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "137", 
+                "fesign": 7, 
+                "id": "AT1G45249 (pd) COBL4", 
+                "line-width": "AT1G45249 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "242", 
+                "fesign": 7, 
+                "id": "AT3G14180 (pd) KOR1", 
+                "line-width": "AT3G14180 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "77", 
+                "source": "139", 
+                "fesign": 7, 
+                "id": "AT3G25730 (pd) HCT", 
+                "line-width": "AT3G25730 (pd) HCT"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "109", 
+                "fesign": 7, 
+                "id": "AT2G22760 (pd) IRX9", 
+                "line-width": "AT2G22760 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "217", 
+                "fesign": 7, 
+                "id": "AT3G28910 (pd) KOR1", 
+                "line-width": "AT3G28910 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "249", 
+                "fesign": 7, 
+                "id": "AT1G73360 (pd) CESA7", 
+                "line-width": "AT1G73360 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "242", 
+                "fesign": 7, 
+                "id": "AT3G14180 (pd) 4CL1", 
+                "line-width": "AT3G14180 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "249", 
+                "fesign": 7, 
+                "id": "AT1G73360 (pd) CESA4", 
+                "line-width": "AT1G73360 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "249", 
+                "fesign": 7, 
+                "id": "AT1G73360 (pd) CESA8", 
+                "line-width": "AT1G73360 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "241", 
+                "fesign": 7, 
+                "id": "AT3G20310 (pd) COBL4", 
+                "line-width": "AT3G20310 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "252", 
+                "fesign": 7, 
+                "id": "AT1G22190 (pd) CESA4", 
+                "line-width": "AT1G22190 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "252", 
+                "fesign": 7, 
+                "id": "AT1G22190 (pd) CESA7", 
+                "line-width": "AT1G22190 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "108", 
+                "fesign": 7, 
+                "id": "AT2G31370 (pd) LAC4", 
+                "line-width": "AT2G31370 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "126", 
+                "fesign": 7, 
+                "id": "AT1G21450 (pd) LAC4", 
+                "line-width": "AT1G21450 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "250", 
+                "fesign": 7, 
+                "id": "AT1G72570 (pd) CESA4", 
+                "line-width": "AT1G72570 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "134", 
+                "fesign": 7, 
+                "id": "AT3G04420 (pd) COBL4", 
+                "line-width": "AT3G04420 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "96", 
+                "source": "95", 
+                "fesign": 7, 
+                "id": "AT5G54230 (pd) 4CL1", 
+                "line-width": "AT5G54230 (pd) 4CL1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "154", 
+                "fesign": 7, 
+                "id": "AT5G26630 (pd) KOR1", 
+                "line-width": "AT5G26630 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "220", 
+                "fesign": 7, 
+                "id": "AT5G51990 (pd) C3H", 
+                "line-width": "AT5G51990 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "76", 
+                "source": "217", 
+                "fesign": 7, 
+                "id": "AT3G28910 (pd) LAC4", 
+                "line-width": "AT3G28910 (pd) LAC4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "117", 
+                "source": "146", 
+                "fesign": 7, 
+                "id": "AT2G41070 (pd) IRX9", 
+                "line-width": "AT2G41070 (pd) IRX9"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "233", 
+                "fesign": 7, 
+                "id": "AT4G01120 (pd) CESA4", 
+                "line-width": "AT4G01120 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "218", 
+                "fesign": 7, 
+                "id": "AT5G54680 (pd) CESA4", 
+                "line-width": "AT5G54680 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "87", 
+                "source": "207", 
+                "fesign": 7, 
+                "id": "AT4G37650 (pd) C3H", 
+                "line-width": "AT4G37650 (pd) C3H"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "185", 
+                "source": "233", 
+                "fesign": 7, 
+                "id": "AT4G01120 (pd) CESA8", 
+                "line-width": "AT4G01120 (pd) CESA8"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "241", 
+                "fesign": 7, 
+                "id": "AT3G20310 (pd) CESA7", 
+                "line-width": "AT3G20310 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "254", 
+                "source": "241", 
+                "fesign": 7, 
+                "id": "AT3G20310 (pd) CESA4", 
+                "line-width": "AT3G20310 (pd) CESA4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "182", 
+                "fesign": 7, 
+                "id": "AT5G65410 (pd) IRX14", 
+                "line-width": "AT5G65410 (pd) IRX14"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "160", 
+                "fesign": 7, 
+                "id": "AT3G18550 (pd) KOR1", 
+                "line-width": "AT3G18550 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "141", 
+                "source": "200", 
+                "fesign": 7, 
+                "id": "AT3G61830 (pd) COBL4", 
+                "line-width": "AT3G61830 (pd) COBL4"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "168", 
+                "source": "248", 
+                "fesign": 7, 
+                "id": "AT1G75490 (pd) KOR1", 
+                "line-width": "AT1G75490 (pd) KOR1"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "216", 
+                "source": "189", 
+                "fesign": 7, 
+                "id": "AT1G68670 (pd) CESA7", 
+                "line-width": "AT1G68670 (pd) CESA7"
+            }
+        }, 
+        {
+            "data": {
+                "naclsign": 7, 
+                "target": "127", 
+                "source": "221", 
+                "fesign": 7, 
+                "id": "AT5G47220 (pd) IRX14", 
+                "line-width": "AT5G47220 (pd) IRX14"
+            }
+        }
+    ]
+}
