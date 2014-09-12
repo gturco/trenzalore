@@ -1,6 +1,6 @@
 
 
-$.get("Hazen_network.json",
+$.get("Hazen_network_update.json",
    function(data) {
      console.log(data);
      loadCytoGraph(data);
